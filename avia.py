@@ -617,7 +617,46 @@ def generate_grade_b(output='grade_b.json'):
 
 
 def generate_grade_c(output='grade_c.json'):
-    pass
+    spec = [
+        ('Scratch-AA-Minor', range(2, 8+1), 'AA', False),
+        ('Scratch-AA-Major', range(0, 1+1), 'AA', True),
+        ('Nick-AA-Minor', range(2, 8+1), 'AA', False),
+        ('Nick-AA-Major', range(0, 1+1), 'AA', True),
+        ('Scratch-A-Minor', range(2, 8+1), 'A', False),
+        ('Scratch-A-Major', range(0, 1+1), 'A', True),
+        ('Nick-A-Minor', range(2, 8+1), 'A', False),
+        ('Nick-A-Major', range(0, 1+1), 'A', True),
+        ('Scratch-B-Minor', range(4, 18+1), 'B', False),
+        ('Scratch-B-Major', range(0, 3+1), 'B', True),
+        ('Nick-B-Minor', range(4, 18+1), 'B', False),
+        ('Nick-B-Major', range(0, 3+1), 'B', True),
+        ('PinDotGroup-B-10x10', range(0, 4+1), 'B', False),
+        ('PinDotGroup-B-10x40', range(0, 1+1), 'B', False),
+    ]
+    l = []
+    for s in spec:
+        # a = list(range(0, s[1]+1))
+        l.append(list(s[1]))
+    l = combinate(l)
+    db = []
+    for i in l:
+        r = csv_read_counts()
+        r['All-All-All'] = int(sum(i))
+        for j in range(len(i)):
+            k = 'All-{}-All'.format(spec[j][2])
+            if k in r:
+                r[k] += int(i[j])
+            k = spec[j][0]
+            if k in r:
+                r[k] = int(i[j])
+            if spec[j][3]:
+                k = 'All-{}-Major'.format(spec[j][2])
+                if k in r:
+                    r[k] += int(i[j])
+        if 18<r['All-All-All'] <= 26 and r['All-AA-All']<=8 and r['All-AA-Major']<=1 and r['All-A-All']<=8 and r['All-A-Major']<=6 and r['All-B-All']<=18 and r['All-B-Major']<=2:
+            db.append(r)
+    with open(output, 'w') as f:
+        json.dump(db, f, indent=4)
 
 
 def generate_grade_ap_1(output='grade_ap.json'):
@@ -821,6 +860,6 @@ def generate_grade_c_1(output='grade_c.json'):
 # prepare_data_by_spec('data270_json', output='ready_270.csv')
 # prepare_data_by_spec('data_75_of_117', output='test.csv')
 # generate_grade_ap('sample_ap.json')
-generate_grade_a('sample_a.json')
+# generate_grade_a('sample_a.json')
 generate_grade_b('sample_b.json')
 # generate_grade_c('sample_c.json')
