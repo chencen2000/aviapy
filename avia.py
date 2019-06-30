@@ -7,6 +7,7 @@ import re
 import functools
 from sklearn.feature_extraction import DictVectorizer
 from sklearn import cluster
+import csv
 
 
 def num(s):
@@ -203,7 +204,7 @@ def csv_recode_score():
     }
 
 
-def seperate_defects_by_surface(defects):
+def separate_defects_by_surface(defects):
     ret = {}
     df = pandas.DataFrame.from_dict(defects)
     surfaces = df.surface.unique()
@@ -216,7 +217,7 @@ def seperate_defects_by_surface(defects):
 
 def prepare_data_1(folder, nc_d=25):
     db = put_together(folder)
-    surfaces = seperate_defects_by_surface(db['defects'])
+    surfaces = separate_defects_by_surface(db['defects'])
     for s in surfaces:
         dv = DictVectorizer()
         vec = dv.fit_transform(surfaces[s])
@@ -243,7 +244,7 @@ def prepare_data_1(folder, nc_d=25):
             r['vzw'] = data['vzw']
             r['measurement'] = fe['measurement']
             if len(fe['defects']) > 0:
-                ss = seperate_defects_by_surface(fe['defects'])
+                ss = separate_defects_by_surface(fe['defects'])
                 for s in ss:
                     dv, km = surfaces[s]
                     vec = dv.transform(ss[s])
@@ -513,7 +514,50 @@ def combinate(l):
     return functools.reduce(lambda x, y: [np.append(i, j) for i in x for j in y], l)
 
 
-def generate_grade_ap(output='grade_ap.json'):
+def generate_grade_ap(output='grade_ap.csv'):
+    spec = [
+        ('Scratch-AA-S', 1, 'AA', False),
+        ('Scratch-A-S1', 3, 'A', False),
+        ('Scratch-B-S1', 3, 'B', False),
+    ]
+    l = None
+    f = None
+    if os.path.exists('tempdata/grade_ap_raw_data.csv'):
+        f = open('tempdata/grade_ap_raw_data.csv')
+        r = csv.reader(f)
+        h = next(r)
+        l = r
+    else:
+        l = []
+        for s in spec:
+            a = list(range(0, s[1]+1))
+            l.append(a)
+        l = combinate(l)
+    db = []
+    for ii in l:
+        i = [int(x) for x in ii]
+        r = csv_read_counts()
+        r['All-All-All'] = int(sum(i))
+        for j in range(len(i)):
+            k = 'All-{}-All'.format(spec[j][2])
+            if k in r:
+                r[k] += int(i[j])
+            k = spec[j][0]
+            if k in r:
+                r[k] = int(i[j])
+        if r['All-All-All'] <= 3:
+            db.append(r)
+    if f is not None:
+        f.close()
+    if os.path.splitext(output)[1].lower() == '.json':
+        with open(output, 'w') as f:
+            json.dump(db, f, indent=4)
+    elif os.path.splitext(output)[1].lower() == '.csv':
+        df = pandas.DataFrame.from_dict(db)
+        df.to_csv(output, index=False)
+
+
+def generate_grade_ap_0(output='grade_ap.json'):
     spec = [
         ('Scratch-AA-S', 1, 'AA', False),
         ('Scratch-A-S1', 3, 'A', False),
@@ -541,7 +585,50 @@ def generate_grade_ap(output='grade_ap.json'):
         json.dump(db, f, indent=4)
 
 
-def generate_grade_a(output='grade_a.json'):
+def generate_grade_a(output='grade_a.csv'):
+    spec = [
+        ('Scratch-AA-S', range(0, 1+1), 'AA', False),
+        ('Scratch-A-S2', range(0, 4+1), 'A', False),
+        ('Nick-A-S', range(0, 4+1), 'A', False),
+        ('Scratch-B-S2', range(3, 12+1), 'B', False),
+        ('Nick-B-S', range(3, 12+1), 'B', False),
+        ('PinDotGroup-B-10x10', range(0, 2+1), 'B', False),
+        ('PinDotGroup-B-10x40', range(0, 1+1), 'B', False),
+    ]
+    l = None
+    f = None
+    if os.path.exists('tempdata/grade_a_raw_data.csv'):
+        f = open('tempdata/grade_a_raw_data.csv')
+        r = csv.reader(f)
+        h = next(r)
+        l = r
+    else:
+        l = []
+        for s in spec:
+            # a = list(range(0, s[1]+1))
+            l.append(list(s[1]))
+        l = combinate(l)
+    db = []
+    for ii in l:
+        i = [int(x) for x in ii]
+        r = csv_read_counts()
+        r['All-All-All'] = int(sum(i))
+        for j in range(len(i)):
+            k = 'All-{}-All'.format(spec[j][2])
+            if k in r:
+                r[k] += int(i[j])
+            k = spec[j][0]
+            if k in r:
+                r[k] = int(i[j])
+        if 3<r['All-All-All'] <= 12 and r['All-A-All']<=4 and r['All-B-All']<=12:
+            db.append(r)
+    if f is not None:
+        f.close()
+    df = pandas.DataFrame.from_dict(db)
+    df.to_csv(output, index=False)
+
+
+def generate_grade_a_0(output='grade_a.json'):
     spec = [
         ('Scratch-AA-S', range(0, 1+1), 'AA', False),
         ('Scratch-A-S2', range(0, 4+1), 'A', False),
@@ -573,19 +660,73 @@ def generate_grade_a(output='grade_a.json'):
         json.dump(db, f, indent=4)
 
 
-def generate_grade_b(output='grade_b.json'):
+def generate_grade_b(output='grade_b.csv'):
     spec = [
-        ('Scratch-AA-Minor', range(2, 6+1), 'AA', False),
+        ('Scratch-AA-Minor', range(3, 6+1), 'AA', False),
         ('Scratch-AA-Major', range(0, 1+1), 'AA', True),
-        ('Nick-AA-Minor', range(2, 6+1), 'AA', False),
+        ('Nick-AA-Minor', range(3, 6+1), 'AA', False),
         ('Nick-AA-Major', range(0, 1+1), 'AA', True),
-        ('Scratch-A-Minor', range(2, 6+1), 'A', False),
+        ('Scratch-A-Minor', range(3, 6+1), 'A', False),
         ('Scratch-A-Major', range(0, 1+1), 'A', True),
-        ('Nick-A-Minor', range(2, 6+1), 'A', False),
+        ('Nick-A-Minor', range(3, 6+1), 'A', False),
         ('Nick-A-Major', range(0, 1+1), 'A', True),
-        ('Scratch-B-Minor', range(4, 16+1), 'B', False),
+        ('Scratch-B-Minor', range(8, 16+1), 'B', False),
         ('Scratch-B-Major', range(0, 2+1), 'B', True),
-        ('Nick-B-Minor', range(4, 16+1), 'B', False),
+        ('Nick-B-Minor', range(8, 16+1), 'B', False),
+        ('Nick-B-Major', range(0, 2+1), 'B', True),
+        ('PinDotGroup-B-10x10', range(0, 4+1), 'B', False),
+        ('PinDotGroup-B-10x40', range(0, 1+1), 'B', False),
+    ]
+    l = None
+    f = None
+    if os.path.exists('tempdata/grade_b_raw_data.csv'):
+        f = open('tempdata/grade_b_raw_data.csv')
+        r = csv.reader(f)
+        h = next(r)
+        l = r
+    else:
+        l = []
+        for s in spec:
+            # a = list(range(0, s[1]+1))
+            l.append(list(s[1]))
+        l = combinate(l)
+    # print(len(l))
+    db = []
+    for ii in l:
+        i = [int(x) for x in ii]
+        if 12 < sum(i) <= 18:
+            r = csv_read_counts()
+            r['All-All-All'] = int(sum(i))
+            for j in range(len(i)):
+                k = 'All-{}-All'.format(spec[j][2])
+                if k in r:
+                    r[k] += int(i[j])
+                k = spec[j][0]
+                if k in r:
+                    r[k] = int(i[j])
+                if spec[j][3]:
+                    k = 'All-{}-Major'.format(spec[j][2])
+                    if k in r:
+                        r[k] += int(i[j])
+            if 12<r['All-All-All'] <= 18 and r['All-AA-All']<=6 and r['All-AA-Major']<=1 and r['All-A-All']<=6 and r['All-A-Major']<=6 and r['All-B-All']<=16 and r['All-B-Major']<=2:
+                db.append(r)
+    df = pandas.DataFrame.from_dict(db)
+    df.to_csv(output, index=False)
+
+
+def generate_grade_b_0(output='grade_b.json'):
+    spec = [
+        ('Scratch-AA-Minor', range(3, 6+1), 'AA', False),
+        ('Scratch-AA-Major', range(0, 1+1), 'AA', True),
+        ('Nick-AA-Minor', range(3, 6+1), 'AA', False),
+        ('Nick-AA-Major', range(0, 1+1), 'AA', True),
+        ('Scratch-A-Minor', range(3, 6+1), 'A', False),
+        ('Scratch-A-Major', range(0, 1+1), 'A', True),
+        ('Nick-A-Minor', range(3, 6+1), 'A', False),
+        ('Nick-A-Major', range(0, 1+1), 'A', True),
+        ('Scratch-B-Minor', range(8, 16+1), 'B', False),
+        ('Scratch-B-Major', range(0, 2+1), 'B', True),
+        ('Nick-B-Minor', range(8, 16+1), 'B', False),
         ('Nick-B-Major', range(0, 2+1), 'B', True),
         ('PinDotGroup-B-10x10', range(0, 4+1), 'B', False),
         ('PinDotGroup-B-10x40', range(0, 1+1), 'B', False),
@@ -595,6 +736,7 @@ def generate_grade_b(output='grade_b.json'):
         # a = list(range(0, s[1]+1))
         l.append(list(s[1]))
     l = combinate(l)
+    print(len(l))
     db = []
     for i in l:
         r = csv_read_counts()
@@ -616,7 +758,105 @@ def generate_grade_b(output='grade_b.json'):
         json.dump(db, f, indent=4)
 
 
-def generate_grade_c(output='grade_c.json'):
+def generate_grade_b_raw_data(output='grade_b_rawdata.csv'):
+    spec = [
+        ('Scratch-AA-Minor', range(1, 6 + 1), 'AA', False),
+        ('Scratch-AA-Major', range(0, 1 + 1), 'AA', True),
+        ('Nick-AA-Minor', range(1, 6 + 1), 'AA', False),
+        ('Nick-AA-Major', range(0, 1 + 1), 'AA', True),
+        ('Scratch-A-Minor', range(2, 6 + 1), 'A', False),
+        ('Scratch-A-Major', range(0, 1 + 1), 'A', True),
+        ('Nick-A-Minor', range(2, 6 + 1), 'A', False),
+        ('Nick-A-Major', range(0, 1 + 1), 'A', True),
+        ('Scratch-B-Minor', range(3, 16 + 1), 'B', False),
+        ('Scratch-B-Major', range(0, 2 + 1), 'B', True),
+        ('Nick-B-Minor', range(3, 16 + 1), 'B', False),
+        ('Nick-B-Major', range(0, 2 + 1), 'B', True),
+        ('PinDotGroup-B-10x10', range(0, 4 + 1), 'B', False),
+        ('PinDotGroup-B-10x40', range(0, 1 + 1), 'B', False),
+    ]
+    headers = []
+    csv_file = open(output, 'w')
+    wr = csv.writer(csv_file)
+    # wr.writerow(['Scratch-AA-Minor','Scratch-AA-Major'])
+    for s in spec:
+        headers.append(s[0])
+    wr.writerow(headers)
+    for i0 in spec[0][1]:
+        for i1 in spec[1][1]:
+            for i2 in spec[2][1]:
+                for i3 in spec[3][1]:
+                    for i4 in spec[4][1]:
+                        for i5 in spec[5][1]:
+                            for i6 in spec[6][1]:
+                                for i7 in spec[7][1]:
+                                    for i8 in spec[8][1]:
+                                        for i9 in spec[9][1]:
+                                            for i10 in spec[10][1]:
+                                                for i11 in spec[11][1]:
+                                                    for i12 in spec[12][1]:
+                                                        for i13 in spec[13][1]:
+                                                            i = [i0, i1, i2, i3, i4, i5, i6, i7, i8, i9, i10, i11, i12,
+                                                                 i13]
+                                                            if 12 < sum(i) <= 18:
+                                                                wr.writerow(i)
+    csv_file.close()
+
+
+def generate_grade_c(output='grade_c.csv'):
+    spec = [
+        ('Scratch-AA-Minor', range(2, 8+1), 'AA', False),
+        ('Scratch-AA-Major', range(0, 1+1), 'AA', True),
+        ('Nick-AA-Minor', range(2, 8+1), 'AA', False),
+        ('Nick-AA-Major', range(0, 1+1), 'AA', True),
+        ('Scratch-A-Minor', range(2, 8+1), 'A', False),
+        ('Scratch-A-Major', range(0, 1+1), 'A', True),
+        ('Nick-A-Minor', range(2, 8+1), 'A', False),
+        ('Nick-A-Major', range(0, 1+1), 'A', True),
+        ('Scratch-B-Minor', range(4, 18+1), 'B', False),
+        ('Scratch-B-Major', range(0, 3+1), 'B', True),
+        ('Nick-B-Minor', range(4, 18+1), 'B', False),
+        ('Nick-B-Major', range(0, 3+1), 'B', True),
+        ('PinDotGroup-B-10x10', range(0, 4+1), 'B', False),
+        ('PinDotGroup-B-10x40', range(0, 1+1), 'B', False),
+    ]
+    l = None
+    f = None
+    if os.path.exists('tempdata/grade_c_raw_data.csv'):
+        f = open('tempdata/grade_c_raw_data.csv')
+        r = csv.reader(f)
+        h = next(r)
+        l = r
+    else:
+        l = []
+        for s in spec:
+            # a = list(range(0, s[1]+1))
+            l.append(list(s[1]))
+        l = combinate(l)
+    db = []
+    for ii in l:
+        i = [int(x) for x in ii]
+        if 18 < sum(i) <= 26:
+            r = csv_read_counts()
+            r['All-All-All'] = int(sum(i))
+            for j in range(len(i)):
+                k = 'All-{}-All'.format(spec[j][2])
+                if k in r:
+                    r[k] += int(i[j])
+                k = spec[j][0]
+                if k in r:
+                    r[k] = int(i[j])
+                if spec[j][3]:
+                    k = 'All-{}-Major'.format(spec[j][2])
+                    if k in r:
+                        r[k] += int(i[j])
+            if 18<r['All-All-All'] <= 26 and r['All-AA-All']<=8 and r['All-AA-Major']<=1 and r['All-A-All']<=8 and r['All-A-Major']<=6 and r['All-B-All']<=18 and r['All-B-Major']<=2:
+                db.append(r)
+    df = pandas.DataFrame.from_dict(db)
+    df.to_csv(output, index=False)
+
+
+def generate_grade_c_0(output='grade_c.json'):
     spec = [
         ('Scratch-AA-Minor', range(2, 8+1), 'AA', False),
         ('Scratch-AA-Major', range(0, 1+1), 'AA', True),
@@ -852,6 +1092,63 @@ def generate_grade_c_1(output='grade_c.json'):
         json.dump(db, f, indent=4)
 
 
+def generate_grade_c_raw_data(output='grade_c_raw_data.csv'):
+    spec = [
+        ('Scratch-AA-Minor', range(1, 8 + 1), 'AA', False),
+        ('Scratch-AA-Major', range(0, 1 + 1), 'AA', True),
+        ('Nick-AA-Minor', range(1, 8 + 1), 'AA', False),
+        ('Nick-AA-Major', range(0, 1 + 1), 'AA', True),
+        ('Scratch-A-Minor', range(2, 8 + 1), 'A', False),
+        ('Scratch-A-Major', range(0, 1 + 1), 'A', True),
+        ('Nick-A-Minor', range(2, 8 + 1), 'A', False),
+        ('Nick-A-Major', range(0, 1 + 1), 'A', True),
+        ('Scratch-B-Minor', range(3, 18 + 1), 'B', False),
+        ('Scratch-B-Major', range(0, 3 + 1), 'B', True),
+        ('Nick-B-Minor', range(3, 18 + 1), 'B', False),
+        ('Nick-B-Major', range(0, 3 + 1), 'B', True),
+        ('PinDotGroup-B-10x10', range(0, 4 + 1), 'B', False),
+        ('PinDotGroup-B-10x40', range(0, 1 + 1), 'B', False),
+    ]
+    headers = []
+    csv_file = open('tmp/output.csv', 'w')
+    wr = csv.writer(csv_file)
+    # wr.writerow(['Scratch-AA-Minor','Scratch-AA-Major'])
+    for s in spec:
+        headers.append(s[0])
+    wr.writerow(headers)
+    for i0 in spec[0][1]:
+        for i1 in spec[1][1]:
+            for i2 in spec[2][1]:
+                for i3 in spec[3][1]:
+                    for i4 in spec[4][1]:
+                        for i5 in spec[5][1]:
+                            for i6 in spec[6][1]:
+                                for i7 in spec[7][1]:
+                                    for i8 in spec[8][1]:
+                                        for i9 in spec[9][1]:
+                                            for i10 in spec[10][1]:
+                                                for i11 in spec[11][1]:
+                                                    for i12 in spec[12][1]:
+                                                        for i13 in spec[13][1]:
+                                                            # all_data.append([i0,i1,i2,i3,i4,i5,i6,i7,i8,i9,i10,i11,i12,i13])
+                                                            i = [i0, i1, i2, i3, i4, i5, i6, i7, i8, i9, i10, i11, i12,
+                                                                 i13]
+                                                            if 18 < sum(i) <= 26:
+                                                                wr.writerow(i)
+    # csv_file = open('tmp/output.csv', 'w')
+    # wr = csv.writer(csv_file)
+    # wr.writerow(['Scratch-AA-Minor','Scratch-AA-Major'])
+    # for i0 in spec[0][1]:
+    #     for i1 in spec[1][1]:
+    #         # all_data.append([i0,i1])
+    #         wr.writerow([i0,i1])
+    # with open('tmp/output.csv', 'w') as f:
+    #     wr = csv.writer(f)
+    #     wr.writerow(['Scratch-AA-Minor','Scratch-AA-Major'])
+    #     wr.writerows(all_data)
+    csv_file.close()
+
+
 # parse_avia_log('117_Testing Set/75_overlapped with 270 models')
 # db = prepare_data('iPhone6s Gray')
 # prepare_data_score('data270_json')
@@ -861,5 +1158,9 @@ def generate_grade_c_1(output='grade_c.json'):
 # prepare_data_by_spec('data_75_of_117', output='test.csv')
 # generate_grade_ap('sample_ap.json')
 # generate_grade_a('sample_a.json')
-generate_grade_b('sample_b.json')
+# generate_grade_b('sample_b.json')
 # generate_grade_c('sample_c.json')
+# generate_grade_b()
+# generate_grade_b_raw_data()
+# generate_grade_c_raw_data()
+# generate_grade_c()
