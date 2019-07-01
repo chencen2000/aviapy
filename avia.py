@@ -8,7 +8,7 @@ import functools
 from sklearn.feature_extraction import DictVectorizer
 from sklearn import cluster
 import csv
-
+from sklearn.neural_network import BernoulliRBM
 
 def num(s):
     try:
@@ -1110,7 +1110,7 @@ def generate_grade_c_raw_data(output='grade_c_raw_data.csv'):
         ('PinDotGroup-B-10x40', range(0, 1 + 1), 'B', False),
     ]
     headers = []
-    csv_file = open(output, 'w')
+    csv_file = open('tmp/output.csv', 'w')
     wr = csv.writer(csv_file)
     # wr.writerow(['Scratch-AA-Minor','Scratch-AA-Major'])
     for s in spec:
@@ -1149,22 +1149,23 @@ def generate_grade_c_raw_data(output='grade_c_raw_data.csv'):
     csv_file.close()
 
 
-def gen_csv_train_data(output='ready_1.csv'):
+def gen_csv_train_data(src, output='ready_1.csv', use_fake_data=False, sample_fake_data=3000):
     df = pandas.DataFrame()
-    d = pandas.read_csv('ready_270.csv')
+    d = pandas.read_csv(src)
     df = df.append(d, ignore_index=True)
-    d = pandas.read_csv('grade_ap.csv')
-    d['vzw'] = 0
-    df = df.append(d, ignore_index=True)
-    d = pandas.read_csv('grade_a.csv')
-    d['vzw'] = 1
-    df = df.append(d, ignore_index=True)
-    d = pandas.read_csv('grade_b.csv')
-    d['vzw'] = 2
-    df = df.append(d.sample(3000), ignore_index=True)
-    d = pandas.read_csv('grade_c.csv')
-    d['vzw'] = 3
-    df = df.append(d.sample(3000), ignore_index=True)
+    if use_fake_data:
+        d = pandas.read_csv('spec_data/grade_ap.csv')
+        d['vzw'] = 0
+        df = df.append(d, ignore_index=True)
+        d = pandas.read_csv('spec_data/grade_a.csv')
+        d['vzw'] = 1
+        df = df.append(d, ignore_index=True)
+        d = pandas.read_csv('spec_data/grade_b.csv')
+        d['vzw'] = 2
+        df = df.append(d.sample(sample_fake_data), ignore_index=True)
+        d = pandas.read_csv('spec_data/grade_c.csv')
+        d['vzw'] = 3
+        df = df.append(d.sample(sample_fake_data), ignore_index=True)
     df.to_csv(output, index=False)
 
 
@@ -1195,7 +1196,36 @@ def gen_csv_binary_classify(src='ready_270.csv', output='temp.csv', train=False)
     df.to_csv(output, index=False)
 
 
-# parse_avia_log('117_Testing Set/75_overlapped with 270 models')
+def test_nn(folder='data_270_json'):
+    all_data = put_together(folder)
+    vec = DictVectorizer()
+    all_detects_vec = vec.fit_transform(all_data['defects'])
+    model = BernoulliRBM()
+    model.fit(all_detects_vec)
+    ready = []
+    for fn in os.listdir(folder):
+        data = None
+        fullname = os.path.join(folder, fn)
+        if os.path.isfile(fullname):
+            with open(fullname) as f:
+                try:
+                    data = json.load(f)
+                except:
+                    pass
+        if data:
+            fe = get_features(data)
+            if len(fe['defects']) > 0:
+                vec = vec.transform(fe['defects'])
+                p = model.transform(vec)
+                data['vd'] = p.tolist()
+                r = {}
+                r['vzw'] = data['vzw']
+                r['defects'] = p.tolist()
+                r['measurement'] = fe['measurement']
+            ready.append(r)
+
+
+parse_avia_log('117_Testing Set')
 # db = prepare_data('iPhone6s Gray')
 # prepare_data_score('data270_json')
 # cnt = count_defects_by_spec()
@@ -1206,14 +1236,12 @@ def gen_csv_binary_classify(src='ready_270.csv', output='temp.csv', train=False)
 # generate_grade_a('sample_a.json')
 # generate_grade_b('sample_b.json')
 # generate_grade_c('sample_c.json')
-generate_grade_b()
+# generate_grade_b()
 # generate_grade_b_raw_data()
 # generate_grade_c_raw_data()
 # generate_grade_c()
-# gen_csv_train_data()
+# gen_csv_train_data('ready_270.csv', 'train_data.csv', True, 500)
+# gen_csv_train_data('ready_75.csv', 'train_test.csv')
 # gen_csv_binary_classify(src='ready_270.csv', output='ready_train.csv', train=True)
 # gen_csv_binary_classify(src='test.csv', output='ready_test.csv')
-# generate_grade_ap()
-# generate_grade_a()
-# generate_grade_b_raw_data()
-#generate_grade_c_raw_data()
+
