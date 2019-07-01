@@ -1149,6 +1149,52 @@ def generate_grade_c_raw_data(output='grade_c_raw_data.csv'):
     csv_file.close()
 
 
+def gen_csv_train_data(output='ready_1.csv'):
+    df = pandas.DataFrame()
+    d = pandas.read_csv('ready_270.csv')
+    df = df.append(d, ignore_index=True)
+    d = pandas.read_csv('grade_ap.csv')
+    d['vzw'] = 0
+    df = df.append(d, ignore_index=True)
+    d = pandas.read_csv('grade_a.csv')
+    d['vzw'] = 1
+    df = df.append(d, ignore_index=True)
+    d = pandas.read_csv('grade_b.csv')
+    d['vzw'] = 2
+    df = df.append(d.sample(3000), ignore_index=True)
+    d = pandas.read_csv('grade_c.csv')
+    d['vzw'] = 3
+    df = df.append(d.sample(3000), ignore_index=True)
+    df.to_csv(output, index=False)
+
+
+def gen_csv_binary_classify(src='ready_270.csv', output='temp.csv', train=False):
+    df = pandas.DataFrame()
+    d = pandas.read_csv(src)
+    df = df.append(d, ignore_index=True)
+    for index, row in df.iterrows():
+        if row['vzw'] == 1:
+            df.at[index, 'vzw'] = 1
+            # df.set_value(index, 'vzw', 1)
+        else:
+            df.at[index, 'vzw'] = -1
+            # df.set_value(index, 'vzw', -1)
+    if train:
+        d = pandas.read_csv('grade_a.csv')
+        d['vzw'] = 1
+        df = df.append(d, ignore_index=True)
+        d = pandas.read_csv('grade_ap.csv')
+        d['vzw'] = -1
+        df = df.append(d, ignore_index=True)
+        d = pandas.read_csv('grade_b.csv')
+        d['vzw'] = -1
+        df = df.append(d.sample(1000), ignore_index=True)
+        d = pandas.read_csv('grade_c.csv')
+        d['vzw'] = -1
+        df = df.append(d.sample(1000), ignore_index=True)
+    df.to_csv(output, index=False)
+
+
 # parse_avia_log('117_Testing Set/75_overlapped with 270 models')
 # db = prepare_data('iPhone6s Gray')
 # prepare_data_score('data270_json')
@@ -1164,3 +1210,6 @@ def generate_grade_c_raw_data(output='grade_c_raw_data.csv'):
 # generate_grade_b_raw_data()
 # generate_grade_c_raw_data()
 # generate_grade_c()
+# gen_csv_train_data()
+gen_csv_binary_classify(src='ready_270.csv', output='ready_train.csv', train=True)
+gen_csv_binary_classify(src='test.csv', output='ready_test.csv')
