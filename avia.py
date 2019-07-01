@@ -679,8 +679,8 @@ def generate_grade_b(output='grade_b.csv'):
     ]
     l = None
     f = None
-    if os.path.exists('tempdata/grade_b_raw_data.csv'):
-        f = open('tempdata/grade_b_raw_data.csv')
+    if os.path.exists('grade_b_raw_data.csv'):
+        f = open('grade_b_raw_data.csv')
         r = csv.reader(f)
         h = next(r)
         l = r
@@ -822,8 +822,8 @@ def generate_grade_c(output='grade_c.csv'):
     ]
     l = None
     f = None
-    if os.path.exists('tempdata/grade_c_raw_data.csv'):
-        f = open('tempdata/grade_c_raw_data.csv')
+    if os.path.exists('grade_c_raw_data.csv'):
+        f = open('grade_c_raw_data.csv')
         r = csv.reader(f)
         h = next(r)
         l = r
@@ -1110,7 +1110,7 @@ def generate_grade_c_raw_data(output='grade_c_raw_data.csv'):
         ('PinDotGroup-B-10x40', range(0, 1 + 1), 'B', False),
     ]
     headers = []
-    csv_file = open('tmp/output.csv', 'w')
+    csv_file = open(output, 'w')
     wr = csv.writer(csv_file)
     # wr.writerow(['Scratch-AA-Minor','Scratch-AA-Major'])
     for s in spec:
@@ -1206,10 +1206,14 @@ def gen_csv_binary_classify(src='ready_270.csv', output='temp.csv', train=False)
 # generate_grade_a('sample_a.json')
 # generate_grade_b('sample_b.json')
 # generate_grade_c('sample_c.json')
-# generate_grade_b()
+generate_grade_b()
 # generate_grade_b_raw_data()
 # generate_grade_c_raw_data()
 # generate_grade_c()
 # gen_csv_train_data()
-gen_csv_binary_classify(src='ready_270.csv', output='ready_train.csv', train=True)
-gen_csv_binary_classify(src='test.csv', output='ready_test.csv')
+# gen_csv_binary_classify(src='ready_270.csv', output='ready_train.csv', train=True)
+# gen_csv_binary_classify(src='test.csv', output='ready_test.csv')
+# generate_grade_ap()
+# generate_grade_a()
+# generate_grade_b_raw_data()
+#generate_grade_c_raw_data()
