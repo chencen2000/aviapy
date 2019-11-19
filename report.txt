@@ -1,0 +1,21 @@
+PS C:\projects\github\aviapy> curl.exe -w "@curl-format.txt" -o NUL -s "https://ujjawalsbucket.s3.amazonaws.com/79_79_0_0_153814609.bmp"
+    time_namelookup:  0.266000
+       time_connect:  0.531000
+    time_appconnect:  1.141000
+   time_pretransfer:  1.141000
+      time_redirect:  0.000000
+ time_starttransfer:  1.531000
+                    ----------
+         time_total:  372.750000
+
+PS C:\projects\github\aviapy> curl.exe -I "https://ujjawalsbucket.s3.amazonaws.com/79_79_0_0_153814609.bmp"          
+HTTP/1.1 200 OK
+x-amz-id-2: LJORdVagCXxuTRihXAuFqIp1AZDI3sOONYsyijaK12Dt+JKIh/A7Mm8mPc2YBlqFen1jjpWqk1Y=
+x-amz-request-id: 282A08DDFB2C8424
+Date: Mon, 18 Nov 2019 20:19:48 GMT
+Last-Modified: Mon, 18 Nov 2019 19:39:43 GMT
+ETag: "7d9f464ee2d6bf52cd04f3dfefaa0216-28"
+Accept-Ranges: bytes
+Content-Type: image/bmp
+Content-Length: 466944054
+Server: AmazonS3         

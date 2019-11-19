@@ -1,0 +1,5 @@
+to test server speed by using curl
+
+curl.exe --user "fd_clean:fd_clean340!" -w "@curl-format.txt" -o -NUL  ftp://ftp8.futuredial.com/temp/79_79_0_0_153814609.bmp
+curl.exe -w "@curl-format.txt" -o NUL -s "https://ujjawalsbucket.s3.amazonaws.com/79_79_0_0_153814609.bmp"
+
