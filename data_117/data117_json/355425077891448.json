@@ -1,0 +1,36 @@
+{
+    "imei": "355425077891448",
+    "model": "iPhone-iPhone6s-Silver",
+    "product": "iPhone-iPhone6s-Silver",
+    "starttime": "2019/11/21 04:00:05",
+    "endtime": "2019/11/21 04:00:43",
+    "ImagePath": "D:/BZVisualInspect/UserData/SaveImage/2019-11/Day01/20191101/44_44",
+    "defects": [
+        {
+            "station": "0",
+            "alg": "CEmptyInspect",
+            "surface": "A",
+            "ROIregion.x": "880",
+            "ROIregion.y": "2456",
+            "ROIregion.width": "6410",
+            "ROIregion.height": "13377",
+            "type": "Scratch",
+            "length": "0.95000",
+            "width": "0.05000",
+            "area_mm": "0.05125",
+            "area_pixel": "328",
+            "contrast": "10",
+            "background": "3311",
+            "jnd": "1",
+            "location_0.x": "1421.000",
+            "location_0.y": "3583.000",
+            "location_1.x": "1488.000",
+            "location_1.y": "3566.000",
+            "location_2.x": "1493.000",
+            "location_2.y": "3586.000",
+            "location_3.x": "1426.000",
+            "location_3.y": "3602.000"
+        }
+    ],
+    "vzw": "A"
+}
