@@ -1,0 +1,12 @@
+[Unit]
+Description=Verizon GRR Web Service
+After=network.target
+
+[Service]
+User=qa
+WorkingDirectory=/home/qa/projects/chris/aviapy
+Environment="PATH=/home/qa/anaconda3/bin"
+ExecStart=/home/qa/anaconda3/bin/gunicorn --bind 0.0.0.0:5000 sgaService:app
+
+[Install]
+WantedBy=multi-user.target
