@@ -1,0 +1,36 @@
+{
+    "imei": "354890092596077",
+    "model": "iPhone-iPhone8-Silver",
+    "product": "iPhone-iPhone8-Silver",
+    "starttime": "2019/11/22 10:06:16",
+    "endtime": "2019/11/22 10:06:31",
+    "ImagePath": "D:/BZVisualInspect/UserData/SaveImage/2019-11/Day01/20191101/93_93",
+    "defects": [
+        {
+            "station": "0",
+            "alg": "CEmptyInspect",
+            "surface": "AA",
+            "ROIregion.x": "931",
+            "ROIregion.y": "2463",
+            "ROIregion.width": "6403",
+            "ROIregion.height": "13447",
+            "type": "Scratch",
+            "length": "0.82449",
+            "width": "0.08750",
+            "area_mm": "0.07313",
+            "area_pixel": "468",
+            "contrast": "23",
+            "background": "10749",
+            "jnd": "1",
+            "location_0.x": "5939.000",
+            "location_0.y": "9281.000",
+            "location_1.x": "5995.000",
+            "location_1.y": "9316.000",
+            "location_2.x": "5988.000",
+            "location_2.y": "9328.000",
+            "location_3.x": "5932.000",
+            "location_3.y": "9293.000"
+        }
+    ],
+    "vzw": "A+"
+}

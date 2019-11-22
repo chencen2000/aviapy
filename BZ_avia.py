@@ -49,6 +49,20 @@ def find_vzw_data_by_imei(vzw, imei):
     return ret
 
 
+def find_vzw_data_by_xml(vzw, filename):
+    ret = None
+    xml = ET.parse(filename)
+    imeiNode = xml.getroot().find('imei')
+    if imeiNode is not None:
+        imei = imeiNode.text
+        for data in vzw:
+            l=len(imei)
+            x=str(data['IMEI'])[-l:]
+            if x == imei:
+                ret=data
+                break
+    return ret
+
 # json_str = defect_xml_to_json('D:\\Projects\\repo\\aviapy\\data_117\\source\\Iphone X silver\\143210-iPhone-iPhoneX-Silver-0.xml')
 # print(json_str)
 # # save to file
@@ -69,6 +83,8 @@ for root, dirs, files in os.walk(os.path.join(data117_dir,input_dir)):
         if m is not None:
             #print('imei={}'.format(m.group(1)))
             record=find_vzw_data_by_imei(vzw_data, m.group(1))
+            if record is None:
+                record = find_vzw_data_by_xml(vzw_data, os.path.join(root,fn))
             if record is not None:
                 json_data = defect_xml_to_json(os.path.join(root,fn))
                 json_data['imei']=str(record['IMEI'])
