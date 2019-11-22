@@ -6,6 +6,7 @@ from flask import Flask, request, render_template
 app = Flask(__name__)
 
 import BZ_avia
+import getGrade_270
 
 @app.route('/')
 def hello_world():
@@ -25,6 +26,9 @@ def test_270():
         fn = os.path.join('/home/qa/incoming/defect_json', '{}-{}.json'.format(imei,dt))
         with open(fn, 'w') as f:
             json.dump(data, f, indent=4)
+        g, posibi = getGrade_270.runTesting(fn, 'GRRmodel')
+        ret['grade']=g
+        ret['score']=posibi.tolist()
     else:
         ret['error']=1
         ret['message']='Error: content_type: {} not accept, please use application/json'.format(content_type)

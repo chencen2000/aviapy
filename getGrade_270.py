@@ -79,6 +79,35 @@ def getDiscoloration(filename = 'test.json', Discoloration_w = 1):
         f.close()
     return defectsEnergy
 
+
+def runTesting(filename, modelName):
+    # load the model from disk
+    loaded_model = pickle.load(open(modelName, 'rb'))
+
+    # read in .json file
+    if not os.path.isfile(filename):
+        print("Error: can't find the file." + filename)
+
+    # generate testing feature vector
+    test_x = []
+    defectsNumber = getDefectsNumber(filename)
+    dent = getDent(filename, 1)
+    scratch = getScratch(filename, 1)
+    discolor = getDiscoloration(filename, 2)
+    nick = getNick(filename, 1)
+    test_x.append([dent, scratch, discolor, nick, defectsNumber])
+    computedGradeIndex = loaded_model.predict(test_x)
+    computedProb = loaded_model.predict_proba(test_x)
+
+    # output computed grade
+    Grades = ['A', 'B', 'C', 'D+']
+    #print(computedProb)
+    #print("Computed Grade:")
+    #return Grades[int(computedGradeIndex)]
+    return Grades[int(computedGradeIndex)], computedProb[0]
+
+
+'''
 # Instantiate the parser
 parser = argparse.ArgumentParser(description='Optional app description')
 # Required positional argument
@@ -113,9 +142,20 @@ Grades = ['A', 'B', 'C', 'D+']
 print("Computed Grade:")
 print(Grades[int(computedGradeIndex)])
 
+'''
 
-
-
-
-
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description='Optional app description')
+    # Required positional argument
+    parser.add_argument('fileName', type=str, help='A required file to process')
+    parser.add_argument('modelName', type = str, help = 'A required model to use')
+    args = parser.parse_args()
+    filename = args.fileName
+    modelName = args.modelName
+    print('predict {} using {}'.format(args.fileName, args.modelName))
+    g, posibility = runTesting(filename, modelName)
+    resp={'grade': 'D'}
+    resp['grade'] = g
+    resp['posibility'] = posibility.tolist()
+    print(json.dumps(resp))
 
