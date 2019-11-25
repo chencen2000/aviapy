@@ -1,0 +1,37 @@
+{
+    "imei": "355836084128972",
+    "model": "Apple-iPhone7Plus-Gold",
+    "product": "Apple-iPhone7Plus-Gold",
+    "starttime": "2019/11/24 15:27:31",
+    "endtime": "2019/11/24 15:28:21",
+    "ImagePath": "D:/BZVisualInspect/UserData/SaveImage/2019-11/Day01/20191101/355836084128972_86",
+    "defects": [
+        {
+            "station": "6",
+            "alg": "CEmptyInspect",
+            "surface": "B",
+            "ROIregion.x": "488",
+            "ROIregion.y": "1033",
+            "ROIregion.width": "842",
+            "ROIregion.height": "7570",
+            "type": "Scratch",
+            "length": "5.02000",
+            "width": "0.06000",
+            "area_mm": "0.35040",
+            "area_pixel": "876",
+            "contrast": "-5",
+            "background": "4501",
+            "jnd": "1",
+            "location_0.x": "607.000",
+            "location_0.y": "7560.000",
+            "location_1.x": "737.000",
+            "location_1.y": "7566.000",
+            "location_2.x": "736.000",
+            "location_2.y": "7593.000",
+            "location_3.x": "606.000",
+            "location_3.y": "7587.000"
+        }
+    ],
+    "vzw": "C",
+    "fd": "A"
+}

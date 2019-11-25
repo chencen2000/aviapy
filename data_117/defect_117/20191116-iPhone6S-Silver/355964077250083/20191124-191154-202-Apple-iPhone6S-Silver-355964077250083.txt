@@ -1,0 +1,28 @@
+*****Current Grade = A+, Current Surface = AA*****
+Defect Type Scratch, Defects number = 2 on AA Surface
+	DefectLength = 1.14598, DefectWidth = 0.0625, DefectContrast = 24
+	DefectLength = 0.77528, DefectWidth = 0.1125, DefectContrast = 48
+defect count is over Scratch limitation(0)
+*****Current Grade = A+, Current Surface = B*****
+Defect Type Discoloration, Defects number = 1 on B Surface
+	DefectLength = 0.125, DefectWidth = 0.0625, DefectContrast = 1
+defect count is over Discoloration limitation(0)
+
+*****Current Grade = A, Current Surface = AA*****
+Defect Type Scratch, Defects number = 2 on AA Surface
+	DefectLength = 1.14598, DefectWidth = 0.0625, DefectContrast = 24
+	DefectLength = 0.77528, DefectWidth = 0.1125, DefectContrast = 48
+defect count is over Scratch limitation(1)
+Surface Defect Count is over limitation(1)
+*****Current Grade = A, Current Surface = B*****
+Defect Type Discoloration, Defects number = 1 on B Surface
+	DefectLength = 0.125, DefectWidth = 0.0625, DefectContrast = 1
+
+*****Current Grade = B, Current Surface = AA*****
+Defect Type Scratch, Defects number = 2 on AA Surface
+	DefectLength = 1.14598, DefectWidth = 0.0625, DefectContrast = 24
+	DefectLength = 0.77528, DefectWidth = 0.1125, DefectContrast = 48
+*****Current Grade = B, Current Surface = B*****
+Defect Type Discoloration, Defects number = 1 on B Surface
+	DefectLength = 0.125, DefectWidth = 0.0625, DefectContrast = 1
+

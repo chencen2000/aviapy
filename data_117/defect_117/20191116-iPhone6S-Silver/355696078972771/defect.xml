@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<defect_record version="1.1">
+    <imei>355696078972771</imei>
+    <model>Apple-iPhone6S-Silver</model>
+    <product>Apple-iPhone6S-Silver</product>
+    <starttime>2019/11/24 14:36:23</starttime>
+    <endtime>2019/11/24 14:37:14</endtime>
+    <ImagePath>D:/BZVisualInspect/UserData/SaveImage/2019-11/Day01/20191101/355696078972771_48</ImagePath>
+    <station name="0">
+        <alg name="CEmptyInspect">
+            <surface name="A">
+                <ROIregion>895,2438,6403,13388</ROIregion>
+                <defect>
+                    <item>
+                        <type>Scratch</type>
+                        <length>1.30015</length>
+                        <width>0.05000</width>
+                        <area_mm>0.05656</area_mm>
+                        <area_pixel>362</area_pixel>
+                        <contrast>8</contrast>
+                        <background>3068</background>
+                        <jnd>1</jnd>
+                        <location>
+                            <point>3047.000,3509.000</point>
+                            <point>3128.000,3444.000</point>
+                            <point>3132.000,3449.000</point>
+                            <point>3051.000,3514.000</point>
+                        </location>
+                    </item>
+                </defect>
+            </surface>
+            <surface name="AA">
+                <ROIregion>895,2438,6403,13388</ROIregion>
+                <defect>
+                    <item>
+                        <type>Scratch</type>
+                        <length>0.76250</length>
+                        <width>0.07500</width>
+                        <area_mm>0.06172</area_mm>
+                        <area_pixel>395</area_pixel>
+                        <contrast>15</contrast>
+                        <background>5769</background>
+                        <jnd>1</jnd>
+                        <location>
+                            <point>2345.000,4314.000</point>
+                            <point>2398.000,4316.000</point>
+                            <point>2397.000,4338.000</point>
+                            <point>2344.000,4336.000</point>
+                        </location>
+                    </item>
+                </defect>
+            </surface>
+        </alg>
+    </station>
+    <station name="1">
+        <alg name="CEmptyInspect" />
+    </station>
+    <station name="2">
+        <alg name="CEmptyInspect" />
+    </station>
+    <station name="3">
+        <alg name="CEmptyInspect">
+            <surface name="B">
+                <ROIregion>1259,2137,6342,14193</ROIregion>
+                <defect>
+                    <item>
+                        <type>GroupPindot</type>
+                        <length>8.21388</length>
+                        <width>4.15522</width>
+                        <area_mm>0.65000</area_mm>
+                        <area_pixel>4160</area_pixel>
+                        <contrast>15</contrast>
+                        <background>63351</background>
+                        <jnd>1</jnd>
+                        <location>
+                            <point>3714.000,2644.000</point>
+                            <point>4356.000,2783.000</point>
+                            <point>4286.000,3108.000</point>
+                            <point>3644.000,2969.000</point>
+                        </location>
+                    </item>
+                </defect>
+            </surface>
+        </alg>
+    </station>
+    <station name="4">
+        <alg name="CEmptyInspect" />
+    </station>
+    <station name="5">
+        <alg name="CEmptyInspect" />
+    </station>
+    <station name="6">
+        <alg name="CEmptyInspect">
+            <surface name="B">
+                <ROIregion>574,1937,770,7093</ROIregion>
+                <defect>
+                    <item>
+                        <type>Class(1,61,583)</type>
+                        <length>0.78000</length>
+                        <width>0.14000</width>
+                        <area_mm>0.09800</area_mm>
+                        <area_pixel>245</area_pixel>
+                        <contrast>13</contrast>
+                        <background>3168</background>
+                        <jnd>1</jnd>
+                        <location>
+                            <point>564.000,2727.000</point>
+                            <point>564.000,2766.000</point>
+                            <point>571.000,2766.000</point>
+                            <point>571.000,2727.000</point>
+                        </location>
+                    </item>
+                </defect>
+            </surface>
+        </alg>
+    </station>
+    <station name="7">
+        <alg name="CEmptyInspect" />
+    </station>
+    <station name="8">
+        <alg name="CEmptyInspect">
+            <surface name="B">
+                <ROIregion>514,666,778,3155</ROIregion>
+                <defect>
+                    <item>
+                        <type>Nick</type>
+                        <length>0.64000</length>
+                        <width>0.46000</width>
+                        <area_mm>0.23360</area_mm>
+                        <area_pixel>584</area_pixel>
+                        <contrast>15</contrast>
+                        <background>8709</background>
+                        <jnd>1</jnd>
+                        <location>
+                            <point>550.000,1590.000</point>
+                            <point>550.000,1558.000</point>
+                            <point>573.000,1558.000</point>
+                            <point>573.000,1590.000</point>
+                        </location>
+                    </item>
+                </defect>
+            </surface>
+        </alg>
+    </station>
+    <station name="9">
+        <alg name="CEmptyInspect" />
+    </station>
+    <station name="10">
+        <alg name="CEmptyInspect" />
+    </station>
+    <station name="11">
+        <alg name="CEmptyInspect" />
+    </station>
+    <station name="12">
+        <alg name="CEmptyInspect" />
+    </station>
+    <station name="13">
+        <alg name="CEmptyInspect" />
+    </station>
+    <station name="15">
+        <alg name="CEmptyInspect">
+            <surface name="B">
+                <ROIregion>0,0,2592,2048</ROIregion>
+                <defect>
+                    <item>
+                        <type>Nick</type>
+                        <length>0.66057</length>
+                        <width>0.20936</width>
+                        <area_mm>0.08239</area_mm>
+                        <area_pixel>894</area_pixel>
+                        <contrast>16</contrast>
+                        <background>14132</background>
+                        <jnd>1</jnd>
+                        <location>
+                            <point>1417.000,1267.000</point>
+                            <point>1479.000,1237.000</point>
+                            <point>1489.000,1257.000</point>
+                            <point>1426.000,1286.000</point>
+                        </location>
+                    </item>
+                </defect>
+            </surface>
+            <surface name="B">
+                <ROIregion>0,0,2592,2048</ROIregion>
+                <defect>
+                    <item>
+                        <type>Scratch</type>
+                        <length>2.55360</length>
+                        <width>0.09600</width>
+                        <area_mm>0.25233</area_mm>
+                        <area_pixel>2738</area_pixel>
+                        <contrast>18</contrast>
+                        <background>48503</background>
+                        <jnd>1</jnd>
+                        <location>
+                            <point>1374.000,1163.000</point>
+                            <point>1496.000,1135.000</point>
+                            <point>1508.000,1185.000</point>
+                            <point>1386.000,1213.000</point>
+                        </location>
+                    </item>
+                </defect>
+            </surface>
+        </alg>
+        <alg name="CEmptyInspect" />
+        <alg name="CEmptyInspect" />
+        <alg name="CEmptyInspect" />
+    </station>
+    <station name="17">
+        <alg name="CEmptyInspect" />
+    </station>
+    <station name="18">
+        <alg name="CEmptyInspect" />
+    </station>
+    <station name="19">
+        <alg name="CEmptyInspect" />
+    </station>
+    <station name="20">
+        <alg name="CEmptyInspect">
+            <surface name="B">
+                <ROIregion>0,0,1024,4000</ROIregion>
+                <defect>
+                    <item>
+                        <type>Nick</type>
+                        <length>0.26000</length>
+                        <width>0.24000</width>
+                        <area_mm>0.06000</area_mm>
+                        <area_pixel>150</area_pixel>
+                        <contrast>14</contrast>
+                        <background>2106</background>
+                        <jnd>1</jnd>
+                        <location>
+                            <point>721.000,3021.000</point>
+                            <point>721.000,3008.000</point>
+                            <point>733.000,3008.000</point>
+                            <point>733.000,3021.000</point>
+                        </location>
+                    </item>
+                </defect>
+            </surface>
+            <surface name="B">
+                <ROIregion>0,0,1024,4000</ROIregion>
+                <defect>
+                    <item>
+                        <type>Nick</type>
+                        <length>0.26000</length>
+                        <width>0.26000</width>
+                        <area_mm>0.06880</area_mm>
+                        <area_pixel>172</area_pixel>
+                        <contrast>14</contrast>
+                        <background>2338</background>
+                        <jnd>1</jnd>
+                        <location>
+                            <point>696.000,3112.000</point>
+                            <point>696.000,3099.000</point>
+                            <point>709.000,3099.000</point>
+                            <point>709.000,3112.000</point>
+                        </location>
+                    </item>
+                </defect>
+            </surface>
+        </alg>
+    </station>
+</defect_record>

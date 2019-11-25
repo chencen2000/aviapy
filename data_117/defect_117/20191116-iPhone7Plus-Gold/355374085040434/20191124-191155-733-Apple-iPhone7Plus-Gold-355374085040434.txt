@@ -1,0 +1,50 @@
+*****Current Grade = A+, Current Surface = AA*****
+Defect Type Scratch, Defects number = 2 on AA Surface
+	DefectLength = 0.93348, DefectWidth = 0.0625, DefectContrast = 11
+	DefectLength = 0.7875, DefectWidth = 0.075, DefectContrast = 13
+Defect Type Crack, Defects number = 1 on AA Surface
+	DefectLength = 1.1125, DefectWidth = 0.525, DefectContrast = 32
+defect count is over Scratch limitation(0)
+defect count is over Crack limitation(0)
+
+*****Current Grade = A, Current Surface = AA*****
+Defect Type Scratch, Defects number = 2 on AA Surface
+	DefectLength = 0.93348, DefectWidth = 0.0625, DefectContrast = 11
+	DefectLength = 0.7875, DefectWidth = 0.075, DefectContrast = 13
+Defect Type Crack, Defects number = 1 on AA Surface
+	DefectLength = 1.1125, DefectWidth = 0.525, DefectContrast = 32
+defect count is over Scratch limitation(1)
+defect count is over Crack limitation(0)
+Surface Defect Count is over limitation(1)
+
+*****Current Grade = B, Current Surface = AA*****
+Defect Type Scratch, Defects number = 2 on AA Surface
+	DefectLength = 0.93348, DefectWidth = 0.0625, DefectContrast = 11
+	DefectLength = 0.7875, DefectWidth = 0.075, DefectContrast = 13
+Defect Type Crack, Defects number = 1 on AA Surface
+	DefectLength = 1.1125, DefectWidth = 0.525, DefectContrast = 32
+defect count is over Crack limitation(0)
+
+*****Current Grade = C, Current Surface = AA*****
+Defect Type Scratch, Defects number = 2 on AA Surface
+	DefectLength = 0.93348, DefectWidth = 0.0625, DefectContrast = 11
+	DefectLength = 0.7875, DefectWidth = 0.075, DefectContrast = 13
+Defect Type Crack, Defects number = 1 on AA Surface
+	DefectLength = 1.1125, DefectWidth = 0.525, DefectContrast = 32
+defect count is over Crack limitation(0)
+
+*****Current Grade = D+, Current Surface = AA*****
+Defect Type Scratch, Defects number = 2 on AA Surface
+	DefectLength = 0.93348, DefectWidth = 0.0625, DefectContrast = 11
+	DefectLength = 0.7875, DefectWidth = 0.075, DefectContrast = 13
+Defect Type Crack, Defects number = 1 on AA Surface
+	DefectLength = 1.1125, DefectWidth = 0.525, DefectContrast = 32
+defect count is over Crack limitation(0)
+
+*****Current Grade = D, Current Surface = AA*****
+Defect Type Scratch, Defects number = 2 on AA Surface
+	DefectLength = 0.93348, DefectWidth = 0.0625, DefectContrast = 11
+	DefectLength = 0.7875, DefectWidth = 0.075, DefectContrast = 13
+Defect Type Crack, Defects number = 1 on AA Surface
+	DefectLength = 1.1125, DefectWidth = 0.525, DefectContrast = 32
+

@@ -1,0 +1,106 @@
+*****Current Grade = A+, Current Surface = AA*****
+Defect Type Scratch, Defects number = 1 on AA Surface
+	DefectLength = 3.2, DefectWidth = 0.0625, DefectContrast = 10
+defect count is over Scratch limitation(0)
+*****Current Grade = A+, Current Surface = A*****
+Defect Type Nick, Defects number = 1 on A Surface
+	DefectLength = 0.29138, DefectWidth = 0.12836, DefectContrast = 48
+Defect Type Scratch, Defects number = 1 on A Surface
+	DefectLength = 2.43862, DefectWidth = 0.025, DefectContrast = 14
+Defect Type Crack, Defects number = 1 on A Surface
+	DefectLength = 3.55, DefectWidth = 0.1, DefectContrast = 0
+defect count is over Nick limitation(0)
+defect count is over Crack limitation(0)
+*****Current Grade = A+, Current Surface = B*****
+Defect Type Scratch, Defects number = 3 on B Surface
+	DefectLength = 6.96338, DefectWidth = 0.0375, DefectContrast = 5
+	DefectLength = 1.01201, DefectWidth = 0.025, DefectContrast = 4
+	DefectLength = 8.175, DefectWidth = 0.0875, DefectContrast = 17
+The defect is too big: surface is B, defect type is Scratch, defect length is 6.96338,defect width is 0.0375, defect area_mm is 0.27313, defect contrast is 5
+The defect is too big: surface is B, defect type is Scratch, defect length is 8.175,defect width is 0.0875, defect area_mm is 0.78375, defect contrast is 17
+Grade max total defects are over limitation(3).
+
+*****Current Grade = A, Current Surface = AA*****
+Defect Type Scratch, Defects number = 1 on AA Surface
+	DefectLength = 3.2, DefectWidth = 0.0625, DefectContrast = 10
+*****Current Grade = A, Current Surface = A*****
+Defect Type Nick, Defects number = 1 on A Surface
+	DefectLength = 0.29138, DefectWidth = 0.12836, DefectContrast = 48
+Defect Type Scratch, Defects number = 1 on A Surface
+	DefectLength = 2.43862, DefectWidth = 0.025, DefectContrast = 14
+Defect Type Crack, Defects number = 1 on A Surface
+	DefectLength = 3.55, DefectWidth = 0.1, DefectContrast = 0
+defect count is over Crack limitation(0)
+*****Current Grade = A, Current Surface = B*****
+Defect Type Scratch, Defects number = 3 on B Surface
+	DefectLength = 6.96338, DefectWidth = 0.0375, DefectContrast = 5
+	DefectLength = 1.01201, DefectWidth = 0.025, DefectContrast = 4
+	DefectLength = 8.175, DefectWidth = 0.0875, DefectContrast = 17
+
+*****Current Grade = B, Current Surface = AA*****
+Defect Type Scratch, Defects number = 1 on AA Surface
+	DefectLength = 3.2, DefectWidth = 0.0625, DefectContrast = 10
+*****Current Grade = B, Current Surface = A*****
+Defect Type Nick, Defects number = 1 on A Surface
+	DefectLength = 0.29138, DefectWidth = 0.12836, DefectContrast = 48
+Defect Type Scratch, Defects number = 1 on A Surface
+	DefectLength = 2.43862, DefectWidth = 0.025, DefectContrast = 14
+Defect Type Crack, Defects number = 1 on A Surface
+	DefectLength = 3.55, DefectWidth = 0.1, DefectContrast = 0
+defect count is over Crack limitation(0)
+*****Current Grade = B, Current Surface = B*****
+Defect Type Scratch, Defects number = 3 on B Surface
+	DefectLength = 6.96338, DefectWidth = 0.0375, DefectContrast = 5
+	DefectLength = 1.01201, DefectWidth = 0.025, DefectContrast = 4
+	DefectLength = 8.175, DefectWidth = 0.0875, DefectContrast = 17
+
+*****Current Grade = C, Current Surface = AA*****
+Defect Type Scratch, Defects number = 1 on AA Surface
+	DefectLength = 3.2, DefectWidth = 0.0625, DefectContrast = 10
+*****Current Grade = C, Current Surface = A*****
+Defect Type Nick, Defects number = 1 on A Surface
+	DefectLength = 0.29138, DefectWidth = 0.12836, DefectContrast = 48
+Defect Type Scratch, Defects number = 1 on A Surface
+	DefectLength = 2.43862, DefectWidth = 0.025, DefectContrast = 14
+Defect Type Crack, Defects number = 1 on A Surface
+	DefectLength = 3.55, DefectWidth = 0.1, DefectContrast = 0
+defect count is over Crack limitation(0)
+*****Current Grade = C, Current Surface = B*****
+Defect Type Scratch, Defects number = 3 on B Surface
+	DefectLength = 6.96338, DefectWidth = 0.0375, DefectContrast = 5
+	DefectLength = 1.01201, DefectWidth = 0.025, DefectContrast = 4
+	DefectLength = 8.175, DefectWidth = 0.0875, DefectContrast = 17
+
+*****Current Grade = D+, Current Surface = AA*****
+Defect Type Scratch, Defects number = 1 on AA Surface
+	DefectLength = 3.2, DefectWidth = 0.0625, DefectContrast = 10
+*****Current Grade = D+, Current Surface = A*****
+Defect Type Nick, Defects number = 1 on A Surface
+	DefectLength = 0.29138, DefectWidth = 0.12836, DefectContrast = 48
+Defect Type Scratch, Defects number = 1 on A Surface
+	DefectLength = 2.43862, DefectWidth = 0.025, DefectContrast = 14
+Defect Type Crack, Defects number = 1 on A Surface
+	DefectLength = 3.55, DefectWidth = 0.1, DefectContrast = 0
+defect count is over Crack limitation(0)
+*****Current Grade = D+, Current Surface = B*****
+Defect Type Scratch, Defects number = 3 on B Surface
+	DefectLength = 6.96338, DefectWidth = 0.0375, DefectContrast = 5
+	DefectLength = 1.01201, DefectWidth = 0.025, DefectContrast = 4
+	DefectLength = 8.175, DefectWidth = 0.0875, DefectContrast = 17
+
+*****Current Grade = D, Current Surface = AA*****
+Defect Type Scratch, Defects number = 1 on AA Surface
+	DefectLength = 3.2, DefectWidth = 0.0625, DefectContrast = 10
+*****Current Grade = D, Current Surface = A*****
+Defect Type Nick, Defects number = 1 on A Surface
+	DefectLength = 0.29138, DefectWidth = 0.12836, DefectContrast = 48
+Defect Type Scratch, Defects number = 1 on A Surface
+	DefectLength = 2.43862, DefectWidth = 0.025, DefectContrast = 14
+Defect Type Crack, Defects number = 1 on A Surface
+	DefectLength = 3.55, DefectWidth = 0.1, DefectContrast = 0
+*****Current Grade = D, Current Surface = B*****
+Defect Type Scratch, Defects number = 3 on B Surface
+	DefectLength = 6.96338, DefectWidth = 0.0375, DefectContrast = 5
+	DefectLength = 1.01201, DefectWidth = 0.025, DefectContrast = 4
+	DefectLength = 8.175, DefectWidth = 0.0875, DefectContrast = 17
+

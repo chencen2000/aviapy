@@ -1,10 +1,10 @@
 {
     "imei": "354893092003797",
-    "model": "iPhone-iPhone8-SpaceGray",
-    "product": "iPhone-iPhone8-SpaceGray",
-    "starttime": "2019/11/22 11:12:59",
-    "endtime": "2019/11/22 11:13:15",
-    "ImagePath": "D:/BZVisualInspect/UserData/SaveImage/2019-11/Day01/20191101/120_120",
+    "model": "Apple-iPhone8-SpaceGray",
+    "product": "Apple-iPhone8-SpaceGray",
+    "starttime": "2019/11/24 16:03:56",
+    "endtime": "2019/11/24 16:04:45",
+    "ImagePath": "D:/BZVisualInspect/UserData/SaveImage/2019-11/Day01/20191101/354893092003797_114",
     "defects": [
         {
             "station": "0",
@@ -165,12 +165,12 @@
             "ROIregion.width": "6257",
             "ROIregion.height": "13211",
             "type": "Scratch",
-            "length": "76.28750",
+            "length": "76.31250",
             "width": "0.07500",
-            "area_mm": "5.76109",
-            "area_pixel": "36871",
+            "area_mm": "5.76188",
+            "area_pixel": "36876",
             "contrast": "30",
-            "background": "1104977",
+            "background": "1104843",
             "jnd": "1",
             "location_0.x": "1499.000",
             "location_0.y": "2303.000",
@@ -857,5 +857,6 @@
             "location_3.y": "13126.000"
         }
     ],
-    "vzw": "D"
+    "vzw": "D",
+    "fd": "D"
 }

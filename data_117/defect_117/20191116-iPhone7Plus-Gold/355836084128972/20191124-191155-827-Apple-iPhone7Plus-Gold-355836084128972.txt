@@ -1,0 +1,9 @@
+*****Current Grade = A+, Current Surface = B*****
+Defect Type Scratch, Defects number = 1 on B Surface
+	DefectLength = 5.02, DefectWidth = 0.06, DefectContrast = -5
+The defect is too big: surface is B, defect type is Scratch, defect length is 5.02,defect width is 0.06, defect area_mm is 0.3504, defect contrast is -5
+
+*****Current Grade = A, Current Surface = B*****
+Defect Type Scratch, Defects number = 1 on B Surface
+	DefectLength = 5.02, DefectWidth = 0.06, DefectContrast = -5
+

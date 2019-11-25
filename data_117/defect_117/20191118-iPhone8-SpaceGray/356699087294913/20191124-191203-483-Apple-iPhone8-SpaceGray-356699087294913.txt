@@ -1,0 +1,402 @@
+*****Current Grade = A+, Current Surface = AA*****
+Defect Type Scratch, Defects number = 9 on AA Surface
+	DefectLength = 2285.1125, DefectWidth = 0.025, DefectContrast = 7
+	DefectLength = 1800.675, DefectWidth = 0.0375, DefectContrast = 9
+	DefectLength = 239.2125, DefectWidth = 0.0375, DefectContrast = 8
+	DefectLength = 80.575, DefectWidth = 0.0375, DefectContrast = 8
+	DefectLength = 49.95, DefectWidth = 0.0375, DefectContrast = 8
+	DefectLength = 27.8, DefectWidth = 0.0375, DefectContrast = 8
+	DefectLength = 16.9875, DefectWidth = 0.0375, DefectContrast = 8
+	DefectLength = 14.925, DefectWidth = 0.0375, DefectContrast = 8
+	DefectLength = 14.1375, DefectWidth = 0.0375, DefectContrast = 8
+The defect is too big: surface is AA, defect type is Scratch, defect length is 2285.1125,defect width is 0.025, defect area_mm is 81.74594, defect contrast is 7
+The defect is too big: surface is AA, defect type is Scratch, defect length is 1800.675,defect width is 0.0375, defect area_mm is 75.86391, defect contrast is 9
+The defect is too big: surface is AA, defect type is Scratch, defect length is 239.2125,defect width is 0.0375, defect area_mm is 9.78391, defect contrast is 8
+The defect is too big: surface is AA, defect type is Scratch, defect length is 80.575,defect width is 0.0375, defect area_mm is 3.31172, defect contrast is 8
+The defect is too big: surface is AA, defect type is Scratch, defect length is 49.95,defect width is 0.0375, defect area_mm is 2.13172, defect contrast is 8
+The defect is too big: surface is AA, defect type is Scratch, defect length is 27.8,defect width is 0.0375, defect area_mm is 1.06859, defect contrast is 8
+The defect is too big: surface is AA, defect type is Scratch, defect length is 16.9875,defect width is 0.0375, defect area_mm is 0.69609, defect contrast is 8
+The defect is too big: surface is AA, defect type is Scratch, defect length is 14.925,defect width is 0.0375, defect area_mm is 0.70875, defect contrast is 8
+The defect is too big: surface is AA, defect type is Scratch, defect length is 14.1375,defect width is 0.0375, defect area_mm is 0.62813, defect contrast is 8
+*****Current Grade = A+, Current Surface = A*****
+Defect Type Crack, Defects number = 4 on A Surface
+	DefectLength = 17.5125, DefectWidth = 0.8375, DefectContrast = 54
+	DefectLength = 15.81638, DefectWidth = 0.2, DefectContrast = 8
+	DefectLength = 17.25511, DefectWidth = 0.175, DefectContrast = 28
+	DefectLength = 206.5375, DefectWidth = 0.275, DefectContrast = 8
+defect count is over Crack limitation(0)
+*****Current Grade = A+, Current Surface = B*****
+Defect Type GroupPindot, Defects number = 3 on B Surface
+	DefectLength = 12.76024, DefectWidth = 5.15234, DefectContrast = 36
+	DefectLength = 12.19048, DefectWidth = 6.46413, DefectContrast = 24
+	DefectLength = 0.44721, DefectWidth = 0.15205, DefectContrast = -43
+Defect Type Scratch, Defects number = 28 on B Surface
+	DefectLength = 17.2125, DefectWidth = 0.125, DefectContrast = 7
+	DefectLength = 12.45, DefectWidth = 0.0875, DefectContrast = 4
+	DefectLength = 29.30461, DefectWidth = 0.1125, DefectContrast = 6
+	DefectLength = 0.95, DefectWidth = 0.025, DefectContrast = 7
+	DefectLength = 0.84339, DefectWidth = 0.0375, DefectContrast = 5
+	DefectLength = 84.0375, DefectWidth = 0.15, DefectContrast = 18
+	DefectLength = 1.755, DefectWidth = 0.0375, DefectContrast = 5
+	DefectLength = 1.24966, DefectWidth = 0.05, DefectContrast = 6
+	DefectLength = 1.525, DefectWidth = 0.025, DefectContrast = 5
+	DefectLength = 1.0125, DefectWidth = 0.05, DefectContrast = 8
+	DefectLength = 4.05, DefectWidth = 0.0625, DefectContrast = 12
+	DefectLength = 13.95966, DefectWidth = 0.025, DefectContrast = 6
+	DefectLength = 1.23128, DefectWidth = 0.025, DefectContrast = 6
+	DefectLength = 0.8625, DefectWidth = 0.025, DefectContrast = 8
+	DefectLength = 4.42008, DefectWidth = 0.025, DefectContrast = 6
+	DefectLength = 0.85, DefectWidth = 0.025, DefectContrast = 11
+	DefectLength = 1.2125, DefectWidth = 0.025, DefectContrast = 7
+	DefectLength = 9.79368, DefectWidth = 0.025, DefectContrast = 5
+	DefectLength = 1.35, DefectWidth = 0.025, DefectContrast = 6
+	DefectLength = 5.39706, DefectWidth = 0.025, DefectContrast = 6
+	DefectLength = 1.175, DefectWidth = 0.025, DefectContrast = 5
+	DefectLength = 0.925, DefectWidth = 0.025, DefectContrast = 6
+	DefectLength = 176.0625, DefectWidth = 0.1125, DefectContrast = 27
+	DefectLength = 3.14, DefectWidth = 0.14, DefectContrast = 7
+	DefectLength = 2.04, DefectWidth = 0.26, DefectContrast = 34
+	DefectLength = 3.72, DefectWidth = 0.18, DefectContrast = 10
+	DefectLength = 1.64, DefectWidth = 0.14, DefectContrast = 16
+	DefectLength = 6.92104, DefectWidth = 0.06, DefectContrast = -2
+Defect Type Nick, Defects number = 1 on B Surface
+	DefectLength = 1.09025, DefectWidth = 0.33301, DefectContrast = 19
+Defect Type Dent, Defects number = 1 on B Surface
+	DefectLength = 1.63182, DefectWidth = 0.42034, DefectContrast = -100
+The defect is too big: surface is B, defect type is Scratch, defect length is 17.2125,defect width is 0.125, defect area_mm is 2.20406, defect contrast is 7
+The defect is too big: surface is B, defect type is Scratch, defect length is 12.45,defect width is 0.0875, defect area_mm is 1.19438, defect contrast is 4
+The defect is too big: surface is B, defect type is Scratch, defect length is 29.30461,defect width is 0.1125, defect area_mm is 3.02063, defect contrast is 6
+The defect is too big: surface is B, defect type is Scratch, defect length is 84.0375,defect width is 0.15, defect area_mm is 13.34016, defect contrast is 18
+defect count is over Scratch limitation(3)
+The defect is too big: surface is B, defect type is Scratch, defect length is 13.95966,defect width is 0.025, defect area_mm is 0.29688, defect contrast is 6
+The defect is too big: surface is B, defect type is Scratch, defect length is 9.79368,defect width is 0.025, defect area_mm is 0.10625, defect contrast is 5
+The defect is too big: surface is B, defect type is Scratch, defect length is 5.39706,defect width is 0.025, defect area_mm is 0.05625, defect contrast is 6
+The defect is too big: surface is B, defect type is Scratch, defect length is 176.0625,defect width is 0.1125, defect area_mm is 20.99156, defect contrast is 27
+The defect is too big: surface is B, defect type is Scratch, defect length is 6.92104,defect width is 0.06, defect area_mm is 0.2944, defect contrast is -2
+defect count is over Nick limitation(0)
+defect count is over Dent limitation(0)
+Surface Defect Count is over limitation(3)
+Grade max total defects are over limitation(3).
+
+*****Current Grade = A, Current Surface = AA*****
+Defect Type Scratch, Defects number = 9 on AA Surface
+	DefectLength = 2285.1125, DefectWidth = 0.025, DefectContrast = 7
+	DefectLength = 1800.675, DefectWidth = 0.0375, DefectContrast = 9
+	DefectLength = 239.2125, DefectWidth = 0.0375, DefectContrast = 8
+	DefectLength = 80.575, DefectWidth = 0.0375, DefectContrast = 8
+	DefectLength = 49.95, DefectWidth = 0.0375, DefectContrast = 8
+	DefectLength = 27.8, DefectWidth = 0.0375, DefectContrast = 8
+	DefectLength = 16.9875, DefectWidth = 0.0375, DefectContrast = 8
+	DefectLength = 14.925, DefectWidth = 0.0375, DefectContrast = 8
+	DefectLength = 14.1375, DefectWidth = 0.0375, DefectContrast = 8
+The defect is too big: surface is AA, defect type is Scratch, defect length is 2285.1125,defect width is 0.025, defect area_mm is 81.74594, defect contrast is 7
+The defect is too big: surface is AA, defect type is Scratch, defect length is 1800.675,defect width is 0.0375, defect area_mm is 75.86391, defect contrast is 9
+The defect is too big: surface is AA, defect type is Scratch, defect length is 239.2125,defect width is 0.0375, defect area_mm is 9.78391, defect contrast is 8
+The defect is too big: surface is AA, defect type is Scratch, defect length is 80.575,defect width is 0.0375, defect area_mm is 3.31172, defect contrast is 8
+The defect is too big: surface is AA, defect type is Scratch, defect length is 49.95,defect width is 0.0375, defect area_mm is 2.13172, defect contrast is 8
+The defect is too big: surface is AA, defect type is Scratch, defect length is 27.8,defect width is 0.0375, defect area_mm is 1.06859, defect contrast is 8
+The defect is too big: surface is AA, defect type is Scratch, defect length is 16.9875,defect width is 0.0375, defect area_mm is 0.69609, defect contrast is 8
+The defect is too big: surface is AA, defect type is Scratch, defect length is 14.925,defect width is 0.0375, defect area_mm is 0.70875, defect contrast is 8
+The defect is too big: surface is AA, defect type is Scratch, defect length is 14.1375,defect width is 0.0375, defect area_mm is 0.62813, defect contrast is 8
+*****Current Grade = A, Current Surface = A*****
+Defect Type Crack, Defects number = 4 on A Surface
+	DefectLength = 17.5125, DefectWidth = 0.8375, DefectContrast = 54
+	DefectLength = 15.81638, DefectWidth = 0.2, DefectContrast = 8
+	DefectLength = 17.25511, DefectWidth = 0.175, DefectContrast = 28
+	DefectLength = 206.5375, DefectWidth = 0.275, DefectContrast = 8
+defect count is over Crack limitation(0)
+*****Current Grade = A, Current Surface = B*****
+Defect Type GroupPindot, Defects number = 3 on B Surface
+	DefectLength = 12.76024, DefectWidth = 5.15234, DefectContrast = 36
+	DefectLength = 12.19048, DefectWidth = 6.46413, DefectContrast = 24
+	DefectLength = 0.44721, DefectWidth = 0.15205, DefectContrast = -43
+Defect Type Scratch, Defects number = 28 on B Surface
+	DefectLength = 17.2125, DefectWidth = 0.125, DefectContrast = 7
+	DefectLength = 12.45, DefectWidth = 0.0875, DefectContrast = 4
+	DefectLength = 29.30461, DefectWidth = 0.1125, DefectContrast = 6
+	DefectLength = 0.95, DefectWidth = 0.025, DefectContrast = 7
+	DefectLength = 0.84339, DefectWidth = 0.0375, DefectContrast = 5
+	DefectLength = 84.0375, DefectWidth = 0.15, DefectContrast = 18
+	DefectLength = 1.755, DefectWidth = 0.0375, DefectContrast = 5
+	DefectLength = 1.24966, DefectWidth = 0.05, DefectContrast = 6
+	DefectLength = 1.525, DefectWidth = 0.025, DefectContrast = 5
+	DefectLength = 1.0125, DefectWidth = 0.05, DefectContrast = 8
+	DefectLength = 4.05, DefectWidth = 0.0625, DefectContrast = 12
+	DefectLength = 13.95966, DefectWidth = 0.025, DefectContrast = 6
+	DefectLength = 1.23128, DefectWidth = 0.025, DefectContrast = 6
+	DefectLength = 0.8625, DefectWidth = 0.025, DefectContrast = 8
+	DefectLength = 4.42008, DefectWidth = 0.025, DefectContrast = 6
+	DefectLength = 0.85, DefectWidth = 0.025, DefectContrast = 11
+	DefectLength = 1.2125, DefectWidth = 0.025, DefectContrast = 7
+	DefectLength = 9.79368, DefectWidth = 0.025, DefectContrast = 5
+	DefectLength = 1.35, DefectWidth = 0.025, DefectContrast = 6
+	DefectLength = 5.39706, DefectWidth = 0.025, DefectContrast = 6
+	DefectLength = 1.175, DefectWidth = 0.025, DefectContrast = 5
+	DefectLength = 0.925, DefectWidth = 0.025, DefectContrast = 6
+	DefectLength = 176.0625, DefectWidth = 0.1125, DefectContrast = 27
+	DefectLength = 3.14, DefectWidth = 0.14, DefectContrast = 7
+	DefectLength = 2.04, DefectWidth = 0.26, DefectContrast = 34
+	DefectLength = 3.72, DefectWidth = 0.18, DefectContrast = 10
+	DefectLength = 1.64, DefectWidth = 0.14, DefectContrast = 16
+	DefectLength = 6.92104, DefectWidth = 0.06, DefectContrast = -2
+Defect Type Nick, Defects number = 1 on B Surface
+	DefectLength = 1.09025, DefectWidth = 0.33301, DefectContrast = 19
+Defect Type Dent, Defects number = 1 on B Surface
+	DefectLength = 1.63182, DefectWidth = 0.42034, DefectContrast = -100
+The defect is too big: surface is B, defect type is Scratch, defect length is 17.2125,defect width is 0.125, defect area_mm is 2.20406, defect contrast is 7
+The defect is too big: surface is B, defect type is Scratch, defect length is 29.30461,defect width is 0.1125, defect area_mm is 3.02063, defect contrast is 6
+The defect is too big: surface is B, defect type is Scratch, defect length is 84.0375,defect width is 0.15, defect area_mm is 13.34016, defect contrast is 18
+defect count is over Scratch limitation(12)
+The defect is too big: surface is B, defect type is Scratch, defect length is 176.0625,defect width is 0.1125, defect area_mm is 20.99156, defect contrast is 27
+defect count is over Dent limitation(0)
+Surface Defect Count is over limitation(12)
+Grade max total defects are over limitation(12).
+
+*****Current Grade = B, Current Surface = AA*****
+Defect Type Scratch, Defects number = 9 on AA Surface
+	DefectLength = 2285.1125, DefectWidth = 0.025, DefectContrast = 7
+	DefectLength = 1800.675, DefectWidth = 0.0375, DefectContrast = 9
+	DefectLength = 239.2125, DefectWidth = 0.0375, DefectContrast = 8
+	DefectLength = 80.575, DefectWidth = 0.0375, DefectContrast = 8
+	DefectLength = 49.95, DefectWidth = 0.0375, DefectContrast = 8
+	DefectLength = 27.8, DefectWidth = 0.0375, DefectContrast = 8
+	DefectLength = 16.9875, DefectWidth = 0.0375, DefectContrast = 8
+	DefectLength = 14.925, DefectWidth = 0.0375, DefectContrast = 8
+	DefectLength = 14.1375, DefectWidth = 0.0375, DefectContrast = 8
+The defect is too big: surface is AA, defect type is Scratch, defect length is 2285.1125,defect width is 0.025, defect area_mm is 81.74594, defect contrast is 7
+The defect is too big: surface is AA, defect type is Scratch, defect length is 1800.675,defect width is 0.0375, defect area_mm is 75.86391, defect contrast is 9
+The defect is too big: surface is AA, defect type is Scratch, defect length is 239.2125,defect width is 0.0375, defect area_mm is 9.78391, defect contrast is 8
+The defect is too big: surface is AA, defect type is Scratch, defect length is 80.575,defect width is 0.0375, defect area_mm is 3.31172, defect contrast is 8
+The defect is too big: surface is AA, defect type is Scratch, defect length is 49.95,defect width is 0.0375, defect area_mm is 2.13172, defect contrast is 8
+*****Current Grade = B, Current Surface = A*****
+Defect Type Crack, Defects number = 4 on A Surface
+	DefectLength = 17.5125, DefectWidth = 0.8375, DefectContrast = 54
+	DefectLength = 15.81638, DefectWidth = 0.2, DefectContrast = 8
+	DefectLength = 17.25511, DefectWidth = 0.175, DefectContrast = 28
+	DefectLength = 206.5375, DefectWidth = 0.275, DefectContrast = 8
+defect count is over Crack limitation(0)
+*****Current Grade = B, Current Surface = B*****
+Defect Type GroupPindot, Defects number = 3 on B Surface
+	DefectLength = 12.76024, DefectWidth = 5.15234, DefectContrast = 36
+	DefectLength = 12.19048, DefectWidth = 6.46413, DefectContrast = 24
+	DefectLength = 0.44721, DefectWidth = 0.15205, DefectContrast = -43
+Defect Type Scratch, Defects number = 28 on B Surface
+	DefectLength = 17.2125, DefectWidth = 0.125, DefectContrast = 7
+	DefectLength = 12.45, DefectWidth = 0.0875, DefectContrast = 4
+	DefectLength = 29.30461, DefectWidth = 0.1125, DefectContrast = 6
+	DefectLength = 0.95, DefectWidth = 0.025, DefectContrast = 7
+	DefectLength = 0.84339, DefectWidth = 0.0375, DefectContrast = 5
+	DefectLength = 84.0375, DefectWidth = 0.15, DefectContrast = 18
+	DefectLength = 1.755, DefectWidth = 0.0375, DefectContrast = 5
+	DefectLength = 1.24966, DefectWidth = 0.05, DefectContrast = 6
+	DefectLength = 1.525, DefectWidth = 0.025, DefectContrast = 5
+	DefectLength = 1.0125, DefectWidth = 0.05, DefectContrast = 8
+	DefectLength = 4.05, DefectWidth = 0.0625, DefectContrast = 12
+	DefectLength = 13.95966, DefectWidth = 0.025, DefectContrast = 6
+	DefectLength = 1.23128, DefectWidth = 0.025, DefectContrast = 6
+	DefectLength = 0.8625, DefectWidth = 0.025, DefectContrast = 8
+	DefectLength = 4.42008, DefectWidth = 0.025, DefectContrast = 6
+	DefectLength = 0.85, DefectWidth = 0.025, DefectContrast = 11
+	DefectLength = 1.2125, DefectWidth = 0.025, DefectContrast = 7
+	DefectLength = 9.79368, DefectWidth = 0.025, DefectContrast = 5
+	DefectLength = 1.35, DefectWidth = 0.025, DefectContrast = 6
+	DefectLength = 5.39706, DefectWidth = 0.025, DefectContrast = 6
+	DefectLength = 1.175, DefectWidth = 0.025, DefectContrast = 5
+	DefectLength = 0.925, DefectWidth = 0.025, DefectContrast = 6
+	DefectLength = 176.0625, DefectWidth = 0.1125, DefectContrast = 27
+	DefectLength = 3.14, DefectWidth = 0.14, DefectContrast = 7
+	DefectLength = 2.04, DefectWidth = 0.26, DefectContrast = 34
+	DefectLength = 3.72, DefectWidth = 0.18, DefectContrast = 10
+	DefectLength = 1.64, DefectWidth = 0.14, DefectContrast = 16
+	DefectLength = 6.92104, DefectWidth = 0.06, DefectContrast = -2
+Defect Type Nick, Defects number = 1 on B Surface
+	DefectLength = 1.09025, DefectWidth = 0.33301, DefectContrast = 19
+Defect Type Dent, Defects number = 1 on B Surface
+	DefectLength = 1.63182, DefectWidth = 0.42034, DefectContrast = -100
+The defect is too big: surface is B, defect type is Scratch, defect length is 84.0375,defect width is 0.15, defect area_mm is 13.34016, defect contrast is 18
+defect count is over Scratch limitation(16)
+The defect is too big: surface is B, defect type is Scratch, defect length is 176.0625,defect width is 0.1125, defect area_mm is 20.99156, defect contrast is 27
+Can not matching any defect type in criteria: the defect type is Dent
+Surface Defect Count is over limitation(16)
+Grade max total defects are over limitation(16).
+
+*****Current Grade = C, Current Surface = AA*****
+Defect Type Scratch, Defects number = 9 on AA Surface
+	DefectLength = 2285.1125, DefectWidth = 0.025, DefectContrast = 7
+	DefectLength = 1800.675, DefectWidth = 0.0375, DefectContrast = 9
+	DefectLength = 239.2125, DefectWidth = 0.0375, DefectContrast = 8
+	DefectLength = 80.575, DefectWidth = 0.0375, DefectContrast = 8
+	DefectLength = 49.95, DefectWidth = 0.0375, DefectContrast = 8
+	DefectLength = 27.8, DefectWidth = 0.0375, DefectContrast = 8
+	DefectLength = 16.9875, DefectWidth = 0.0375, DefectContrast = 8
+	DefectLength = 14.925, DefectWidth = 0.0375, DefectContrast = 8
+	DefectLength = 14.1375, DefectWidth = 0.0375, DefectContrast = 8
+The defect is too big: surface is AA, defect type is Scratch, defect length is 2285.1125,defect width is 0.025, defect area_mm is 81.74594, defect contrast is 7
+The defect is too big: surface is AA, defect type is Scratch, defect length is 1800.675,defect width is 0.0375, defect area_mm is 75.86391, defect contrast is 9
+The defect is too big: surface is AA, defect type is Scratch, defect length is 239.2125,defect width is 0.0375, defect area_mm is 9.78391, defect contrast is 8
+The defect is too big: surface is AA, defect type is Scratch, defect length is 80.575,defect width is 0.0375, defect area_mm is 3.31172, defect contrast is 8
+The defect is too big: surface is AA, defect type is Scratch, defect length is 49.95,defect width is 0.0375, defect area_mm is 2.13172, defect contrast is 8
+*****Current Grade = C, Current Surface = A*****
+Defect Type Crack, Defects number = 4 on A Surface
+	DefectLength = 17.5125, DefectWidth = 0.8375, DefectContrast = 54
+	DefectLength = 15.81638, DefectWidth = 0.2, DefectContrast = 8
+	DefectLength = 17.25511, DefectWidth = 0.175, DefectContrast = 28
+	DefectLength = 206.5375, DefectWidth = 0.275, DefectContrast = 8
+defect count is over Crack limitation(0)
+*****Current Grade = C, Current Surface = B*****
+Defect Type GroupPindot, Defects number = 3 on B Surface
+	DefectLength = 12.76024, DefectWidth = 5.15234, DefectContrast = 36
+	DefectLength = 12.19048, DefectWidth = 6.46413, DefectContrast = 24
+	DefectLength = 0.44721, DefectWidth = 0.15205, DefectContrast = -43
+Defect Type Scratch, Defects number = 28 on B Surface
+	DefectLength = 17.2125, DefectWidth = 0.125, DefectContrast = 7
+	DefectLength = 12.45, DefectWidth = 0.0875, DefectContrast = 4
+	DefectLength = 29.30461, DefectWidth = 0.1125, DefectContrast = 6
+	DefectLength = 0.95, DefectWidth = 0.025, DefectContrast = 7
+	DefectLength = 0.84339, DefectWidth = 0.0375, DefectContrast = 5
+	DefectLength = 84.0375, DefectWidth = 0.15, DefectContrast = 18
+	DefectLength = 1.755, DefectWidth = 0.0375, DefectContrast = 5
+	DefectLength = 1.24966, DefectWidth = 0.05, DefectContrast = 6
+	DefectLength = 1.525, DefectWidth = 0.025, DefectContrast = 5
+	DefectLength = 1.0125, DefectWidth = 0.05, DefectContrast = 8
+	DefectLength = 4.05, DefectWidth = 0.0625, DefectContrast = 12
+	DefectLength = 13.95966, DefectWidth = 0.025, DefectContrast = 6
+	DefectLength = 1.23128, DefectWidth = 0.025, DefectContrast = 6
+	DefectLength = 0.8625, DefectWidth = 0.025, DefectContrast = 8
+	DefectLength = 4.42008, DefectWidth = 0.025, DefectContrast = 6
+	DefectLength = 0.85, DefectWidth = 0.025, DefectContrast = 11
+	DefectLength = 1.2125, DefectWidth = 0.025, DefectContrast = 7
+	DefectLength = 9.79368, DefectWidth = 0.025, DefectContrast = 5
+	DefectLength = 1.35, DefectWidth = 0.025, DefectContrast = 6
+	DefectLength = 5.39706, DefectWidth = 0.025, DefectContrast = 6
+	DefectLength = 1.175, DefectWidth = 0.025, DefectContrast = 5
+	DefectLength = 0.925, DefectWidth = 0.025, DefectContrast = 6
+	DefectLength = 176.0625, DefectWidth = 0.1125, DefectContrast = 27
+	DefectLength = 3.14, DefectWidth = 0.14, DefectContrast = 7
+	DefectLength = 2.04, DefectWidth = 0.26, DefectContrast = 34
+	DefectLength = 3.72, DefectWidth = 0.18, DefectContrast = 10
+	DefectLength = 1.64, DefectWidth = 0.14, DefectContrast = 16
+	DefectLength = 6.92104, DefectWidth = 0.06, DefectContrast = -2
+Defect Type Nick, Defects number = 1 on B Surface
+	DefectLength = 1.09025, DefectWidth = 0.33301, DefectContrast = 19
+Defect Type Dent, Defects number = 1 on B Surface
+	DefectLength = 1.63182, DefectWidth = 0.42034, DefectContrast = -100
+The defect is too big: surface is B, defect type is Scratch, defect length is 84.0375,defect width is 0.15, defect area_mm is 13.34016, defect contrast is 18
+defect count is over Scratch limitation(18)
+The defect is too big: surface is B, defect type is Scratch, defect length is 176.0625,defect width is 0.1125, defect area_mm is 20.99156, defect contrast is 27
+Surface Defect Count is over limitation(18)
+Grade max total defects are over limitation(26).
+
+*****Current Grade = D+, Current Surface = AA*****
+Defect Type Scratch, Defects number = 9 on AA Surface
+	DefectLength = 2285.1125, DefectWidth = 0.025, DefectContrast = 7
+	DefectLength = 1800.675, DefectWidth = 0.0375, DefectContrast = 9
+	DefectLength = 239.2125, DefectWidth = 0.0375, DefectContrast = 8
+	DefectLength = 80.575, DefectWidth = 0.0375, DefectContrast = 8
+	DefectLength = 49.95, DefectWidth = 0.0375, DefectContrast = 8
+	DefectLength = 27.8, DefectWidth = 0.0375, DefectContrast = 8
+	DefectLength = 16.9875, DefectWidth = 0.0375, DefectContrast = 8
+	DefectLength = 14.925, DefectWidth = 0.0375, DefectContrast = 8
+	DefectLength = 14.1375, DefectWidth = 0.0375, DefectContrast = 8
+*****Current Grade = D+, Current Surface = A*****
+Defect Type Crack, Defects number = 4 on A Surface
+	DefectLength = 17.5125, DefectWidth = 0.8375, DefectContrast = 54
+	DefectLength = 15.81638, DefectWidth = 0.2, DefectContrast = 8
+	DefectLength = 17.25511, DefectWidth = 0.175, DefectContrast = 28
+	DefectLength = 206.5375, DefectWidth = 0.275, DefectContrast = 8
+defect count is over Crack limitation(0)
+*****Current Grade = D+, Current Surface = B*****
+Defect Type GroupPindot, Defects number = 3 on B Surface
+	DefectLength = 12.76024, DefectWidth = 5.15234, DefectContrast = 36
+	DefectLength = 12.19048, DefectWidth = 6.46413, DefectContrast = 24
+	DefectLength = 0.44721, DefectWidth = 0.15205, DefectContrast = -43
+Defect Type Scratch, Defects number = 28 on B Surface
+	DefectLength = 17.2125, DefectWidth = 0.125, DefectContrast = 7
+	DefectLength = 12.45, DefectWidth = 0.0875, DefectContrast = 4
+	DefectLength = 29.30461, DefectWidth = 0.1125, DefectContrast = 6
+	DefectLength = 0.95, DefectWidth = 0.025, DefectContrast = 7
+	DefectLength = 0.84339, DefectWidth = 0.0375, DefectContrast = 5
+	DefectLength = 84.0375, DefectWidth = 0.15, DefectContrast = 18
+	DefectLength = 1.755, DefectWidth = 0.0375, DefectContrast = 5
+	DefectLength = 1.24966, DefectWidth = 0.05, DefectContrast = 6
+	DefectLength = 1.525, DefectWidth = 0.025, DefectContrast = 5
+	DefectLength = 1.0125, DefectWidth = 0.05, DefectContrast = 8
+	DefectLength = 4.05, DefectWidth = 0.0625, DefectContrast = 12
+	DefectLength = 13.95966, DefectWidth = 0.025, DefectContrast = 6
+	DefectLength = 1.23128, DefectWidth = 0.025, DefectContrast = 6
+	DefectLength = 0.8625, DefectWidth = 0.025, DefectContrast = 8
+	DefectLength = 4.42008, DefectWidth = 0.025, DefectContrast = 6
+	DefectLength = 0.85, DefectWidth = 0.025, DefectContrast = 11
+	DefectLength = 1.2125, DefectWidth = 0.025, DefectContrast = 7
+	DefectLength = 9.79368, DefectWidth = 0.025, DefectContrast = 5
+	DefectLength = 1.35, DefectWidth = 0.025, DefectContrast = 6
+	DefectLength = 5.39706, DefectWidth = 0.025, DefectContrast = 6
+	DefectLength = 1.175, DefectWidth = 0.025, DefectContrast = 5
+	DefectLength = 0.925, DefectWidth = 0.025, DefectContrast = 6
+	DefectLength = 176.0625, DefectWidth = 0.1125, DefectContrast = 27
+	DefectLength = 3.14, DefectWidth = 0.14, DefectContrast = 7
+	DefectLength = 2.04, DefectWidth = 0.26, DefectContrast = 34
+	DefectLength = 3.72, DefectWidth = 0.18, DefectContrast = 10
+	DefectLength = 1.64, DefectWidth = 0.14, DefectContrast = 16
+	DefectLength = 6.92104, DefectWidth = 0.06, DefectContrast = -2
+Defect Type Nick, Defects number = 1 on B Surface
+	DefectLength = 1.09025, DefectWidth = 0.33301, DefectContrast = 19
+Defect Type Dent, Defects number = 1 on B Surface
+	DefectLength = 1.63182, DefectWidth = 0.42034, DefectContrast = -100
+
+*****Current Grade = D, Current Surface = AA*****
+Defect Type Scratch, Defects number = 9 on AA Surface
+	DefectLength = 2285.1125, DefectWidth = 0.025, DefectContrast = 7
+	DefectLength = 1800.675, DefectWidth = 0.0375, DefectContrast = 9
+	DefectLength = 239.2125, DefectWidth = 0.0375, DefectContrast = 8
+	DefectLength = 80.575, DefectWidth = 0.0375, DefectContrast = 8
+	DefectLength = 49.95, DefectWidth = 0.0375, DefectContrast = 8
+	DefectLength = 27.8, DefectWidth = 0.0375, DefectContrast = 8
+	DefectLength = 16.9875, DefectWidth = 0.0375, DefectContrast = 8
+	DefectLength = 14.925, DefectWidth = 0.0375, DefectContrast = 8
+	DefectLength = 14.1375, DefectWidth = 0.0375, DefectContrast = 8
+*****Current Grade = D, Current Surface = A*****
+Defect Type Crack, Defects number = 4 on A Surface
+	DefectLength = 17.5125, DefectWidth = 0.8375, DefectContrast = 54
+	DefectLength = 15.81638, DefectWidth = 0.2, DefectContrast = 8
+	DefectLength = 17.25511, DefectWidth = 0.175, DefectContrast = 28
+	DefectLength = 206.5375, DefectWidth = 0.275, DefectContrast = 8
+*****Current Grade = D, Current Surface = B*****
+Defect Type GroupPindot, Defects number = 3 on B Surface
+	DefectLength = 12.76024, DefectWidth = 5.15234, DefectContrast = 36
+	DefectLength = 12.19048, DefectWidth = 6.46413, DefectContrast = 24
+	DefectLength = 0.44721, DefectWidth = 0.15205, DefectContrast = -43
+Defect Type Scratch, Defects number = 28 on B Surface
+	DefectLength = 17.2125, DefectWidth = 0.125, DefectContrast = 7
+	DefectLength = 12.45, DefectWidth = 0.0875, DefectContrast = 4
+	DefectLength = 29.30461, DefectWidth = 0.1125, DefectContrast = 6
+	DefectLength = 0.95, DefectWidth = 0.025, DefectContrast = 7
+	DefectLength = 0.84339, DefectWidth = 0.0375, DefectContrast = 5
+	DefectLength = 84.0375, DefectWidth = 0.15, DefectContrast = 18
+	DefectLength = 1.755, DefectWidth = 0.0375, DefectContrast = 5
+	DefectLength = 1.24966, DefectWidth = 0.05, DefectContrast = 6
+	DefectLength = 1.525, DefectWidth = 0.025, DefectContrast = 5
+	DefectLength = 1.0125, DefectWidth = 0.05, DefectContrast = 8
+	DefectLength = 4.05, DefectWidth = 0.0625, DefectContrast = 12
+	DefectLength = 13.95966, DefectWidth = 0.025, DefectContrast = 6
+	DefectLength = 1.23128, DefectWidth = 0.025, DefectContrast = 6
+	DefectLength = 0.8625, DefectWidth = 0.025, DefectContrast = 8
+	DefectLength = 4.42008, DefectWidth = 0.025, DefectContrast = 6
+	DefectLength = 0.85, DefectWidth = 0.025, DefectContrast = 11
+	DefectLength = 1.2125, DefectWidth = 0.025, DefectContrast = 7
+	DefectLength = 9.79368, DefectWidth = 0.025, DefectContrast = 5
+	DefectLength = 1.35, DefectWidth = 0.025, DefectContrast = 6
+	DefectLength = 5.39706, DefectWidth = 0.025, DefectContrast = 6
+	DefectLength = 1.175, DefectWidth = 0.025, DefectContrast = 5
+	DefectLength = 0.925, DefectWidth = 0.025, DefectContrast = 6
+	DefectLength = 176.0625, DefectWidth = 0.1125, DefectContrast = 27
+	DefectLength = 3.14, DefectWidth = 0.14, DefectContrast = 7
+	DefectLength = 2.04, DefectWidth = 0.26, DefectContrast = 34
+	DefectLength = 3.72, DefectWidth = 0.18, DefectContrast = 10
+	DefectLength = 1.64, DefectWidth = 0.14, DefectContrast = 16
+	DefectLength = 6.92104, DefectWidth = 0.06, DefectContrast = -2
+Defect Type Nick, Defects number = 1 on B Surface
+	DefectLength = 1.09025, DefectWidth = 0.33301, DefectContrast = 19
+Defect Type Dent, Defects number = 1 on B Surface
+	DefectLength = 1.63182, DefectWidth = 0.42034, DefectContrast = -100
+

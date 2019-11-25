@@ -1,0 +1,15 @@
+*****Current Grade = A+, Current Surface = A*****
+Defect Type Scratch, Defects number = 1 on A Surface
+	DefectLength = 0.95, DefectWidth = 0.05, DefectContrast = 10
+*****Current Grade = A+, Current Surface = B*****
+Defect Type Discoloration, Defects number = 1 on B Surface
+	DefectLength = 0.125, DefectWidth = 0.0625, DefectContrast = 1
+defect count is over Discoloration limitation(0)
+
+*****Current Grade = A, Current Surface = A*****
+Defect Type Scratch, Defects number = 1 on A Surface
+	DefectLength = 0.95, DefectWidth = 0.05, DefectContrast = 10
+*****Current Grade = A, Current Surface = B*****
+Defect Type Discoloration, Defects number = 1 on B Surface
+	DefectLength = 0.125, DefectWidth = 0.0625, DefectContrast = 1
+

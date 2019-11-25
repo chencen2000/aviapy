@@ -1,10 +1,10 @@
 {
     "imei": "355964077250083",
-    "model": "iPhone-iPhone6s-Silver",
-    "product": "iPhone-iPhone6s-Silver",
-    "starttime": "2019/11/21 03:58:16",
-    "endtime": "2019/11/21 03:58:24",
-    "ImagePath": "D:/BZVisualInspect/UserData/SaveImage/2019-11/Day01/20191101/43_43",
+    "model": "Apple-iPhone6S-Silver",
+    "product": "Apple-iPhone6S-Silver",
+    "starttime": "2019/11/24 14:37:14",
+    "endtime": "2019/11/24 14:38:06",
+    "ImagePath": "D:/BZVisualInspect/UserData/SaveImage/2019-11/Day01/20191101/355964077250083_49",
     "defects": [
         {
             "station": "0",
@@ -55,7 +55,33 @@
             "location_2.y": "9319.000",
             "location_3.x": "5540.000",
             "location_3.y": "9316.000"
+        },
+        {
+            "station": "3",
+            "alg": "CEmptyInspect",
+            "surface": "B",
+            "ROIregion.x": "1305",
+            "ROIregion.y": "2127",
+            "ROIregion.width": "6301",
+            "ROIregion.height": "14219",
+            "type": "Discoloration",
+            "length": "0.12500",
+            "width": "0.06250",
+            "area_mm": "0.00156",
+            "area_pixel": "10",
+            "contrast": "1",
+            "background": "0",
+            "jnd": "1",
+            "location_0.x": "1582.000",
+            "location_0.y": "2498.000",
+            "location_1.x": "1582.000",
+            "location_1.y": "3175.000",
+            "location_2.x": "3479.000",
+            "location_2.y": "3175.000",
+            "location_3.x": "3479.000",
+            "location_3.y": "2498.000"
         }
     ],
-    "vzw": "B"
+    "vzw": "B",
+    "fd": "B"
 }

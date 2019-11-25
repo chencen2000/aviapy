@@ -1,10 +1,10 @@
 {
     "imei": "353002099046111",
-    "model": "iPhone-iPhone8-SpaceGray",
-    "product": "iPhone-iPhone8-SpaceGray",
-    "starttime": "2019/11/22 11:18:21",
-    "endtime": "2019/11/22 11:18:32",
-    "ImagePath": "D:/BZVisualInspect/UserData/SaveImage/2019-11/Day01/20191101/123_123",
+    "model": "Apple-iPhone8-SpaceGray",
+    "product": "Apple-iPhone8-SpaceGray",
+    "starttime": "2019/11/24 16:01:46",
+    "endtime": "2019/11/24 16:02:29",
+    "ImagePath": "D:/BZVisualInspect/UserData/SaveImage/2019-11/Day01/20191101/353002099046111_111",
     "defects": [
         {
             "station": "0",
@@ -1309,12 +1309,12 @@
         {
             "station": "3",
             "alg": "CEmptyInspect",
-            "surface": "NAL",
+            "surface": "AA",
             "ROIregion.x": "1144",
             "ROIregion.y": "2619",
             "ROIregion.width": "6093",
             "ROIregion.height": "13190",
-            "type": "Scratch(6,1930,3158,7.259656)",
+            "type": "Scratch",
             "length": "0.91250",
             "width": "0.18750",
             "area_mm": "0.04266",
@@ -1334,12 +1334,12 @@
         {
             "station": "3",
             "alg": "CEmptyInspect",
-            "surface": "NAL",
+            "surface": "AA",
             "ROIregion.x": "1144",
             "ROIregion.y": "2619",
             "ROIregion.width": "6093",
             "ROIregion.height": "13190",
-            "type": "Scratch(6,1751,3153,6.860659)",
+            "type": "Scratch",
             "length": "1.00000",
             "width": "0.18750",
             "area_mm": "0.05578",
@@ -1382,5 +1382,6 @@
             "location_3.y": "2388.000"
         }
     ],
-    "vzw": "D+"
+    "vzw": "D+",
+    "fd": "D"
 }

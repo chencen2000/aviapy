@@ -1,10 +1,10 @@
 {
     "imei": "356765080866674",
-    "model": "iPhone-iPhone8-Gold",
-    "product": "iPhone-iPhone8-Gold",
-    "starttime": "2019/11/22 10:52:43",
-    "endtime": "2019/11/22 10:52:52",
-    "ImagePath": "D:/BZVisualInspect/UserData/SaveImage/2019-11/Day01/20191101/103_103",
+    "model": "Apple-iPhone8-Gold",
+    "product": "Apple-iPhone8-Gold",
+    "starttime": "2019/11/24 15:57:21",
+    "endtime": "2019/11/24 15:58:19",
+    "ImagePath": "D:/BZVisualInspect/UserData/SaveImage/2019-11/Day01/20191101/356765080866674_106",
     "defects": [
         {
             "station": "0",
@@ -1284,12 +1284,12 @@
         {
             "station": "3",
             "alg": "CEmptyInspect",
-            "surface": "NAL",
+            "surface": "AA",
             "ROIregion.x": "968",
             "ROIregion.y": "2452",
             "ROIregion.width": "6343",
             "ROIregion.height": "13391",
-            "type": "Scratch(6,2069,3172,8.265598)",
+            "type": "Scratch",
             "length": "0.32500",
             "width": "0.05000",
             "area_mm": "0.01281",
@@ -1309,12 +1309,12 @@
         {
             "station": "3",
             "alg": "CEmptyInspect",
-            "surface": "NAL",
+            "surface": "AA",
             "ROIregion.x": "968",
             "ROIregion.y": "2452",
             "ROIregion.width": "6343",
             "ROIregion.height": "13391",
-            "type": "Scratch(6,2095,3174,5.080454)",
+            "type": "Scratch",
             "length": "0.46250",
             "width": "0.11250",
             "area_mm": "0.03656",
@@ -1330,6 +1330,31 @@
             "location_2.y": "3192.000",
             "location_3.x": "2100.000",
             "location_3.y": "3155.000"
+        },
+        {
+            "station": "10",
+            "alg": "CEmptyInspect",
+            "surface": "B",
+            "ROIregion.x": "385",
+            "ROIregion.y": "1256",
+            "ROIregion.width": "692",
+            "ROIregion.height": "7403",
+            "type": "Nick",
+            "length": "0.26000",
+            "width": "0.24000",
+            "area_mm": "0.06000",
+            "area_pixel": "150",
+            "contrast": "16",
+            "background": "2431",
+            "jnd": "1",
+            "location_0.x": "448.000",
+            "location_0.y": "1781.000",
+            "location_1.x": "461.000",
+            "location_1.y": "1781.000",
+            "location_2.x": "461.000",
+            "location_2.y": "1793.000",
+            "location_3.x": "448.000",
+            "location_3.y": "1793.000"
         },
         {
             "station": "12",
@@ -1432,5 +1457,6 @@
             "location_3.y": "702.000"
         }
     ],
-    "vzw": "D+"
+    "vzw": "D+",
+    "fd": "D"
 }

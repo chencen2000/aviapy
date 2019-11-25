@@ -1,10 +1,10 @@
 {
     "imei": "356711087644565",
-    "model": "iPhone-iPhone8Plus-Silver",
-    "product": "iPhone-iPhone8Plus-Silver",
-    "starttime": "2019/11/21 17:03:26",
-    "endtime": "2019/11/21 17:03:38",
-    "ImagePath": "D:/BZVisualInspect/UserData/SaveImage/2019-11/Day01/20191101/76_76",
+    "model": "Apple-iPhone8Plus-Silver",
+    "product": "Apple-iPhone8Plus-Silver",
+    "starttime": "2019/11/24 16:31:33",
+    "endtime": "2019/11/24 16:32:35",
+    "ImagePath": "D:/BZVisualInspect/UserData/SaveImage/2019-11/Day01/20191101/356711087644565_136",
     "defects": [
         {
             "station": "3",
@@ -307,6 +307,31 @@
             "location_3.y": "14035.000"
         },
         {
+            "station": "10",
+            "alg": "CEmptyInspect",
+            "surface": "B",
+            "ROIregion.x": "0",
+            "ROIregion.y": "0",
+            "ROIregion.width": "1024",
+            "ROIregion.height": "9000",
+            "type": "Nick",
+            "length": "0.38000",
+            "width": "0.34000",
+            "area_mm": "0.11040",
+            "area_pixel": "276",
+            "contrast": "20",
+            "background": "5396",
+            "jnd": "1",
+            "location_0.x": "499.000",
+            "location_0.y": "1954.000",
+            "location_1.x": "499.000",
+            "location_1.y": "1935.000",
+            "location_2.x": "516.000",
+            "location_2.y": "1935.000",
+            "location_3.x": "516.000",
+            "location_3.y": "1954.000"
+        },
+        {
             "station": "12",
             "alg": "CEmptyInspect",
             "surface": "B",
@@ -357,5 +382,6 @@
             "location_3.y": "608.000"
         }
     ],
-    "vzw": "A"
+    "vzw": "A",
+    "fd": "B"
 }

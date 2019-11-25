@@ -1,10 +1,10 @@
 {
     "imei": "356713080528514",
-    "model": "iPhone-iPhone8Plus-Silver",
-    "product": "iPhone-iPhone8Plus-Silver",
-    "starttime": "2019/11/21 16:54:04",
-    "endtime": "2019/11/21 16:54:16",
-    "ImagePath": "D:/BZVisualInspect/UserData/SaveImage/2019-11/Day01/20191101/74_74",
+    "model": "Apple-iPhone8Plus-Silver",
+    "product": "Apple-iPhone8Plus-Silver",
+    "starttime": "2019/11/24 16:32:35",
+    "endtime": "2019/11/24 16:33:37",
+    "ImagePath": "D:/BZVisualInspect/UserData/SaveImage/2019-11/Day01/20191101/356713080528514_137",
     "defects": [
         {
             "station": "0",
@@ -982,5 +982,6 @@
             "location_3.y": "3357.000"
         }
     ],
-    "vzw": "D+"
+    "vzw": "D+",
+    "fd": "D+"
 }

@@ -1,10 +1,10 @@
 {
     "imei": "356701081379235",
-    "model": "iPhone-iPhone8-SpaceGray",
-    "product": "iPhone-iPhone8-SpaceGray",
-    "starttime": "2019/11/22 11:24:59",
-    "endtime": "2019/11/22 11:25:15",
-    "ImagePath": "D:/BZVisualInspect/UserData/SaveImage/2019-11/Day01/20191101/127_127",
+    "model": "Apple-iPhone8-SpaceGray",
+    "product": "Apple-iPhone8-SpaceGray",
+    "starttime": "2019/11/24 16:06:12",
+    "endtime": "2019/11/24 16:06:55",
+    "ImagePath": "D:/BZVisualInspect/UserData/SaveImage/2019-11/Day01/20191101/356701081379235_117",
     "defects": [
         {
             "station": "0",
@@ -657,6 +657,56 @@
             "location_3.y": "13168.000"
         },
         {
+            "station": "10",
+            "alg": "CEmptyInspect",
+            "surface": "B",
+            "ROIregion.x": "0",
+            "ROIregion.y": "0",
+            "ROIregion.width": "1024",
+            "ROIregion.height": "9000",
+            "type": "Nick",
+            "length": "0.36000",
+            "width": "0.34400",
+            "area_mm": "0.10560",
+            "area_pixel": "264",
+            "contrast": "20",
+            "background": "5330",
+            "jnd": "1",
+            "location_0.x": "503.000",
+            "location_0.y": "1812.000",
+            "location_1.x": "517.000",
+            "location_1.y": "1801.000",
+            "location_2.x": "527.000",
+            "location_2.y": "1815.000",
+            "location_3.x": "513.000",
+            "location_3.y": "1826.000"
+        },
+        {
+            "station": "11",
+            "alg": "CEmptyInspect",
+            "surface": "B",
+            "ROIregion.x": "0",
+            "ROIregion.y": "0",
+            "ROIregion.width": "1024",
+            "ROIregion.height": "9000",
+            "type": "Nick",
+            "length": "0.60000",
+            "width": "0.49600",
+            "area_mm": "0.23240",
+            "area_pixel": "581",
+            "contrast": "21",
+            "background": "12222",
+            "jnd": "1",
+            "location_0.x": "442.000",
+            "location_0.y": "2525.000",
+            "location_1.x": "460.000",
+            "location_1.y": "2501.000",
+            "location_2.x": "480.000",
+            "location_2.y": "2516.000",
+            "location_3.x": "462.000",
+            "location_3.y": "2540.000"
+        },
+        {
             "station": "13",
             "alg": "CEmptyInspect",
             "surface": "B",
@@ -1082,5 +1132,6 @@
             "location_3.y": "2524.000"
         }
     ],
-    "vzw": "D+"
+    "vzw": "D+",
+    "fd": "D"
 }

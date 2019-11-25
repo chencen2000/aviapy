@@ -1,0 +1,26 @@
+*****Current Grade = A+, Current Surface = A*****
+Defect Type Nick, Defects number = 2 on A Surface
+	DefectLength = 0.33421, DefectWidth = 0.2819, DefectContrast = 33
+	DefectLength = 0.30906, DefectWidth = 0.15365, DefectContrast = 38
+defect count is over Nick limitation(0)
+*****Current Grade = A+, Current Surface = B*****
+Defect Type Scratch, Defects number = 1 on B Surface
+	DefectLength = 5.175, DefectWidth = 0.0625, DefectContrast = 11
+Defect Type Nick, Defects number = 2 on B Surface
+	DefectLength = 0.6, DefectWidth = 0.14, DefectContrast = 23
+	DefectLength = 0.76022, DefectWidth = 0.14509, DefectContrast = 17
+The defect is too big: surface is B, defect type is Scratch, defect length is 5.175,defect width is 0.0625, defect area_mm is 0.38344, defect contrast is 11
+defect count is over Nick limitation(0)
+Grade max total defects are over limitation(3).
+
+*****Current Grade = A, Current Surface = A*****
+Defect Type Nick, Defects number = 2 on A Surface
+	DefectLength = 0.33421, DefectWidth = 0.2819, DefectContrast = 33
+	DefectLength = 0.30906, DefectWidth = 0.15365, DefectContrast = 38
+*****Current Grade = A, Current Surface = B*****
+Defect Type Scratch, Defects number = 1 on B Surface
+	DefectLength = 5.175, DefectWidth = 0.0625, DefectContrast = 11
+Defect Type Nick, Defects number = 2 on B Surface
+	DefectLength = 0.6, DefectWidth = 0.14, DefectContrast = 23
+	DefectLength = 0.76022, DefectWidth = 0.14509, DefectContrast = 17
+

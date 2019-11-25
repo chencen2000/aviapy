@@ -1,10 +1,10 @@
 {
     "imei": "356769083714840",
-    "model": "iPhone-iPhone8Plus-SpaceGray",
-    "product": "iPhone-iPhone8Plus-SpaceGray",
-    "starttime": "2019/11/22 11:36:46",
-    "endtime": "2019/11/22 11:37:03",
-    "ImagePath": "D:/BZVisualInspect/UserData/SaveImage/2019-11/Day01/20191101/135_135",
+    "model": "Apple-iPhone8Plus-SpaceGray",
+    "product": "Apple-iPhone8Plus-SpaceGray",
+    "starttime": "2019/11/24 16:23:43",
+    "endtime": "2019/11/24 16:24:26",
+    "ImagePath": "D:/BZVisualInspect/UserData/SaveImage/2019-11/Day01/20191101/356769083714840_129",
     "defects": [
         {
             "station": "0",
@@ -182,5 +182,6 @@
             "location_3.y": "13939.000"
         }
     ],
-    "vzw": "B"
+    "vzw": "B",
+    "fd": "B"
 }

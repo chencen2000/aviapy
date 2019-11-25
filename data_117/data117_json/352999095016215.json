@@ -1,10 +1,10 @@
 {
     "imei": "352999095016215",
-    "model": "iPhone-iPhone8-SpaceGray",
-    "product": "iPhone-iPhone8-SpaceGray",
-    "starttime": "2019/11/22 11:15:03",
-    "endtime": "2019/11/22 11:15:18",
-    "ImagePath": "D:/BZVisualInspect/UserData/SaveImage/2019-11/Day01/20191101/121_121",
+    "model": "Apple-iPhone8-SpaceGray",
+    "product": "Apple-iPhone8-SpaceGray",
+    "starttime": "2019/11/24 16:00:19",
+    "endtime": "2019/11/24 16:01:02",
+    "ImagePath": "D:/BZVisualInspect/UserData/SaveImage/2019-11/Day01/20191101/352999095016215_109",
     "defects": [
         {
             "station": "0",
@@ -732,5 +732,6 @@
             "location_3.y": "13108.000"
         }
     ],
-    "vzw": "D+"
+    "vzw": "D+",
+    "fd": "D+"
 }

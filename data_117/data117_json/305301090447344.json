@@ -1,10 +1,10 @@
 {
     "imei": "305301090447344",
-    "model": "iPhone-iPhone8-Gold",
-    "product": "iPhone-iPhone8-Gold",
-    "starttime": "2019/11/22 10:12:20",
-    "endtime": "2019/11/22 10:12:30",
-    "ImagePath": "D:/BZVisualInspect/UserData/SaveImage/2019-11/Day01/20191101/97_97",
+    "model": "Apple-iPhone8-Gold",
+    "product": "Apple-iPhone8-Gold",
+    "starttime": "2019/11/24 15:54:46",
+    "endtime": "2019/11/24 15:55:34",
+    "ImagePath": "D:/BZVisualInspect/UserData/SaveImage/2019-11/Day01/20191101/305301090447344_103",
     "defects": [
         {
             "station": "0",
@@ -182,5 +182,6 @@
             "location_3.y": "12866.000"
         }
     ],
-    "vzw": "A"
+    "vzw": "A",
+    "fd": "D"
 }

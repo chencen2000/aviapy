@@ -1,0 +1,35 @@
+*****Current Grade = A+, Current Surface = B*****
+Defect Type GroupPindot, Defects number = 2 on B Surface
+	DefectLength = 12.44612, DefectWidth = 3.98797, DefectContrast = 21
+	DefectLength = 2.31304, DefectWidth = 2.20001, DefectContrast = 22
+Defect Type Dent, Defects number = 2 on B Surface
+	DefectLength = 0.44156, DefectWidth = 0.129, DefectContrast = -21
+	DefectLength = 0.41012, DefectWidth = 0.16971, DefectContrast = -16
+defect count is over Dent limitation(0)
+
+*****Current Grade = A, Current Surface = B*****
+Defect Type GroupPindot, Defects number = 2 on B Surface
+	DefectLength = 12.44612, DefectWidth = 3.98797, DefectContrast = 21
+	DefectLength = 2.31304, DefectWidth = 2.20001, DefectContrast = 22
+Defect Type Dent, Defects number = 2 on B Surface
+	DefectLength = 0.44156, DefectWidth = 0.129, DefectContrast = -21
+	DefectLength = 0.41012, DefectWidth = 0.16971, DefectContrast = -16
+defect count is over Dent limitation(0)
+
+*****Current Grade = B, Current Surface = B*****
+Defect Type GroupPindot, Defects number = 2 on B Surface
+	DefectLength = 12.44612, DefectWidth = 3.98797, DefectContrast = 21
+	DefectLength = 2.31304, DefectWidth = 2.20001, DefectContrast = 22
+Defect Type Dent, Defects number = 2 on B Surface
+	DefectLength = 0.44156, DefectWidth = 0.129, DefectContrast = -21
+	DefectLength = 0.41012, DefectWidth = 0.16971, DefectContrast = -16
+Can not matching any defect type in criteria: the defect type is Dent
+
+*****Current Grade = C, Current Surface = B*****
+Defect Type GroupPindot, Defects number = 2 on B Surface
+	DefectLength = 12.44612, DefectWidth = 3.98797, DefectContrast = 21
+	DefectLength = 2.31304, DefectWidth = 2.20001, DefectContrast = 22
+Defect Type Dent, Defects number = 2 on B Surface
+	DefectLength = 0.44156, DefectWidth = 0.129, DefectContrast = -21
+	DefectLength = 0.41012, DefectWidth = 0.16971, DefectContrast = -16
+

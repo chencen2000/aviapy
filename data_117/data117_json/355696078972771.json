@@ -1,10 +1,10 @@
 {
     "imei": "355696078972771",
-    "model": "iPhone-iPhone6s-Silver",
-    "product": "iPhone-iPhone6s-Silver",
-    "starttime": "2019/11/21 04:03:12",
-    "endtime": "2019/11/21 04:03:43",
-    "ImagePath": "D:/BZVisualInspect/UserData/SaveImage/2019-11/Day01/20191101/46_46",
+    "model": "Apple-iPhone6S-Silver",
+    "product": "Apple-iPhone6S-Silver",
+    "starttime": "2019/11/24 14:36:23",
+    "endtime": "2019/11/24 14:37:14",
+    "ImagePath": "D:/BZVisualInspect/UserData/SaveImage/2019-11/Day01/20191101/355696078972771_48",
     "defects": [
         {
             "station": "0",
@@ -65,26 +65,26 @@
             "ROIregion.width": "6342",
             "ROIregion.height": "14193",
             "type": "GroupPindot",
-            "length": "15.20447",
-            "width": "4.06358",
-            "area_mm": "0.71969",
-            "area_pixel": "4606",
+            "length": "8.21388",
+            "width": "4.15522",
+            "area_mm": "0.65000",
+            "area_pixel": "4160",
             "contrast": "15",
-            "background": "69545",
+            "background": "63351",
             "jnd": "1",
-            "location_0.x": "3655.000",
-            "location_0.y": "2663.000",
-            "location_1.x": "4871.000",
-            "location_1.y": "2693.000",
-            "location_2.x": "4863.000",
-            "location_2.y": "3018.000",
-            "location_3.x": "3647.000",
-            "location_3.y": "2988.000"
+            "location_0.x": "3714.000",
+            "location_0.y": "2644.000",
+            "location_1.x": "4356.000",
+            "location_1.y": "2783.000",
+            "location_2.x": "4286.000",
+            "location_2.y": "3108.000",
+            "location_3.x": "3644.000",
+            "location_3.y": "2969.000"
         },
         {
             "station": "6",
             "alg": "CEmptyInspect",
-            "surface": "NAL",
+            "surface": "B",
             "ROIregion.x": "574",
             "ROIregion.y": "1937",
             "ROIregion.width": "770",
@@ -232,5 +232,6 @@
             "location_3.y": "3112.000"
         }
     ],
-    "vzw": "A"
+    "vzw": "A",
+    "fd": "F"
 }

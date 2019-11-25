@@ -1,0 +1,30 @@
+*****Current Grade = A+, Current Surface = AA*****
+Defect Type Scratch, Defects number = 1 on AA Surface
+	DefectLength = 16.11079, DefectWidth = 0.1, DefectContrast = 10
+The defect is too big: surface is AA, defect type is Scratch, defect length is 16.11079,defect width is 0.1, defect area_mm is 1.69688, defect contrast is 10
+*****Current Grade = A+, Current Surface = B*****
+Defect Type Scratch, Defects number = 3 on B Surface
+	DefectLength = 10.24578, DefectWidth = 0.075, DefectContrast = 20
+	DefectLength = 2.08283, DefectWidth = 0.075, DefectContrast = 8
+	DefectLength = 1.24765, DefectWidth = 0.0875, DefectContrast = 6
+The defect is too big: surface is B, defect type is Scratch, defect length is 10.24578,defect width is 0.075, defect area_mm is 0.78031, defect contrast is 20
+
+*****Current Grade = A, Current Surface = AA*****
+Defect Type Scratch, Defects number = 1 on AA Surface
+	DefectLength = 16.11079, DefectWidth = 0.1, DefectContrast = 10
+The defect is too big: surface is AA, defect type is Scratch, defect length is 16.11079,defect width is 0.1, defect area_mm is 1.69688, defect contrast is 10
+*****Current Grade = A, Current Surface = B*****
+Defect Type Scratch, Defects number = 3 on B Surface
+	DefectLength = 10.24578, DefectWidth = 0.075, DefectContrast = 20
+	DefectLength = 2.08283, DefectWidth = 0.075, DefectContrast = 8
+	DefectLength = 1.24765, DefectWidth = 0.0875, DefectContrast = 6
+
+*****Current Grade = B, Current Surface = AA*****
+Defect Type Scratch, Defects number = 1 on AA Surface
+	DefectLength = 16.11079, DefectWidth = 0.1, DefectContrast = 10
+*****Current Grade = B, Current Surface = B*****
+Defect Type Scratch, Defects number = 3 on B Surface
+	DefectLength = 10.24578, DefectWidth = 0.075, DefectContrast = 20
+	DefectLength = 2.08283, DefectWidth = 0.075, DefectContrast = 8
+	DefectLength = 1.24765, DefectWidth = 0.0875, DefectContrast = 6
+
