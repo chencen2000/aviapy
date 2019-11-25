@@ -1,0 +1,1070 @@
+*****Current Grade = A+, Current Surface = A*****
+Defect Type Scratch, Defects number = 30 on A Surface
+	DefectLength = 1.4625, DefectWidth = 0.125, DefectContrast = 7
+	DefectLength = 2.5, DefectWidth = 0.125, DefectContrast = 8
+	DefectLength = 2.425, DefectWidth = 0.1, DefectContrast = 7
+	DefectLength = 1.2, DefectWidth = 0.0875, DefectContrast = 7
+	DefectLength = 1.9125, DefectWidth = 0.1, DefectContrast = 7
+	DefectLength = 1.275, DefectWidth = 0.1625, DefectContrast = 9
+	DefectLength = 1.2875, DefectWidth = 0.1375, DefectContrast = 9
+	DefectLength = 3.125, DefectWidth = 0.1, DefectContrast = 7
+	DefectLength = 0.5875, DefectWidth = 0.125, DefectContrast = 16
+	DefectLength = 2.5, DefectWidth = 0.1125, DefectContrast = 8
+	DefectLength = 0.6375, DefectWidth = 0.175, DefectContrast = 17
+	DefectLength = 1.25, DefectWidth = 0.0875, DefectContrast = 7
+	DefectLength = 11.1625, DefectWidth = 0.125, DefectContrast = 8
+	DefectLength = 2.7, DefectWidth = 0.1, DefectContrast = 8
+	DefectLength = 3.1, DefectWidth = 0.1, DefectContrast = 8
+	DefectLength = 5.2375, DefectWidth = 0.1125, DefectContrast = 8
+	DefectLength = 5.125, DefectWidth = 0.1, DefectContrast = 8
+	DefectLength = 1.575, DefectWidth = 0.0875, DefectContrast = 8
+	DefectLength = 10.7125, DefectWidth = 0.1375, DefectContrast = 10
+	DefectLength = 0.525, DefectWidth = 0.275, DefectContrast = 16
+	DefectLength = 24.6, DefectWidth = 0.2, DefectContrast = 12
+	DefectLength = 2.125, DefectWidth = 0.0875, DefectContrast = 10
+	DefectLength = 7.325, DefectWidth = 0.1125, DefectContrast = 12
+	DefectLength = 0.75, DefectWidth = 0.225, DefectContrast = 5
+	DefectLength = 0.725, DefectWidth = 0.225, DefectContrast = 4
+	DefectLength = 0.5, DefectWidth = 0.05, DefectContrast = 5
+	DefectLength = 0.65, DefectWidth = 0.15, DefectContrast = 4
+	DefectLength = 0.625, DefectWidth = 0.15, DefectContrast = 4
+	DefectLength = 0.575, DefectWidth = 0.075, DefectContrast = 4
+	DefectLength = 0.275, DefectWidth = 0.275, DefectContrast = 1
+Defect Type Nick, Defects number = 41 on A Surface
+	DefectLength = 0.1625, DefectWidth = 0.1375, DefectContrast = 54
+	DefectLength = 0.1625, DefectWidth = 0.15, DefectContrast = 49
+	DefectLength = 0.3375, DefectWidth = 0.25, DefectContrast = 22
+	DefectLength = 0.1625, DefectWidth = 0.15, DefectContrast = 39
+	DefectLength = 1.3125, DefectWidth = 1, DefectContrast = 22
+	DefectLength = 0.1625, DefectWidth = 0.125, DefectContrast = 49
+	DefectLength = 0.2125, DefectWidth = 0.1125, DefectContrast = 29
+	DefectLength = 0.1625, DefectWidth = 0.125, DefectContrast = 32
+	DefectLength = 0.2125, DefectWidth = 0.2, DefectContrast = 36
+	DefectLength = 0.3, DefectWidth = 0.25, DefectContrast = 33
+	DefectLength = 0.7875, DefectWidth = 0.4125, DefectContrast = 42
+	DefectLength = 15.125, DefectWidth = 1.5875, DefectContrast = 9
+	DefectLength = 0.975, DefectWidth = 0.85, DefectContrast = 11
+	DefectLength = 5.6375, DefectWidth = 5.5875, DefectContrast = 30
+	DefectLength = 2.8375, DefectWidth = 0.825, DefectContrast = 10
+	DefectLength = 2.5875, DefectWidth = 2.425, DefectContrast = 8
+	DefectLength = 1.2875, DefectWidth = 0.55, DefectContrast = 41
+	DefectLength = 1.15, DefectWidth = 0.7625, DefectContrast = 37
+	DefectLength = 4.0375, DefectWidth = 0.9125, DefectContrast = 12
+	DefectLength = 3.3375, DefectWidth = 0.9125, DefectContrast = 10
+	DefectLength = 0.9625, DefectWidth = 0.7875, DefectContrast = 11
+	DefectLength = 1.1125, DefectWidth = 1.1, DefectContrast = 20
+	DefectLength = 3.1125, DefectWidth = 2.7, DefectContrast = 8
+	DefectLength = 3.075, DefectWidth = 2.15, DefectContrast = 8
+	DefectLength = 2.8875, DefectWidth = 1, DefectContrast = 10
+	DefectLength = 2.1125, DefectWidth = 0.875, DefectContrast = 13
+	DefectLength = 1.4, DefectWidth = 1.0125, DefectContrast = 17
+	DefectLength = 1.9125, DefectWidth = 0.8625, DefectContrast = 13
+	DefectLength = 0.9125, DefectWidth = 0.4625, DefectContrast = 22
+	DefectLength = 2, DefectWidth = 1.4375, DefectContrast = 10
+	DefectLength = 1.075, DefectWidth = 0.8625, DefectContrast = 11
+	DefectLength = 0.52, DefectWidth = 0.38, DefectContrast = 32
+	DefectLength = 1.34, DefectWidth = 0.86, DefectContrast = 31
+	DefectLength = 0.8, DefectWidth = 0.64, DefectContrast = 24
+	DefectLength = 0.72, DefectWidth = 0.48, DefectContrast = 23
+	DefectLength = 1.82, DefectWidth = 0.34, DefectContrast = 78
+	DefectLength = 1.82, DefectWidth = 0.4, DefectContrast = 49
+	DefectLength = 1.82, DefectWidth = 0.4, DefectContrast = 57
+	DefectLength = 0.92, DefectWidth = 0.36, DefectContrast = 44
+	DefectLength = 1.36, DefectWidth = 1.3, DefectContrast = 29
+	DefectLength = 1.34, DefectWidth = 1.26, DefectContrast = 30
+Defect Type Dent, Defects number = 61 on A Surface
+	DefectLength = 0.625, DefectWidth = 0.375, DefectContrast = 45
+	DefectLength = 0.6375, DefectWidth = 0.2875, DefectContrast = 13
+	DefectLength = 0.325, DefectWidth = 0.25, DefectContrast = 11
+	DefectLength = 17.725, DefectWidth = 3.1625, DefectContrast = 29
+	DefectLength = 3.775, DefectWidth = 3.7625, DefectContrast = 53
+	DefectLength = 1.3, DefectWidth = 0.5625, DefectContrast = 56
+	DefectLength = 1.9375, DefectWidth = 0.3875, DefectContrast = 19
+	DefectLength = 0.6875, DefectWidth = 0.5375, DefectContrast = 31
+	DefectLength = 0.35, DefectWidth = 0.3375, DefectContrast = 23
+	DefectLength = 16.9125, DefectWidth = 2.025, DefectContrast = 45
+	DefectLength = 0.675, DefectWidth = 0.4625, DefectContrast = 48
+	DefectLength = 0.6375, DefectWidth = 0.55, DefectContrast = 39
+	DefectLength = 0.5625, DefectWidth = 0.4875, DefectContrast = 33
+	DefectLength = 0.6, DefectWidth = 0.525, DefectContrast = 38
+	DefectLength = 0.275, DefectWidth = 0.2625, DefectContrast = 17
+	DefectLength = 0.3875, DefectWidth = 0.35, DefectContrast = 16
+	DefectLength = 1.6875, DefectWidth = 1.0875, DefectContrast = 19
+	DefectLength = 1.6, DefectWidth = 0.3, DefectContrast = 10
+	DefectLength = 2.175, DefectWidth = 0.3, DefectContrast = 12
+	DefectLength = 1.775, DefectWidth = 1.45, DefectContrast = 17
+	DefectLength = 0.5625, DefectWidth = 0.325, DefectContrast = 10
+	DefectLength = 0.95, DefectWidth = 0.8, DefectContrast = 17
+	DefectLength = 1.8375, DefectWidth = 1.35, DefectContrast = 18
+	DefectLength = 0.8375, DefectWidth = 0.525, DefectContrast = 15
+	DefectLength = 1.5875, DefectWidth = 0.575, DefectContrast = 16
+	DefectLength = 1.475, DefectWidth = 0.3, DefectContrast = 11
+	DefectLength = 1.2625, DefectWidth = 0.325, DefectContrast = 12
+	DefectLength = 1.1375, DefectWidth = 0.2625, DefectContrast = 10
+	DefectLength = 0.95, DefectWidth = 0.3, DefectContrast = 12
+	DefectLength = 1.7, DefectWidth = 0.8125, DefectContrast = 17
+	DefectLength = 1.7, DefectWidth = 0.6875, DefectContrast = 20
+	DefectLength = 0.5625, DefectWidth = 0.4, DefectContrast = 23
+	DefectLength = 0.3125, DefectWidth = 0.2625, DefectContrast = 14
+	DefectLength = 2.1125, DefectWidth = 1.65, DefectContrast = 43
+	DefectLength = 0.225, DefectWidth = 0.175, DefectContrast = 63
+	DefectLength = 0.2625, DefectWidth = 0.1625, DefectContrast = 76
+	DefectLength = 0.7, DefectWidth = 0.2, DefectContrast = 91
+	DefectLength = 0.825, DefectWidth = 0.1625, DefectContrast = 81
+	DefectLength = 0.25, DefectWidth = 0.1875, DefectContrast = 76
+	DefectLength = 0.4625, DefectWidth = 0.1625, DefectContrast = 74
+	DefectLength = 0.4, DefectWidth = 0.175, DefectContrast = 77
+	DefectLength = 1.425, DefectWidth = 0.2375, DefectContrast = 93
+	DefectLength = 0.225, DefectWidth = 0.175, DefectContrast = 82
+	DefectLength = 0.7375, DefectWidth = 0.2125, DefectContrast = 91
+	DefectLength = 0.45, DefectWidth = 0.175, DefectContrast = 97
+	DefectLength = 0.3125, DefectWidth = 0.1375, DefectContrast = 76
+	DefectLength = 1.45, DefectWidth = 0.2, DefectContrast = 93
+	DefectLength = 0.45, DefectWidth = 0.15, DefectContrast = 77
+	DefectLength = 0.175, DefectWidth = 0.1625, DefectContrast = 69
+	DefectLength = 0.3375, DefectWidth = 0.15, DefectContrast = 70
+	DefectLength = 0.625, DefectWidth = 0.2, DefectContrast = 86
+	DefectLength = 0.2625, DefectWidth = 0.125, DefectContrast = 80
+	DefectLength = 0.2, DefectWidth = 0.175, DefectContrast = 72
+	DefectLength = 0.65, DefectWidth = 0.1875, DefectContrast = 91
+	DefectLength = 0.5375, DefectWidth = 0.1375, DefectContrast = 66
+	DefectLength = 0.3125, DefectWidth = 0.15, DefectContrast = 65
+	DefectLength = 0.3, DefectWidth = 0.1125, DefectContrast = 66
+	DefectLength = 0.2625, DefectWidth = 0.1375, DefectContrast = 65
+	DefectLength = 0.34, DefectWidth = 0.2, DefectContrast = 98
+	DefectLength = 1.16, DefectWidth = 0.42, DefectContrast = 117
+	DefectLength = 0.66, DefectWidth = 0.24, DefectContrast = 183
+defect count is over Scratch limitation(3)
+The defect is too big: surface is A, defect type is Scratch, defect length is 11.1625,defect width is 0.125, defect area_mm is 0.77156, defect contrast is 8
+The defect is too big: surface is A, defect type is Scratch, defect length is 5.2375,defect width is 0.1125, defect area_mm is 0.37234, defect contrast is 8
+The defect is too big: surface is A, defect type is Scratch, defect length is 5.125,defect width is 0.1, defect area_mm is 0.34922, defect contrast is 8
+The defect is too big: surface is A, defect type is Scratch, defect length is 10.7125,defect width is 0.1375, defect area_mm is 0.7625, defect contrast is 10
+The defect is too big: surface is A, defect type is Scratch, defect length is 24.6,defect width is 0.2, defect area_mm is 1.73328, defect contrast is 12
+The defect is too big: surface is A, defect type is Scratch, defect length is 7.325,defect width is 0.1125, defect area_mm is 0.52609, defect contrast is 12
+defect count is over Nick limitation(0)
+defect count is over Dent limitation(0)
+Surface Defect Count is over limitation(12)
+*****Current Grade = A+, Current Surface = B*****
+Defect Type Nick, Defects number = 30 on B Surface
+	DefectLength = 57.98, DefectWidth = 1.32, DefectContrast = 27
+	DefectLength = 9.744, DefectWidth = 0.2016, DefectContrast = 11
+	DefectLength = 8.0256, DefectWidth = 0.1824, DefectContrast = 13
+	DefectLength = 4.9632, DefectWidth = 0.1248, DefectContrast = 7
+	DefectLength = 3.0048, DefectWidth = 1.6224, DefectContrast = 19
+	DefectLength = 0.7872, DefectWidth = 0.4224, DefectContrast = 17
+	DefectLength = 0.9984, DefectWidth = 0.2688, DefectContrast = 13
+	DefectLength = 1.4208, DefectWidth = 0.48, DefectContrast = 9
+	DefectLength = 10.8864, DefectWidth = 0.192, DefectContrast = 12
+	DefectLength = 8.9664, DefectWidth = 0.144, DefectContrast = 15
+	DefectLength = 4.9056, DefectWidth = 0.1248, DefectContrast = 7
+	DefectLength = 10.5984, DefectWidth = 0.1824, DefectContrast = 11
+	DefectLength = 1.4496, DefectWidth = 0.1152, DefectContrast = 8
+	DefectLength = 0.8928, DefectWidth = 0.1056, DefectContrast = 8
+	DefectLength = 8.7936, DefectWidth = 0.1248, DefectContrast = 16
+	DefectLength = 6.4704, DefectWidth = 0.1344, DefectContrast = 8
+	DefectLength = 2.0544, DefectWidth = 0.1056, DefectContrast = 7
+	DefectLength = 1.1136, DefectWidth = 0.24, DefectContrast = 6
+	DefectLength = 1.488, DefectWidth = 0.6816, DefectContrast = 8
+	DefectLength = 1.584, DefectWidth = 0.2496, DefectContrast = 7
+	DefectLength = 1.4784, DefectWidth = 0.432, DefectContrast = 10
+	DefectLength = 1.3344, DefectWidth = 0.384, DefectContrast = 12
+	DefectLength = 1.5456, DefectWidth = 0.4704, DefectContrast = 7
+	DefectLength = 11.1648, DefectWidth = 0.192, DefectContrast = 12
+	DefectLength = 0.7296, DefectWidth = 0.2592, DefectContrast = 6
+	DefectLength = 0.8256, DefectWidth = 0.1824, DefectContrast = 8
+	DefectLength = 8.2176, DefectWidth = 0.1344, DefectContrast = 13
+	DefectLength = 4.8576, DefectWidth = 0.1152, DefectContrast = 7
+	DefectLength = 0.7584, DefectWidth = 0.624, DefectContrast = 11
+	DefectLength = 1.26, DefectWidth = 0.44, DefectContrast = 13
+Defect Type Dent, Defects number = 19 on B Surface
+	DefectLength = 5.08, DefectWidth = 1.12, DefectContrast = 26
+	DefectLength = 4.76, DefectWidth = 1.02, DefectContrast = 18
+	DefectLength = 0.4896, DefectWidth = 0.4224, DefectContrast = 46
+	DefectLength = 0.816, DefectWidth = 0.4704, DefectContrast = 40
+	DefectLength = 0.2976, DefectWidth = 0.2688, DefectContrast = 47
+	DefectLength = 0.7776, DefectWidth = 0.3264, DefectContrast = 47
+	DefectLength = 0.5472, DefectWidth = 0.4608, DefectContrast = 33
+	DefectLength = 0.3456, DefectWidth = 0.2304, DefectContrast = 32
+	DefectLength = 0.3072, DefectWidth = 0.1824, DefectContrast = 35
+	DefectLength = 0.2112, DefectWidth = 0.1728, DefectContrast = 42
+	DefectLength = 0.2688, DefectWidth = 0.1728, DefectContrast = 65
+	DefectLength = 0.2592, DefectWidth = 0.1536, DefectContrast = 66
+	DefectLength = 0.768, DefectWidth = 0.6336, DefectContrast = 87
+	DefectLength = 0.2208, DefectWidth = 0.1632, DefectContrast = 39
+	DefectLength = 5.472, DefectWidth = 0.1056, DefectContrast = 21
+	DefectLength = 3.888, DefectWidth = 0.0864, DefectContrast = 19
+	DefectLength = 1.0944, DefectWidth = 0.2592, DefectContrast = 27
+	DefectLength = 0.336, DefectWidth = 0.192, DefectContrast = 52
+	DefectLength = 57.56, DefectWidth = 1.34, DefectContrast = 25
+defect count is over Nick limitation(0)
+defect count is over Dent limitation(0)
+Surface Defect Count is over limitation(3)
+Grade max total defects are over limitation(3).
+
+*****Current Grade = A, Current Surface = A*****
+Defect Type Scratch, Defects number = 30 on A Surface
+	DefectLength = 1.4625, DefectWidth = 0.125, DefectContrast = 7
+	DefectLength = 2.5, DefectWidth = 0.125, DefectContrast = 8
+	DefectLength = 2.425, DefectWidth = 0.1, DefectContrast = 7
+	DefectLength = 1.2, DefectWidth = 0.0875, DefectContrast = 7
+	DefectLength = 1.9125, DefectWidth = 0.1, DefectContrast = 7
+	DefectLength = 1.275, DefectWidth = 0.1625, DefectContrast = 9
+	DefectLength = 1.2875, DefectWidth = 0.1375, DefectContrast = 9
+	DefectLength = 3.125, DefectWidth = 0.1, DefectContrast = 7
+	DefectLength = 0.5875, DefectWidth = 0.125, DefectContrast = 16
+	DefectLength = 2.5, DefectWidth = 0.1125, DefectContrast = 8
+	DefectLength = 0.6375, DefectWidth = 0.175, DefectContrast = 17
+	DefectLength = 1.25, DefectWidth = 0.0875, DefectContrast = 7
+	DefectLength = 11.1625, DefectWidth = 0.125, DefectContrast = 8
+	DefectLength = 2.7, DefectWidth = 0.1, DefectContrast = 8
+	DefectLength = 3.1, DefectWidth = 0.1, DefectContrast = 8
+	DefectLength = 5.2375, DefectWidth = 0.1125, DefectContrast = 8
+	DefectLength = 5.125, DefectWidth = 0.1, DefectContrast = 8
+	DefectLength = 1.575, DefectWidth = 0.0875, DefectContrast = 8
+	DefectLength = 10.7125, DefectWidth = 0.1375, DefectContrast = 10
+	DefectLength = 0.525, DefectWidth = 0.275, DefectContrast = 16
+	DefectLength = 24.6, DefectWidth = 0.2, DefectContrast = 12
+	DefectLength = 2.125, DefectWidth = 0.0875, DefectContrast = 10
+	DefectLength = 7.325, DefectWidth = 0.1125, DefectContrast = 12
+	DefectLength = 0.75, DefectWidth = 0.225, DefectContrast = 5
+	DefectLength = 0.725, DefectWidth = 0.225, DefectContrast = 4
+	DefectLength = 0.5, DefectWidth = 0.05, DefectContrast = 5
+	DefectLength = 0.65, DefectWidth = 0.15, DefectContrast = 4
+	DefectLength = 0.625, DefectWidth = 0.15, DefectContrast = 4
+	DefectLength = 0.575, DefectWidth = 0.075, DefectContrast = 4
+	DefectLength = 0.275, DefectWidth = 0.275, DefectContrast = 1
+Defect Type Nick, Defects number = 41 on A Surface
+	DefectLength = 0.1625, DefectWidth = 0.1375, DefectContrast = 54
+	DefectLength = 0.1625, DefectWidth = 0.15, DefectContrast = 49
+	DefectLength = 0.3375, DefectWidth = 0.25, DefectContrast = 22
+	DefectLength = 0.1625, DefectWidth = 0.15, DefectContrast = 39
+	DefectLength = 1.3125, DefectWidth = 1, DefectContrast = 22
+	DefectLength = 0.1625, DefectWidth = 0.125, DefectContrast = 49
+	DefectLength = 0.2125, DefectWidth = 0.1125, DefectContrast = 29
+	DefectLength = 0.1625, DefectWidth = 0.125, DefectContrast = 32
+	DefectLength = 0.2125, DefectWidth = 0.2, DefectContrast = 36
+	DefectLength = 0.3, DefectWidth = 0.25, DefectContrast = 33
+	DefectLength = 0.7875, DefectWidth = 0.4125, DefectContrast = 42
+	DefectLength = 15.125, DefectWidth = 1.5875, DefectContrast = 9
+	DefectLength = 0.975, DefectWidth = 0.85, DefectContrast = 11
+	DefectLength = 5.6375, DefectWidth = 5.5875, DefectContrast = 30
+	DefectLength = 2.8375, DefectWidth = 0.825, DefectContrast = 10
+	DefectLength = 2.5875, DefectWidth = 2.425, DefectContrast = 8
+	DefectLength = 1.2875, DefectWidth = 0.55, DefectContrast = 41
+	DefectLength = 1.15, DefectWidth = 0.7625, DefectContrast = 37
+	DefectLength = 4.0375, DefectWidth = 0.9125, DefectContrast = 12
+	DefectLength = 3.3375, DefectWidth = 0.9125, DefectContrast = 10
+	DefectLength = 0.9625, DefectWidth = 0.7875, DefectContrast = 11
+	DefectLength = 1.1125, DefectWidth = 1.1, DefectContrast = 20
+	DefectLength = 3.1125, DefectWidth = 2.7, DefectContrast = 8
+	DefectLength = 3.075, DefectWidth = 2.15, DefectContrast = 8
+	DefectLength = 2.8875, DefectWidth = 1, DefectContrast = 10
+	DefectLength = 2.1125, DefectWidth = 0.875, DefectContrast = 13
+	DefectLength = 1.4, DefectWidth = 1.0125, DefectContrast = 17
+	DefectLength = 1.9125, DefectWidth = 0.8625, DefectContrast = 13
+	DefectLength = 0.9125, DefectWidth = 0.4625, DefectContrast = 22
+	DefectLength = 2, DefectWidth = 1.4375, DefectContrast = 10
+	DefectLength = 1.075, DefectWidth = 0.8625, DefectContrast = 11
+	DefectLength = 0.52, DefectWidth = 0.38, DefectContrast = 32
+	DefectLength = 1.34, DefectWidth = 0.86, DefectContrast = 31
+	DefectLength = 0.8, DefectWidth = 0.64, DefectContrast = 24
+	DefectLength = 0.72, DefectWidth = 0.48, DefectContrast = 23
+	DefectLength = 1.82, DefectWidth = 0.34, DefectContrast = 78
+	DefectLength = 1.82, DefectWidth = 0.4, DefectContrast = 49
+	DefectLength = 1.82, DefectWidth = 0.4, DefectContrast = 57
+	DefectLength = 0.92, DefectWidth = 0.36, DefectContrast = 44
+	DefectLength = 1.36, DefectWidth = 1.3, DefectContrast = 29
+	DefectLength = 1.34, DefectWidth = 1.26, DefectContrast = 30
+Defect Type Dent, Defects number = 61 on A Surface
+	DefectLength = 0.625, DefectWidth = 0.375, DefectContrast = 45
+	DefectLength = 0.6375, DefectWidth = 0.2875, DefectContrast = 13
+	DefectLength = 0.325, DefectWidth = 0.25, DefectContrast = 11
+	DefectLength = 17.725, DefectWidth = 3.1625, DefectContrast = 29
+	DefectLength = 3.775, DefectWidth = 3.7625, DefectContrast = 53
+	DefectLength = 1.3, DefectWidth = 0.5625, DefectContrast = 56
+	DefectLength = 1.9375, DefectWidth = 0.3875, DefectContrast = 19
+	DefectLength = 0.6875, DefectWidth = 0.5375, DefectContrast = 31
+	DefectLength = 0.35, DefectWidth = 0.3375, DefectContrast = 23
+	DefectLength = 16.9125, DefectWidth = 2.025, DefectContrast = 45
+	DefectLength = 0.675, DefectWidth = 0.4625, DefectContrast = 48
+	DefectLength = 0.6375, DefectWidth = 0.55, DefectContrast = 39
+	DefectLength = 0.5625, DefectWidth = 0.4875, DefectContrast = 33
+	DefectLength = 0.6, DefectWidth = 0.525, DefectContrast = 38
+	DefectLength = 0.275, DefectWidth = 0.2625, DefectContrast = 17
+	DefectLength = 0.3875, DefectWidth = 0.35, DefectContrast = 16
+	DefectLength = 1.6875, DefectWidth = 1.0875, DefectContrast = 19
+	DefectLength = 1.6, DefectWidth = 0.3, DefectContrast = 10
+	DefectLength = 2.175, DefectWidth = 0.3, DefectContrast = 12
+	DefectLength = 1.775, DefectWidth = 1.45, DefectContrast = 17
+	DefectLength = 0.5625, DefectWidth = 0.325, DefectContrast = 10
+	DefectLength = 0.95, DefectWidth = 0.8, DefectContrast = 17
+	DefectLength = 1.8375, DefectWidth = 1.35, DefectContrast = 18
+	DefectLength = 0.8375, DefectWidth = 0.525, DefectContrast = 15
+	DefectLength = 1.5875, DefectWidth = 0.575, DefectContrast = 16
+	DefectLength = 1.475, DefectWidth = 0.3, DefectContrast = 11
+	DefectLength = 1.2625, DefectWidth = 0.325, DefectContrast = 12
+	DefectLength = 1.1375, DefectWidth = 0.2625, DefectContrast = 10
+	DefectLength = 0.95, DefectWidth = 0.3, DefectContrast = 12
+	DefectLength = 1.7, DefectWidth = 0.8125, DefectContrast = 17
+	DefectLength = 1.7, DefectWidth = 0.6875, DefectContrast = 20
+	DefectLength = 0.5625, DefectWidth = 0.4, DefectContrast = 23
+	DefectLength = 0.3125, DefectWidth = 0.2625, DefectContrast = 14
+	DefectLength = 2.1125, DefectWidth = 1.65, DefectContrast = 43
+	DefectLength = 0.225, DefectWidth = 0.175, DefectContrast = 63
+	DefectLength = 0.2625, DefectWidth = 0.1625, DefectContrast = 76
+	DefectLength = 0.7, DefectWidth = 0.2, DefectContrast = 91
+	DefectLength = 0.825, DefectWidth = 0.1625, DefectContrast = 81
+	DefectLength = 0.25, DefectWidth = 0.1875, DefectContrast = 76
+	DefectLength = 0.4625, DefectWidth = 0.1625, DefectContrast = 74
+	DefectLength = 0.4, DefectWidth = 0.175, DefectContrast = 77
+	DefectLength = 1.425, DefectWidth = 0.2375, DefectContrast = 93
+	DefectLength = 0.225, DefectWidth = 0.175, DefectContrast = 82
+	DefectLength = 0.7375, DefectWidth = 0.2125, DefectContrast = 91
+	DefectLength = 0.45, DefectWidth = 0.175, DefectContrast = 97
+	DefectLength = 0.3125, DefectWidth = 0.1375, DefectContrast = 76
+	DefectLength = 1.45, DefectWidth = 0.2, DefectContrast = 93
+	DefectLength = 0.45, DefectWidth = 0.15, DefectContrast = 77
+	DefectLength = 0.175, DefectWidth = 0.1625, DefectContrast = 69
+	DefectLength = 0.3375, DefectWidth = 0.15, DefectContrast = 70
+	DefectLength = 0.625, DefectWidth = 0.2, DefectContrast = 86
+	DefectLength = 0.2625, DefectWidth = 0.125, DefectContrast = 80
+	DefectLength = 0.2, DefectWidth = 0.175, DefectContrast = 72
+	DefectLength = 0.65, DefectWidth = 0.1875, DefectContrast = 91
+	DefectLength = 0.5375, DefectWidth = 0.1375, DefectContrast = 66
+	DefectLength = 0.3125, DefectWidth = 0.15, DefectContrast = 65
+	DefectLength = 0.3, DefectWidth = 0.1125, DefectContrast = 66
+	DefectLength = 0.2625, DefectWidth = 0.1375, DefectContrast = 65
+	DefectLength = 0.34, DefectWidth = 0.2, DefectContrast = 98
+	DefectLength = 1.16, DefectWidth = 0.42, DefectContrast = 117
+	DefectLength = 0.66, DefectWidth = 0.24, DefectContrast = 183
+defect count is over Scratch limitation(4)
+The defect is too big: surface is A, defect type is Scratch, defect length is 11.1625,defect width is 0.125, defect area_mm is 0.77156, defect contrast is 8
+The defect is too big: surface is A, defect type is Scratch, defect length is 10.7125,defect width is 0.1375, defect area_mm is 0.7625, defect contrast is 10
+The defect is too big: surface is A, defect type is Scratch, defect length is 24.6,defect width is 0.2, defect area_mm is 1.73328, defect contrast is 12
+The defect is too big: surface is A, defect type is Nick, defect length is 1.3125,defect width is 1, defect area_mm is 0.14859, defect contrast is 22
+defect count is over Nick limitation(4)
+The defect is too big: surface is A, defect type is Nick, defect length is 0.7875,defect width is 0.4125, defect area_mm is 0.10266, defect contrast is 42
+The defect is too big: surface is A, defect type is Nick, defect length is 15.125,defect width is 1.5875, defect area_mm is 5.19078, defect contrast is 9
+The defect is too big: surface is A, defect type is Nick, defect length is 0.975,defect width is 0.85, defect area_mm is 0.19984, defect contrast is 11
+The defect is too big: surface is A, defect type is Nick, defect length is 5.6375,defect width is 5.5875, defect area_mm is 14.12719, defect contrast is 30
+The defect is too big: surface is A, defect type is Nick, defect length is 2.8375,defect width is 0.825, defect area_mm is 1.05328, defect contrast is 10
+The defect is too big: surface is A, defect type is Nick, defect length is 2.5875,defect width is 2.425, defect area_mm is 2.98156, defect contrast is 8
+The defect is too big: surface is A, defect type is Nick, defect length is 1.2875,defect width is 0.55, defect area_mm is 0.53688, defect contrast is 41
+The defect is too big: surface is A, defect type is Nick, defect length is 1.15,defect width is 0.7625, defect area_mm is 0.55719, defect contrast is 37
+The defect is too big: surface is A, defect type is Nick, defect length is 4.0375,defect width is 0.9125, defect area_mm is 1.58672, defect contrast is 12
+The defect is too big: surface is A, defect type is Nick, defect length is 3.3375,defect width is 0.9125, defect area_mm is 1.39094, defect contrast is 10
+The defect is too big: surface is A, defect type is Nick, defect length is 0.9625,defect width is 0.7875, defect area_mm is 0.49297, defect contrast is 11
+The defect is too big: surface is A, defect type is Nick, defect length is 1.1125,defect width is 1.1, defect area_mm is 1.05188, defect contrast is 20
+The defect is too big: surface is A, defect type is Nick, defect length is 3.1125,defect width is 2.7, defect area_mm is 1.40891, defect contrast is 8
+The defect is too big: surface is A, defect type is Nick, defect length is 3.075,defect width is 2.15, defect area_mm is 1.55734, defect contrast is 8
+The defect is too big: surface is A, defect type is Nick, defect length is 2.8875,defect width is 1, defect area_mm is 1.12547, defect contrast is 10
+The defect is too big: surface is A, defect type is Nick, defect length is 2.1125,defect width is 0.875, defect area_mm is 1.41531, defect contrast is 13
+The defect is too big: surface is A, defect type is Nick, defect length is 1.4,defect width is 1.0125, defect area_mm is 1.14563, defect contrast is 17
+The defect is too big: surface is A, defect type is Nick, defect length is 1.9125,defect width is 0.8625, defect area_mm is 1.36969, defect contrast is 13
+The defect is too big: surface is A, defect type is Nick, defect length is 0.9125,defect width is 0.4625, defect area_mm is 0.33703, defect contrast is 22
+The defect is too big: surface is A, defect type is Nick, defect length is 2,defect width is 1.4375, defect area_mm is 0.92391, defect contrast is 10
+The defect is too big: surface is A, defect type is Nick, defect length is 1.075,defect width is 0.8625, defect area_mm is 0.57734, defect contrast is 11
+The defect is too big: surface is A, defect type is Nick, defect length is 1.34,defect width is 0.86, defect area_mm is 0.7408, defect contrast is 31
+The defect is too big: surface is A, defect type is Nick, defect length is 0.8,defect width is 0.64, defect area_mm is 0.2556, defect contrast is 24
+The defect is too big: surface is A, defect type is Nick, defect length is 0.72,defect width is 0.48, defect area_mm is 0.206, defect contrast is 23
+The defect is too big: surface is A, defect type is Nick, defect length is 1.36,defect width is 1.3, defect area_mm is 0.9932, defect contrast is 29
+The defect is too big: surface is A, defect type is Nick, defect length is 1.34,defect width is 1.26, defect area_mm is 1.0824, defect contrast is 30
+defect count is over Dent limitation(0)
+Surface Defect Count is over limitation(4)
+*****Current Grade = A, Current Surface = B*****
+Defect Type Nick, Defects number = 30 on B Surface
+	DefectLength = 57.98, DefectWidth = 1.32, DefectContrast = 27
+	DefectLength = 9.744, DefectWidth = 0.2016, DefectContrast = 11
+	DefectLength = 8.0256, DefectWidth = 0.1824, DefectContrast = 13
+	DefectLength = 4.9632, DefectWidth = 0.1248, DefectContrast = 7
+	DefectLength = 3.0048, DefectWidth = 1.6224, DefectContrast = 19
+	DefectLength = 0.7872, DefectWidth = 0.4224, DefectContrast = 17
+	DefectLength = 0.9984, DefectWidth = 0.2688, DefectContrast = 13
+	DefectLength = 1.4208, DefectWidth = 0.48, DefectContrast = 9
+	DefectLength = 10.8864, DefectWidth = 0.192, DefectContrast = 12
+	DefectLength = 8.9664, DefectWidth = 0.144, DefectContrast = 15
+	DefectLength = 4.9056, DefectWidth = 0.1248, DefectContrast = 7
+	DefectLength = 10.5984, DefectWidth = 0.1824, DefectContrast = 11
+	DefectLength = 1.4496, DefectWidth = 0.1152, DefectContrast = 8
+	DefectLength = 0.8928, DefectWidth = 0.1056, DefectContrast = 8
+	DefectLength = 8.7936, DefectWidth = 0.1248, DefectContrast = 16
+	DefectLength = 6.4704, DefectWidth = 0.1344, DefectContrast = 8
+	DefectLength = 2.0544, DefectWidth = 0.1056, DefectContrast = 7
+	DefectLength = 1.1136, DefectWidth = 0.24, DefectContrast = 6
+	DefectLength = 1.488, DefectWidth = 0.6816, DefectContrast = 8
+	DefectLength = 1.584, DefectWidth = 0.2496, DefectContrast = 7
+	DefectLength = 1.4784, DefectWidth = 0.432, DefectContrast = 10
+	DefectLength = 1.3344, DefectWidth = 0.384, DefectContrast = 12
+	DefectLength = 1.5456, DefectWidth = 0.4704, DefectContrast = 7
+	DefectLength = 11.1648, DefectWidth = 0.192, DefectContrast = 12
+	DefectLength = 0.7296, DefectWidth = 0.2592, DefectContrast = 6
+	DefectLength = 0.8256, DefectWidth = 0.1824, DefectContrast = 8
+	DefectLength = 8.2176, DefectWidth = 0.1344, DefectContrast = 13
+	DefectLength = 4.8576, DefectWidth = 0.1152, DefectContrast = 7
+	DefectLength = 0.7584, DefectWidth = 0.624, DefectContrast = 11
+	DefectLength = 1.26, DefectWidth = 0.44, DefectContrast = 13
+Defect Type Dent, Defects number = 19 on B Surface
+	DefectLength = 5.08, DefectWidth = 1.12, DefectContrast = 26
+	DefectLength = 4.76, DefectWidth = 1.02, DefectContrast = 18
+	DefectLength = 0.4896, DefectWidth = 0.4224, DefectContrast = 46
+	DefectLength = 0.816, DefectWidth = 0.4704, DefectContrast = 40
+	DefectLength = 0.2976, DefectWidth = 0.2688, DefectContrast = 47
+	DefectLength = 0.7776, DefectWidth = 0.3264, DefectContrast = 47
+	DefectLength = 0.5472, DefectWidth = 0.4608, DefectContrast = 33
+	DefectLength = 0.3456, DefectWidth = 0.2304, DefectContrast = 32
+	DefectLength = 0.3072, DefectWidth = 0.1824, DefectContrast = 35
+	DefectLength = 0.2112, DefectWidth = 0.1728, DefectContrast = 42
+	DefectLength = 0.2688, DefectWidth = 0.1728, DefectContrast = 65
+	DefectLength = 0.2592, DefectWidth = 0.1536, DefectContrast = 66
+	DefectLength = 0.768, DefectWidth = 0.6336, DefectContrast = 87
+	DefectLength = 0.2208, DefectWidth = 0.1632, DefectContrast = 39
+	DefectLength = 5.472, DefectWidth = 0.1056, DefectContrast = 21
+	DefectLength = 3.888, DefectWidth = 0.0864, DefectContrast = 19
+	DefectLength = 1.0944, DefectWidth = 0.2592, DefectContrast = 27
+	DefectLength = 0.336, DefectWidth = 0.192, DefectContrast = 52
+	DefectLength = 57.56, DefectWidth = 1.34, DefectContrast = 25
+The defect is too big: surface is B, defect type is Nick, defect length is 57.98,defect width is 1.32, defect area_mm is 11.4164, defect contrast is 27
+The defect is too big: surface is B, defect type is Nick, defect length is 3.0048,defect width is 1.6224, defect area_mm is 1.56792, defect contrast is 19
+defect count is over Dent limitation(0)
+Surface Defect Count is over limitation(12)
+Grade max total defects are over limitation(12).
+
+*****Current Grade = B, Current Surface = A*****
+Defect Type Scratch, Defects number = 30 on A Surface
+	DefectLength = 1.4625, DefectWidth = 0.125, DefectContrast = 7
+	DefectLength = 2.5, DefectWidth = 0.125, DefectContrast = 8
+	DefectLength = 2.425, DefectWidth = 0.1, DefectContrast = 7
+	DefectLength = 1.2, DefectWidth = 0.0875, DefectContrast = 7
+	DefectLength = 1.9125, DefectWidth = 0.1, DefectContrast = 7
+	DefectLength = 1.275, DefectWidth = 0.1625, DefectContrast = 9
+	DefectLength = 1.2875, DefectWidth = 0.1375, DefectContrast = 9
+	DefectLength = 3.125, DefectWidth = 0.1, DefectContrast = 7
+	DefectLength = 0.5875, DefectWidth = 0.125, DefectContrast = 16
+	DefectLength = 2.5, DefectWidth = 0.1125, DefectContrast = 8
+	DefectLength = 0.6375, DefectWidth = 0.175, DefectContrast = 17
+	DefectLength = 1.25, DefectWidth = 0.0875, DefectContrast = 7
+	DefectLength = 11.1625, DefectWidth = 0.125, DefectContrast = 8
+	DefectLength = 2.7, DefectWidth = 0.1, DefectContrast = 8
+	DefectLength = 3.1, DefectWidth = 0.1, DefectContrast = 8
+	DefectLength = 5.2375, DefectWidth = 0.1125, DefectContrast = 8
+	DefectLength = 5.125, DefectWidth = 0.1, DefectContrast = 8
+	DefectLength = 1.575, DefectWidth = 0.0875, DefectContrast = 8
+	DefectLength = 10.7125, DefectWidth = 0.1375, DefectContrast = 10
+	DefectLength = 0.525, DefectWidth = 0.275, DefectContrast = 16
+	DefectLength = 24.6, DefectWidth = 0.2, DefectContrast = 12
+	DefectLength = 2.125, DefectWidth = 0.0875, DefectContrast = 10
+	DefectLength = 7.325, DefectWidth = 0.1125, DefectContrast = 12
+	DefectLength = 0.75, DefectWidth = 0.225, DefectContrast = 5
+	DefectLength = 0.725, DefectWidth = 0.225, DefectContrast = 4
+	DefectLength = 0.5, DefectWidth = 0.05, DefectContrast = 5
+	DefectLength = 0.65, DefectWidth = 0.15, DefectContrast = 4
+	DefectLength = 0.625, DefectWidth = 0.15, DefectContrast = 4
+	DefectLength = 0.575, DefectWidth = 0.075, DefectContrast = 4
+	DefectLength = 0.275, DefectWidth = 0.275, DefectContrast = 1
+Defect Type Nick, Defects number = 41 on A Surface
+	DefectLength = 0.1625, DefectWidth = 0.1375, DefectContrast = 54
+	DefectLength = 0.1625, DefectWidth = 0.15, DefectContrast = 49
+	DefectLength = 0.3375, DefectWidth = 0.25, DefectContrast = 22
+	DefectLength = 0.1625, DefectWidth = 0.15, DefectContrast = 39
+	DefectLength = 1.3125, DefectWidth = 1, DefectContrast = 22
+	DefectLength = 0.1625, DefectWidth = 0.125, DefectContrast = 49
+	DefectLength = 0.2125, DefectWidth = 0.1125, DefectContrast = 29
+	DefectLength = 0.1625, DefectWidth = 0.125, DefectContrast = 32
+	DefectLength = 0.2125, DefectWidth = 0.2, DefectContrast = 36
+	DefectLength = 0.3, DefectWidth = 0.25, DefectContrast = 33
+	DefectLength = 0.7875, DefectWidth = 0.4125, DefectContrast = 42
+	DefectLength = 15.125, DefectWidth = 1.5875, DefectContrast = 9
+	DefectLength = 0.975, DefectWidth = 0.85, DefectContrast = 11
+	DefectLength = 5.6375, DefectWidth = 5.5875, DefectContrast = 30
+	DefectLength = 2.8375, DefectWidth = 0.825, DefectContrast = 10
+	DefectLength = 2.5875, DefectWidth = 2.425, DefectContrast = 8
+	DefectLength = 1.2875, DefectWidth = 0.55, DefectContrast = 41
+	DefectLength = 1.15, DefectWidth = 0.7625, DefectContrast = 37
+	DefectLength = 4.0375, DefectWidth = 0.9125, DefectContrast = 12
+	DefectLength = 3.3375, DefectWidth = 0.9125, DefectContrast = 10
+	DefectLength = 0.9625, DefectWidth = 0.7875, DefectContrast = 11
+	DefectLength = 1.1125, DefectWidth = 1.1, DefectContrast = 20
+	DefectLength = 3.1125, DefectWidth = 2.7, DefectContrast = 8
+	DefectLength = 3.075, DefectWidth = 2.15, DefectContrast = 8
+	DefectLength = 2.8875, DefectWidth = 1, DefectContrast = 10
+	DefectLength = 2.1125, DefectWidth = 0.875, DefectContrast = 13
+	DefectLength = 1.4, DefectWidth = 1.0125, DefectContrast = 17
+	DefectLength = 1.9125, DefectWidth = 0.8625, DefectContrast = 13
+	DefectLength = 0.9125, DefectWidth = 0.4625, DefectContrast = 22
+	DefectLength = 2, DefectWidth = 1.4375, DefectContrast = 10
+	DefectLength = 1.075, DefectWidth = 0.8625, DefectContrast = 11
+	DefectLength = 0.52, DefectWidth = 0.38, DefectContrast = 32
+	DefectLength = 1.34, DefectWidth = 0.86, DefectContrast = 31
+	DefectLength = 0.8, DefectWidth = 0.64, DefectContrast = 24
+	DefectLength = 0.72, DefectWidth = 0.48, DefectContrast = 23
+	DefectLength = 1.82, DefectWidth = 0.34, DefectContrast = 78
+	DefectLength = 1.82, DefectWidth = 0.4, DefectContrast = 49
+	DefectLength = 1.82, DefectWidth = 0.4, DefectContrast = 57
+	DefectLength = 0.92, DefectWidth = 0.36, DefectContrast = 44
+	DefectLength = 1.36, DefectWidth = 1.3, DefectContrast = 29
+	DefectLength = 1.34, DefectWidth = 1.26, DefectContrast = 30
+Defect Type Dent, Defects number = 61 on A Surface
+	DefectLength = 0.625, DefectWidth = 0.375, DefectContrast = 45
+	DefectLength = 0.6375, DefectWidth = 0.2875, DefectContrast = 13
+	DefectLength = 0.325, DefectWidth = 0.25, DefectContrast = 11
+	DefectLength = 17.725, DefectWidth = 3.1625, DefectContrast = 29
+	DefectLength = 3.775, DefectWidth = 3.7625, DefectContrast = 53
+	DefectLength = 1.3, DefectWidth = 0.5625, DefectContrast = 56
+	DefectLength = 1.9375, DefectWidth = 0.3875, DefectContrast = 19
+	DefectLength = 0.6875, DefectWidth = 0.5375, DefectContrast = 31
+	DefectLength = 0.35, DefectWidth = 0.3375, DefectContrast = 23
+	DefectLength = 16.9125, DefectWidth = 2.025, DefectContrast = 45
+	DefectLength = 0.675, DefectWidth = 0.4625, DefectContrast = 48
+	DefectLength = 0.6375, DefectWidth = 0.55, DefectContrast = 39
+	DefectLength = 0.5625, DefectWidth = 0.4875, DefectContrast = 33
+	DefectLength = 0.6, DefectWidth = 0.525, DefectContrast = 38
+	DefectLength = 0.275, DefectWidth = 0.2625, DefectContrast = 17
+	DefectLength = 0.3875, DefectWidth = 0.35, DefectContrast = 16
+	DefectLength = 1.6875, DefectWidth = 1.0875, DefectContrast = 19
+	DefectLength = 1.6, DefectWidth = 0.3, DefectContrast = 10
+	DefectLength = 2.175, DefectWidth = 0.3, DefectContrast = 12
+	DefectLength = 1.775, DefectWidth = 1.45, DefectContrast = 17
+	DefectLength = 0.5625, DefectWidth = 0.325, DefectContrast = 10
+	DefectLength = 0.95, DefectWidth = 0.8, DefectContrast = 17
+	DefectLength = 1.8375, DefectWidth = 1.35, DefectContrast = 18
+	DefectLength = 0.8375, DefectWidth = 0.525, DefectContrast = 15
+	DefectLength = 1.5875, DefectWidth = 0.575, DefectContrast = 16
+	DefectLength = 1.475, DefectWidth = 0.3, DefectContrast = 11
+	DefectLength = 1.2625, DefectWidth = 0.325, DefectContrast = 12
+	DefectLength = 1.1375, DefectWidth = 0.2625, DefectContrast = 10
+	DefectLength = 0.95, DefectWidth = 0.3, DefectContrast = 12
+	DefectLength = 1.7, DefectWidth = 0.8125, DefectContrast = 17
+	DefectLength = 1.7, DefectWidth = 0.6875, DefectContrast = 20
+	DefectLength = 0.5625, DefectWidth = 0.4, DefectContrast = 23
+	DefectLength = 0.3125, DefectWidth = 0.2625, DefectContrast = 14
+	DefectLength = 2.1125, DefectWidth = 1.65, DefectContrast = 43
+	DefectLength = 0.225, DefectWidth = 0.175, DefectContrast = 63
+	DefectLength = 0.2625, DefectWidth = 0.1625, DefectContrast = 76
+	DefectLength = 0.7, DefectWidth = 0.2, DefectContrast = 91
+	DefectLength = 0.825, DefectWidth = 0.1625, DefectContrast = 81
+	DefectLength = 0.25, DefectWidth = 0.1875, DefectContrast = 76
+	DefectLength = 0.4625, DefectWidth = 0.1625, DefectContrast = 74
+	DefectLength = 0.4, DefectWidth = 0.175, DefectContrast = 77
+	DefectLength = 1.425, DefectWidth = 0.2375, DefectContrast = 93
+	DefectLength = 0.225, DefectWidth = 0.175, DefectContrast = 82
+	DefectLength = 0.7375, DefectWidth = 0.2125, DefectContrast = 91
+	DefectLength = 0.45, DefectWidth = 0.175, DefectContrast = 97
+	DefectLength = 0.3125, DefectWidth = 0.1375, DefectContrast = 76
+	DefectLength = 1.45, DefectWidth = 0.2, DefectContrast = 93
+	DefectLength = 0.45, DefectWidth = 0.15, DefectContrast = 77
+	DefectLength = 0.175, DefectWidth = 0.1625, DefectContrast = 69
+	DefectLength = 0.3375, DefectWidth = 0.15, DefectContrast = 70
+	DefectLength = 0.625, DefectWidth = 0.2, DefectContrast = 86
+	DefectLength = 0.2625, DefectWidth = 0.125, DefectContrast = 80
+	DefectLength = 0.2, DefectWidth = 0.175, DefectContrast = 72
+	DefectLength = 0.65, DefectWidth = 0.1875, DefectContrast = 91
+	DefectLength = 0.5375, DefectWidth = 0.1375, DefectContrast = 66
+	DefectLength = 0.3125, DefectWidth = 0.15, DefectContrast = 65
+	DefectLength = 0.3, DefectWidth = 0.1125, DefectContrast = 66
+	DefectLength = 0.2625, DefectWidth = 0.1375, DefectContrast = 65
+	DefectLength = 0.34, DefectWidth = 0.2, DefectContrast = 98
+	DefectLength = 1.16, DefectWidth = 0.42, DefectContrast = 117
+	DefectLength = 0.66, DefectWidth = 0.24, DefectContrast = 183
+defect count is over Scratch limitation(6)
+The defect is too big: surface is A, defect type is Nick, defect length is 1.3125,defect width is 1, defect area_mm is 0.14859, defect contrast is 22
+defect count is over Nick limitation(6)
+The defect is too big: surface is A, defect type is Nick, defect length is 0.7875,defect width is 0.4125, defect area_mm is 0.10266, defect contrast is 42
+The defect is too big: surface is A, defect type is Nick, defect length is 15.125,defect width is 1.5875, defect area_mm is 5.19078, defect contrast is 9
+The defect is too big: surface is A, defect type is Nick, defect length is 0.975,defect width is 0.85, defect area_mm is 0.19984, defect contrast is 11
+The defect is too big: surface is A, defect type is Nick, defect length is 5.6375,defect width is 5.5875, defect area_mm is 14.12719, defect contrast is 30
+The defect is too big: surface is A, defect type is Nick, defect length is 2.8375,defect width is 0.825, defect area_mm is 1.05328, defect contrast is 10
+The defect is too big: surface is A, defect type is Nick, defect length is 2.5875,defect width is 2.425, defect area_mm is 2.98156, defect contrast is 8
+The defect is too big: surface is A, defect type is Nick, defect length is 1.2875,defect width is 0.55, defect area_mm is 0.53688, defect contrast is 41
+The defect is too big: surface is A, defect type is Nick, defect length is 1.15,defect width is 0.7625, defect area_mm is 0.55719, defect contrast is 37
+The defect is too big: surface is A, defect type is Nick, defect length is 4.0375,defect width is 0.9125, defect area_mm is 1.58672, defect contrast is 12
+The defect is too big: surface is A, defect type is Nick, defect length is 3.3375,defect width is 0.9125, defect area_mm is 1.39094, defect contrast is 10
+The defect is too big: surface is A, defect type is Nick, defect length is 0.9625,defect width is 0.7875, defect area_mm is 0.49297, defect contrast is 11
+The defect is too big: surface is A, defect type is Nick, defect length is 1.1125,defect width is 1.1, defect area_mm is 1.05188, defect contrast is 20
+The defect is too big: surface is A, defect type is Nick, defect length is 3.1125,defect width is 2.7, defect area_mm is 1.40891, defect contrast is 8
+The defect is too big: surface is A, defect type is Nick, defect length is 3.075,defect width is 2.15, defect area_mm is 1.55734, defect contrast is 8
+The defect is too big: surface is A, defect type is Nick, defect length is 2.8875,defect width is 1, defect area_mm is 1.12547, defect contrast is 10
+The defect is too big: surface is A, defect type is Nick, defect length is 2.1125,defect width is 0.875, defect area_mm is 1.41531, defect contrast is 13
+The defect is too big: surface is A, defect type is Nick, defect length is 1.4,defect width is 1.0125, defect area_mm is 1.14563, defect contrast is 17
+The defect is too big: surface is A, defect type is Nick, defect length is 1.9125,defect width is 0.8625, defect area_mm is 1.36969, defect contrast is 13
+The defect is too big: surface is A, defect type is Nick, defect length is 0.9125,defect width is 0.4625, defect area_mm is 0.33703, defect contrast is 22
+The defect is too big: surface is A, defect type is Nick, defect length is 2,defect width is 1.4375, defect area_mm is 0.92391, defect contrast is 10
+The defect is too big: surface is A, defect type is Nick, defect length is 1.075,defect width is 0.8625, defect area_mm is 0.57734, defect contrast is 11
+The defect is too big: surface is A, defect type is Nick, defect length is 1.34,defect width is 0.86, defect area_mm is 0.7408, defect contrast is 31
+The defect is too big: surface is A, defect type is Nick, defect length is 0.8,defect width is 0.64, defect area_mm is 0.2556, defect contrast is 24
+The defect is too big: surface is A, defect type is Nick, defect length is 0.72,defect width is 0.48, defect area_mm is 0.206, defect contrast is 23
+The defect is too big: surface is A, defect type is Nick, defect length is 1.36,defect width is 1.3, defect area_mm is 0.9932, defect contrast is 29
+The defect is too big: surface is A, defect type is Nick, defect length is 1.34,defect width is 1.26, defect area_mm is 1.0824, defect contrast is 30
+defect count is over Dent limitation(0)
+Surface Defect Count is over limitation(6)
+*****Current Grade = B, Current Surface = B*****
+Defect Type Nick, Defects number = 30 on B Surface
+	DefectLength = 57.98, DefectWidth = 1.32, DefectContrast = 27
+	DefectLength = 9.744, DefectWidth = 0.2016, DefectContrast = 11
+	DefectLength = 8.0256, DefectWidth = 0.1824, DefectContrast = 13
+	DefectLength = 4.9632, DefectWidth = 0.1248, DefectContrast = 7
+	DefectLength = 3.0048, DefectWidth = 1.6224, DefectContrast = 19
+	DefectLength = 0.7872, DefectWidth = 0.4224, DefectContrast = 17
+	DefectLength = 0.9984, DefectWidth = 0.2688, DefectContrast = 13
+	DefectLength = 1.4208, DefectWidth = 0.48, DefectContrast = 9
+	DefectLength = 10.8864, DefectWidth = 0.192, DefectContrast = 12
+	DefectLength = 8.9664, DefectWidth = 0.144, DefectContrast = 15
+	DefectLength = 4.9056, DefectWidth = 0.1248, DefectContrast = 7
+	DefectLength = 10.5984, DefectWidth = 0.1824, DefectContrast = 11
+	DefectLength = 1.4496, DefectWidth = 0.1152, DefectContrast = 8
+	DefectLength = 0.8928, DefectWidth = 0.1056, DefectContrast = 8
+	DefectLength = 8.7936, DefectWidth = 0.1248, DefectContrast = 16
+	DefectLength = 6.4704, DefectWidth = 0.1344, DefectContrast = 8
+	DefectLength = 2.0544, DefectWidth = 0.1056, DefectContrast = 7
+	DefectLength = 1.1136, DefectWidth = 0.24, DefectContrast = 6
+	DefectLength = 1.488, DefectWidth = 0.6816, DefectContrast = 8
+	DefectLength = 1.584, DefectWidth = 0.2496, DefectContrast = 7
+	DefectLength = 1.4784, DefectWidth = 0.432, DefectContrast = 10
+	DefectLength = 1.3344, DefectWidth = 0.384, DefectContrast = 12
+	DefectLength = 1.5456, DefectWidth = 0.4704, DefectContrast = 7
+	DefectLength = 11.1648, DefectWidth = 0.192, DefectContrast = 12
+	DefectLength = 0.7296, DefectWidth = 0.2592, DefectContrast = 6
+	DefectLength = 0.8256, DefectWidth = 0.1824, DefectContrast = 8
+	DefectLength = 8.2176, DefectWidth = 0.1344, DefectContrast = 13
+	DefectLength = 4.8576, DefectWidth = 0.1152, DefectContrast = 7
+	DefectLength = 0.7584, DefectWidth = 0.624, DefectContrast = 11
+	DefectLength = 1.26, DefectWidth = 0.44, DefectContrast = 13
+Defect Type Dent, Defects number = 19 on B Surface
+	DefectLength = 5.08, DefectWidth = 1.12, DefectContrast = 26
+	DefectLength = 4.76, DefectWidth = 1.02, DefectContrast = 18
+	DefectLength = 0.4896, DefectWidth = 0.4224, DefectContrast = 46
+	DefectLength = 0.816, DefectWidth = 0.4704, DefectContrast = 40
+	DefectLength = 0.2976, DefectWidth = 0.2688, DefectContrast = 47
+	DefectLength = 0.7776, DefectWidth = 0.3264, DefectContrast = 47
+	DefectLength = 0.5472, DefectWidth = 0.4608, DefectContrast = 33
+	DefectLength = 0.3456, DefectWidth = 0.2304, DefectContrast = 32
+	DefectLength = 0.3072, DefectWidth = 0.1824, DefectContrast = 35
+	DefectLength = 0.2112, DefectWidth = 0.1728, DefectContrast = 42
+	DefectLength = 0.2688, DefectWidth = 0.1728, DefectContrast = 65
+	DefectLength = 0.2592, DefectWidth = 0.1536, DefectContrast = 66
+	DefectLength = 0.768, DefectWidth = 0.6336, DefectContrast = 87
+	DefectLength = 0.2208, DefectWidth = 0.1632, DefectContrast = 39
+	DefectLength = 5.472, DefectWidth = 0.1056, DefectContrast = 21
+	DefectLength = 3.888, DefectWidth = 0.0864, DefectContrast = 19
+	DefectLength = 1.0944, DefectWidth = 0.2592, DefectContrast = 27
+	DefectLength = 0.336, DefectWidth = 0.192, DefectContrast = 52
+	DefectLength = 57.56, DefectWidth = 1.34, DefectContrast = 25
+The defect is too big: surface is B, defect type is Nick, defect length is 57.98,defect width is 1.32, defect area_mm is 11.4164, defect contrast is 27
+defect count is over Nick limitation(16)
+Can not matching any defect type in criteria: the defect type is Dent
+Surface Defect Count is over limitation(16)
+Grade max total defects are over limitation(16).
+
+*****Current Grade = C, Current Surface = A*****
+Defect Type Scratch, Defects number = 30 on A Surface
+	DefectLength = 1.4625, DefectWidth = 0.125, DefectContrast = 7
+	DefectLength = 2.5, DefectWidth = 0.125, DefectContrast = 8
+	DefectLength = 2.425, DefectWidth = 0.1, DefectContrast = 7
+	DefectLength = 1.2, DefectWidth = 0.0875, DefectContrast = 7
+	DefectLength = 1.9125, DefectWidth = 0.1, DefectContrast = 7
+	DefectLength = 1.275, DefectWidth = 0.1625, DefectContrast = 9
+	DefectLength = 1.2875, DefectWidth = 0.1375, DefectContrast = 9
+	DefectLength = 3.125, DefectWidth = 0.1, DefectContrast = 7
+	DefectLength = 0.5875, DefectWidth = 0.125, DefectContrast = 16
+	DefectLength = 2.5, DefectWidth = 0.1125, DefectContrast = 8
+	DefectLength = 0.6375, DefectWidth = 0.175, DefectContrast = 17
+	DefectLength = 1.25, DefectWidth = 0.0875, DefectContrast = 7
+	DefectLength = 11.1625, DefectWidth = 0.125, DefectContrast = 8
+	DefectLength = 2.7, DefectWidth = 0.1, DefectContrast = 8
+	DefectLength = 3.1, DefectWidth = 0.1, DefectContrast = 8
+	DefectLength = 5.2375, DefectWidth = 0.1125, DefectContrast = 8
+	DefectLength = 5.125, DefectWidth = 0.1, DefectContrast = 8
+	DefectLength = 1.575, DefectWidth = 0.0875, DefectContrast = 8
+	DefectLength = 10.7125, DefectWidth = 0.1375, DefectContrast = 10
+	DefectLength = 0.525, DefectWidth = 0.275, DefectContrast = 16
+	DefectLength = 24.6, DefectWidth = 0.2, DefectContrast = 12
+	DefectLength = 2.125, DefectWidth = 0.0875, DefectContrast = 10
+	DefectLength = 7.325, DefectWidth = 0.1125, DefectContrast = 12
+	DefectLength = 0.75, DefectWidth = 0.225, DefectContrast = 5
+	DefectLength = 0.725, DefectWidth = 0.225, DefectContrast = 4
+	DefectLength = 0.5, DefectWidth = 0.05, DefectContrast = 5
+	DefectLength = 0.65, DefectWidth = 0.15, DefectContrast = 4
+	DefectLength = 0.625, DefectWidth = 0.15, DefectContrast = 4
+	DefectLength = 0.575, DefectWidth = 0.075, DefectContrast = 4
+	DefectLength = 0.275, DefectWidth = 0.275, DefectContrast = 1
+Defect Type Nick, Defects number = 41 on A Surface
+	DefectLength = 0.1625, DefectWidth = 0.1375, DefectContrast = 54
+	DefectLength = 0.1625, DefectWidth = 0.15, DefectContrast = 49
+	DefectLength = 0.3375, DefectWidth = 0.25, DefectContrast = 22
+	DefectLength = 0.1625, DefectWidth = 0.15, DefectContrast = 39
+	DefectLength = 1.3125, DefectWidth = 1, DefectContrast = 22
+	DefectLength = 0.1625, DefectWidth = 0.125, DefectContrast = 49
+	DefectLength = 0.2125, DefectWidth = 0.1125, DefectContrast = 29
+	DefectLength = 0.1625, DefectWidth = 0.125, DefectContrast = 32
+	DefectLength = 0.2125, DefectWidth = 0.2, DefectContrast = 36
+	DefectLength = 0.3, DefectWidth = 0.25, DefectContrast = 33
+	DefectLength = 0.7875, DefectWidth = 0.4125, DefectContrast = 42
+	DefectLength = 15.125, DefectWidth = 1.5875, DefectContrast = 9
+	DefectLength = 0.975, DefectWidth = 0.85, DefectContrast = 11
+	DefectLength = 5.6375, DefectWidth = 5.5875, DefectContrast = 30
+	DefectLength = 2.8375, DefectWidth = 0.825, DefectContrast = 10
+	DefectLength = 2.5875, DefectWidth = 2.425, DefectContrast = 8
+	DefectLength = 1.2875, DefectWidth = 0.55, DefectContrast = 41
+	DefectLength = 1.15, DefectWidth = 0.7625, DefectContrast = 37
+	DefectLength = 4.0375, DefectWidth = 0.9125, DefectContrast = 12
+	DefectLength = 3.3375, DefectWidth = 0.9125, DefectContrast = 10
+	DefectLength = 0.9625, DefectWidth = 0.7875, DefectContrast = 11
+	DefectLength = 1.1125, DefectWidth = 1.1, DefectContrast = 20
+	DefectLength = 3.1125, DefectWidth = 2.7, DefectContrast = 8
+	DefectLength = 3.075, DefectWidth = 2.15, DefectContrast = 8
+	DefectLength = 2.8875, DefectWidth = 1, DefectContrast = 10
+	DefectLength = 2.1125, DefectWidth = 0.875, DefectContrast = 13
+	DefectLength = 1.4, DefectWidth = 1.0125, DefectContrast = 17
+	DefectLength = 1.9125, DefectWidth = 0.8625, DefectContrast = 13
+	DefectLength = 0.9125, DefectWidth = 0.4625, DefectContrast = 22
+	DefectLength = 2, DefectWidth = 1.4375, DefectContrast = 10
+	DefectLength = 1.075, DefectWidth = 0.8625, DefectContrast = 11
+	DefectLength = 0.52, DefectWidth = 0.38, DefectContrast = 32
+	DefectLength = 1.34, DefectWidth = 0.86, DefectContrast = 31
+	DefectLength = 0.8, DefectWidth = 0.64, DefectContrast = 24
+	DefectLength = 0.72, DefectWidth = 0.48, DefectContrast = 23
+	DefectLength = 1.82, DefectWidth = 0.34, DefectContrast = 78
+	DefectLength = 1.82, DefectWidth = 0.4, DefectContrast = 49
+	DefectLength = 1.82, DefectWidth = 0.4, DefectContrast = 57
+	DefectLength = 0.92, DefectWidth = 0.36, DefectContrast = 44
+	DefectLength = 1.36, DefectWidth = 1.3, DefectContrast = 29
+	DefectLength = 1.34, DefectWidth = 1.26, DefectContrast = 30
+Defect Type Dent, Defects number = 61 on A Surface
+	DefectLength = 0.625, DefectWidth = 0.375, DefectContrast = 45
+	DefectLength = 0.6375, DefectWidth = 0.2875, DefectContrast = 13
+	DefectLength = 0.325, DefectWidth = 0.25, DefectContrast = 11
+	DefectLength = 17.725, DefectWidth = 3.1625, DefectContrast = 29
+	DefectLength = 3.775, DefectWidth = 3.7625, DefectContrast = 53
+	DefectLength = 1.3, DefectWidth = 0.5625, DefectContrast = 56
+	DefectLength = 1.9375, DefectWidth = 0.3875, DefectContrast = 19
+	DefectLength = 0.6875, DefectWidth = 0.5375, DefectContrast = 31
+	DefectLength = 0.35, DefectWidth = 0.3375, DefectContrast = 23
+	DefectLength = 16.9125, DefectWidth = 2.025, DefectContrast = 45
+	DefectLength = 0.675, DefectWidth = 0.4625, DefectContrast = 48
+	DefectLength = 0.6375, DefectWidth = 0.55, DefectContrast = 39
+	DefectLength = 0.5625, DefectWidth = 0.4875, DefectContrast = 33
+	DefectLength = 0.6, DefectWidth = 0.525, DefectContrast = 38
+	DefectLength = 0.275, DefectWidth = 0.2625, DefectContrast = 17
+	DefectLength = 0.3875, DefectWidth = 0.35, DefectContrast = 16
+	DefectLength = 1.6875, DefectWidth = 1.0875, DefectContrast = 19
+	DefectLength = 1.6, DefectWidth = 0.3, DefectContrast = 10
+	DefectLength = 2.175, DefectWidth = 0.3, DefectContrast = 12
+	DefectLength = 1.775, DefectWidth = 1.45, DefectContrast = 17
+	DefectLength = 0.5625, DefectWidth = 0.325, DefectContrast = 10
+	DefectLength = 0.95, DefectWidth = 0.8, DefectContrast = 17
+	DefectLength = 1.8375, DefectWidth = 1.35, DefectContrast = 18
+	DefectLength = 0.8375, DefectWidth = 0.525, DefectContrast = 15
+	DefectLength = 1.5875, DefectWidth = 0.575, DefectContrast = 16
+	DefectLength = 1.475, DefectWidth = 0.3, DefectContrast = 11
+	DefectLength = 1.2625, DefectWidth = 0.325, DefectContrast = 12
+	DefectLength = 1.1375, DefectWidth = 0.2625, DefectContrast = 10
+	DefectLength = 0.95, DefectWidth = 0.3, DefectContrast = 12
+	DefectLength = 1.7, DefectWidth = 0.8125, DefectContrast = 17
+	DefectLength = 1.7, DefectWidth = 0.6875, DefectContrast = 20
+	DefectLength = 0.5625, DefectWidth = 0.4, DefectContrast = 23
+	DefectLength = 0.3125, DefectWidth = 0.2625, DefectContrast = 14
+	DefectLength = 2.1125, DefectWidth = 1.65, DefectContrast = 43
+	DefectLength = 0.225, DefectWidth = 0.175, DefectContrast = 63
+	DefectLength = 0.2625, DefectWidth = 0.1625, DefectContrast = 76
+	DefectLength = 0.7, DefectWidth = 0.2, DefectContrast = 91
+	DefectLength = 0.825, DefectWidth = 0.1625, DefectContrast = 81
+	DefectLength = 0.25, DefectWidth = 0.1875, DefectContrast = 76
+	DefectLength = 0.4625, DefectWidth = 0.1625, DefectContrast = 74
+	DefectLength = 0.4, DefectWidth = 0.175, DefectContrast = 77
+	DefectLength = 1.425, DefectWidth = 0.2375, DefectContrast = 93
+	DefectLength = 0.225, DefectWidth = 0.175, DefectContrast = 82
+	DefectLength = 0.7375, DefectWidth = 0.2125, DefectContrast = 91
+	DefectLength = 0.45, DefectWidth = 0.175, DefectContrast = 97
+	DefectLength = 0.3125, DefectWidth = 0.1375, DefectContrast = 76
+	DefectLength = 1.45, DefectWidth = 0.2, DefectContrast = 93
+	DefectLength = 0.45, DefectWidth = 0.15, DefectContrast = 77
+	DefectLength = 0.175, DefectWidth = 0.1625, DefectContrast = 69
+	DefectLength = 0.3375, DefectWidth = 0.15, DefectContrast = 70
+	DefectLength = 0.625, DefectWidth = 0.2, DefectContrast = 86
+	DefectLength = 0.2625, DefectWidth = 0.125, DefectContrast = 80
+	DefectLength = 0.2, DefectWidth = 0.175, DefectContrast = 72
+	DefectLength = 0.65, DefectWidth = 0.1875, DefectContrast = 91
+	DefectLength = 0.5375, DefectWidth = 0.1375, DefectContrast = 66
+	DefectLength = 0.3125, DefectWidth = 0.15, DefectContrast = 65
+	DefectLength = 0.3, DefectWidth = 0.1125, DefectContrast = 66
+	DefectLength = 0.2625, DefectWidth = 0.1375, DefectContrast = 65
+	DefectLength = 0.34, DefectWidth = 0.2, DefectContrast = 98
+	DefectLength = 1.16, DefectWidth = 0.42, DefectContrast = 117
+	DefectLength = 0.66, DefectWidth = 0.24, DefectContrast = 183
+defect count is over Scratch limitation(8)
+The defect is too big: surface is A, defect type is Nick, defect length is 1.3125,defect width is 1, defect area_mm is 0.14859, defect contrast is 22
+defect count is over Nick limitation(8)
+The defect is too big: surface is A, defect type is Nick, defect length is 0.7875,defect width is 0.4125, defect area_mm is 0.10266, defect contrast is 42
+The defect is too big: surface is A, defect type is Nick, defect length is 15.125,defect width is 1.5875, defect area_mm is 5.19078, defect contrast is 9
+The defect is too big: surface is A, defect type is Nick, defect length is 0.975,defect width is 0.85, defect area_mm is 0.19984, defect contrast is 11
+The defect is too big: surface is A, defect type is Nick, defect length is 5.6375,defect width is 5.5875, defect area_mm is 14.12719, defect contrast is 30
+The defect is too big: surface is A, defect type is Nick, defect length is 2.8375,defect width is 0.825, defect area_mm is 1.05328, defect contrast is 10
+The defect is too big: surface is A, defect type is Nick, defect length is 2.5875,defect width is 2.425, defect area_mm is 2.98156, defect contrast is 8
+The defect is too big: surface is A, defect type is Nick, defect length is 1.2875,defect width is 0.55, defect area_mm is 0.53688, defect contrast is 41
+The defect is too big: surface is A, defect type is Nick, defect length is 1.15,defect width is 0.7625, defect area_mm is 0.55719, defect contrast is 37
+The defect is too big: surface is A, defect type is Nick, defect length is 4.0375,defect width is 0.9125, defect area_mm is 1.58672, defect contrast is 12
+The defect is too big: surface is A, defect type is Nick, defect length is 3.3375,defect width is 0.9125, defect area_mm is 1.39094, defect contrast is 10
+The defect is too big: surface is A, defect type is Nick, defect length is 0.9625,defect width is 0.7875, defect area_mm is 0.49297, defect contrast is 11
+The defect is too big: surface is A, defect type is Nick, defect length is 1.1125,defect width is 1.1, defect area_mm is 1.05188, defect contrast is 20
+The defect is too big: surface is A, defect type is Nick, defect length is 3.1125,defect width is 2.7, defect area_mm is 1.40891, defect contrast is 8
+The defect is too big: surface is A, defect type is Nick, defect length is 3.075,defect width is 2.15, defect area_mm is 1.55734, defect contrast is 8
+The defect is too big: surface is A, defect type is Nick, defect length is 2.8875,defect width is 1, defect area_mm is 1.12547, defect contrast is 10
+The defect is too big: surface is A, defect type is Nick, defect length is 2.1125,defect width is 0.875, defect area_mm is 1.41531, defect contrast is 13
+The defect is too big: surface is A, defect type is Nick, defect length is 1.4,defect width is 1.0125, defect area_mm is 1.14563, defect contrast is 17
+The defect is too big: surface is A, defect type is Nick, defect length is 1.9125,defect width is 0.8625, defect area_mm is 1.36969, defect contrast is 13
+The defect is too big: surface is A, defect type is Nick, defect length is 0.9125,defect width is 0.4625, defect area_mm is 0.33703, defect contrast is 22
+The defect is too big: surface is A, defect type is Nick, defect length is 2,defect width is 1.4375, defect area_mm is 0.92391, defect contrast is 10
+The defect is too big: surface is A, defect type is Nick, defect length is 1.075,defect width is 0.8625, defect area_mm is 0.57734, defect contrast is 11
+The defect is too big: surface is A, defect type is Nick, defect length is 1.34,defect width is 0.86, defect area_mm is 0.7408, defect contrast is 31
+The defect is too big: surface is A, defect type is Nick, defect length is 0.8,defect width is 0.64, defect area_mm is 0.2556, defect contrast is 24
+The defect is too big: surface is A, defect type is Nick, defect length is 0.72,defect width is 0.48, defect area_mm is 0.206, defect contrast is 23
+The defect is too big: surface is A, defect type is Nick, defect length is 1.36,defect width is 1.3, defect area_mm is 0.9932, defect contrast is 29
+The defect is too big: surface is A, defect type is Nick, defect length is 1.34,defect width is 1.26, defect area_mm is 1.0824, defect contrast is 30
+Can not matching any defect type in criteria: the defect type is Dent
+Surface Defect Count is over limitation(8)
+*****Current Grade = C, Current Surface = B*****
+Defect Type Nick, Defects number = 30 on B Surface
+	DefectLength = 57.98, DefectWidth = 1.32, DefectContrast = 27
+	DefectLength = 9.744, DefectWidth = 0.2016, DefectContrast = 11
+	DefectLength = 8.0256, DefectWidth = 0.1824, DefectContrast = 13
+	DefectLength = 4.9632, DefectWidth = 0.1248, DefectContrast = 7
+	DefectLength = 3.0048, DefectWidth = 1.6224, DefectContrast = 19
+	DefectLength = 0.7872, DefectWidth = 0.4224, DefectContrast = 17
+	DefectLength = 0.9984, DefectWidth = 0.2688, DefectContrast = 13
+	DefectLength = 1.4208, DefectWidth = 0.48, DefectContrast = 9
+	DefectLength = 10.8864, DefectWidth = 0.192, DefectContrast = 12
+	DefectLength = 8.9664, DefectWidth = 0.144, DefectContrast = 15
+	DefectLength = 4.9056, DefectWidth = 0.1248, DefectContrast = 7
+	DefectLength = 10.5984, DefectWidth = 0.1824, DefectContrast = 11
+	DefectLength = 1.4496, DefectWidth = 0.1152, DefectContrast = 8
+	DefectLength = 0.8928, DefectWidth = 0.1056, DefectContrast = 8
+	DefectLength = 8.7936, DefectWidth = 0.1248, DefectContrast = 16
+	DefectLength = 6.4704, DefectWidth = 0.1344, DefectContrast = 8
+	DefectLength = 2.0544, DefectWidth = 0.1056, DefectContrast = 7
+	DefectLength = 1.1136, DefectWidth = 0.24, DefectContrast = 6
+	DefectLength = 1.488, DefectWidth = 0.6816, DefectContrast = 8
+	DefectLength = 1.584, DefectWidth = 0.2496, DefectContrast = 7
+	DefectLength = 1.4784, DefectWidth = 0.432, DefectContrast = 10
+	DefectLength = 1.3344, DefectWidth = 0.384, DefectContrast = 12
+	DefectLength = 1.5456, DefectWidth = 0.4704, DefectContrast = 7
+	DefectLength = 11.1648, DefectWidth = 0.192, DefectContrast = 12
+	DefectLength = 0.7296, DefectWidth = 0.2592, DefectContrast = 6
+	DefectLength = 0.8256, DefectWidth = 0.1824, DefectContrast = 8
+	DefectLength = 8.2176, DefectWidth = 0.1344, DefectContrast = 13
+	DefectLength = 4.8576, DefectWidth = 0.1152, DefectContrast = 7
+	DefectLength = 0.7584, DefectWidth = 0.624, DefectContrast = 11
+	DefectLength = 1.26, DefectWidth = 0.44, DefectContrast = 13
+Defect Type Dent, Defects number = 19 on B Surface
+	DefectLength = 5.08, DefectWidth = 1.12, DefectContrast = 26
+	DefectLength = 4.76, DefectWidth = 1.02, DefectContrast = 18
+	DefectLength = 0.4896, DefectWidth = 0.4224, DefectContrast = 46
+	DefectLength = 0.816, DefectWidth = 0.4704, DefectContrast = 40
+	DefectLength = 0.2976, DefectWidth = 0.2688, DefectContrast = 47
+	DefectLength = 0.7776, DefectWidth = 0.3264, DefectContrast = 47
+	DefectLength = 0.5472, DefectWidth = 0.4608, DefectContrast = 33
+	DefectLength = 0.3456, DefectWidth = 0.2304, DefectContrast = 32
+	DefectLength = 0.3072, DefectWidth = 0.1824, DefectContrast = 35
+	DefectLength = 0.2112, DefectWidth = 0.1728, DefectContrast = 42
+	DefectLength = 0.2688, DefectWidth = 0.1728, DefectContrast = 65
+	DefectLength = 0.2592, DefectWidth = 0.1536, DefectContrast = 66
+	DefectLength = 0.768, DefectWidth = 0.6336, DefectContrast = 87
+	DefectLength = 0.2208, DefectWidth = 0.1632, DefectContrast = 39
+	DefectLength = 5.472, DefectWidth = 0.1056, DefectContrast = 21
+	DefectLength = 3.888, DefectWidth = 0.0864, DefectContrast = 19
+	DefectLength = 1.0944, DefectWidth = 0.2592, DefectContrast = 27
+	DefectLength = 0.336, DefectWidth = 0.192, DefectContrast = 52
+	DefectLength = 57.56, DefectWidth = 1.34, DefectContrast = 25
+The defect is too big: surface is B, defect type is Nick, defect length is 57.98,defect width is 1.32, defect area_mm is 11.4164, defect contrast is 27
+The defect is too big: surface is B, defect type is Nick, defect length is 3.0048,defect width is 1.6224, defect area_mm is 1.56792, defect contrast is 19
+defect count is over Nick limitation(18)
+Surface Defect Count is over limitation(18)
+Grade max total defects are over limitation(26).
+
+*****Current Grade = D+, Current Surface = A*****
+Defect Type Scratch, Defects number = 30 on A Surface
+	DefectLength = 1.4625, DefectWidth = 0.125, DefectContrast = 7
+	DefectLength = 2.5, DefectWidth = 0.125, DefectContrast = 8
+	DefectLength = 2.425, DefectWidth = 0.1, DefectContrast = 7
+	DefectLength = 1.2, DefectWidth = 0.0875, DefectContrast = 7
+	DefectLength = 1.9125, DefectWidth = 0.1, DefectContrast = 7
+	DefectLength = 1.275, DefectWidth = 0.1625, DefectContrast = 9
+	DefectLength = 1.2875, DefectWidth = 0.1375, DefectContrast = 9
+	DefectLength = 3.125, DefectWidth = 0.1, DefectContrast = 7
+	DefectLength = 0.5875, DefectWidth = 0.125, DefectContrast = 16
+	DefectLength = 2.5, DefectWidth = 0.1125, DefectContrast = 8
+	DefectLength = 0.6375, DefectWidth = 0.175, DefectContrast = 17
+	DefectLength = 1.25, DefectWidth = 0.0875, DefectContrast = 7
+	DefectLength = 11.1625, DefectWidth = 0.125, DefectContrast = 8
+	DefectLength = 2.7, DefectWidth = 0.1, DefectContrast = 8
+	DefectLength = 3.1, DefectWidth = 0.1, DefectContrast = 8
+	DefectLength = 5.2375, DefectWidth = 0.1125, DefectContrast = 8
+	DefectLength = 5.125, DefectWidth = 0.1, DefectContrast = 8
+	DefectLength = 1.575, DefectWidth = 0.0875, DefectContrast = 8
+	DefectLength = 10.7125, DefectWidth = 0.1375, DefectContrast = 10
+	DefectLength = 0.525, DefectWidth = 0.275, DefectContrast = 16
+	DefectLength = 24.6, DefectWidth = 0.2, DefectContrast = 12
+	DefectLength = 2.125, DefectWidth = 0.0875, DefectContrast = 10
+	DefectLength = 7.325, DefectWidth = 0.1125, DefectContrast = 12
+	DefectLength = 0.75, DefectWidth = 0.225, DefectContrast = 5
+	DefectLength = 0.725, DefectWidth = 0.225, DefectContrast = 4
+	DefectLength = 0.5, DefectWidth = 0.05, DefectContrast = 5
+	DefectLength = 0.65, DefectWidth = 0.15, DefectContrast = 4
+	DefectLength = 0.625, DefectWidth = 0.15, DefectContrast = 4
+	DefectLength = 0.575, DefectWidth = 0.075, DefectContrast = 4
+	DefectLength = 0.275, DefectWidth = 0.275, DefectContrast = 1
+Defect Type Nick, Defects number = 41 on A Surface
+	DefectLength = 0.1625, DefectWidth = 0.1375, DefectContrast = 54
+	DefectLength = 0.1625, DefectWidth = 0.15, DefectContrast = 49
+	DefectLength = 0.3375, DefectWidth = 0.25, DefectContrast = 22
+	DefectLength = 0.1625, DefectWidth = 0.15, DefectContrast = 39
+	DefectLength = 1.3125, DefectWidth = 1, DefectContrast = 22
+	DefectLength = 0.1625, DefectWidth = 0.125, DefectContrast = 49
+	DefectLength = 0.2125, DefectWidth = 0.1125, DefectContrast = 29
+	DefectLength = 0.1625, DefectWidth = 0.125, DefectContrast = 32
+	DefectLength = 0.2125, DefectWidth = 0.2, DefectContrast = 36
+	DefectLength = 0.3, DefectWidth = 0.25, DefectContrast = 33
+	DefectLength = 0.7875, DefectWidth = 0.4125, DefectContrast = 42
+	DefectLength = 15.125, DefectWidth = 1.5875, DefectContrast = 9
+	DefectLength = 0.975, DefectWidth = 0.85, DefectContrast = 11
+	DefectLength = 5.6375, DefectWidth = 5.5875, DefectContrast = 30
+	DefectLength = 2.8375, DefectWidth = 0.825, DefectContrast = 10
+	DefectLength = 2.5875, DefectWidth = 2.425, DefectContrast = 8
+	DefectLength = 1.2875, DefectWidth = 0.55, DefectContrast = 41
+	DefectLength = 1.15, DefectWidth = 0.7625, DefectContrast = 37
+	DefectLength = 4.0375, DefectWidth = 0.9125, DefectContrast = 12
+	DefectLength = 3.3375, DefectWidth = 0.9125, DefectContrast = 10
+	DefectLength = 0.9625, DefectWidth = 0.7875, DefectContrast = 11
+	DefectLength = 1.1125, DefectWidth = 1.1, DefectContrast = 20
+	DefectLength = 3.1125, DefectWidth = 2.7, DefectContrast = 8
+	DefectLength = 3.075, DefectWidth = 2.15, DefectContrast = 8
+	DefectLength = 2.8875, DefectWidth = 1, DefectContrast = 10
+	DefectLength = 2.1125, DefectWidth = 0.875, DefectContrast = 13
+	DefectLength = 1.4, DefectWidth = 1.0125, DefectContrast = 17
+	DefectLength = 1.9125, DefectWidth = 0.8625, DefectContrast = 13
+	DefectLength = 0.9125, DefectWidth = 0.4625, DefectContrast = 22
+	DefectLength = 2, DefectWidth = 1.4375, DefectContrast = 10
+	DefectLength = 1.075, DefectWidth = 0.8625, DefectContrast = 11
+	DefectLength = 0.52, DefectWidth = 0.38, DefectContrast = 32
+	DefectLength = 1.34, DefectWidth = 0.86, DefectContrast = 31
+	DefectLength = 0.8, DefectWidth = 0.64, DefectContrast = 24
+	DefectLength = 0.72, DefectWidth = 0.48, DefectContrast = 23
+	DefectLength = 1.82, DefectWidth = 0.34, DefectContrast = 78
+	DefectLength = 1.82, DefectWidth = 0.4, DefectContrast = 49
+	DefectLength = 1.82, DefectWidth = 0.4, DefectContrast = 57
+	DefectLength = 0.92, DefectWidth = 0.36, DefectContrast = 44
+	DefectLength = 1.36, DefectWidth = 1.3, DefectContrast = 29
+	DefectLength = 1.34, DefectWidth = 1.26, DefectContrast = 30
+Defect Type Dent, Defects number = 61 on A Surface
+	DefectLength = 0.625, DefectWidth = 0.375, DefectContrast = 45
+	DefectLength = 0.6375, DefectWidth = 0.2875, DefectContrast = 13
+	DefectLength = 0.325, DefectWidth = 0.25, DefectContrast = 11
+	DefectLength = 17.725, DefectWidth = 3.1625, DefectContrast = 29
+	DefectLength = 3.775, DefectWidth = 3.7625, DefectContrast = 53
+	DefectLength = 1.3, DefectWidth = 0.5625, DefectContrast = 56
+	DefectLength = 1.9375, DefectWidth = 0.3875, DefectContrast = 19
+	DefectLength = 0.6875, DefectWidth = 0.5375, DefectContrast = 31
+	DefectLength = 0.35, DefectWidth = 0.3375, DefectContrast = 23
+	DefectLength = 16.9125, DefectWidth = 2.025, DefectContrast = 45
+	DefectLength = 0.675, DefectWidth = 0.4625, DefectContrast = 48
+	DefectLength = 0.6375, DefectWidth = 0.55, DefectContrast = 39
+	DefectLength = 0.5625, DefectWidth = 0.4875, DefectContrast = 33
+	DefectLength = 0.6, DefectWidth = 0.525, DefectContrast = 38
+	DefectLength = 0.275, DefectWidth = 0.2625, DefectContrast = 17
+	DefectLength = 0.3875, DefectWidth = 0.35, DefectContrast = 16
+	DefectLength = 1.6875, DefectWidth = 1.0875, DefectContrast = 19
+	DefectLength = 1.6, DefectWidth = 0.3, DefectContrast = 10
+	DefectLength = 2.175, DefectWidth = 0.3, DefectContrast = 12
+	DefectLength = 1.775, DefectWidth = 1.45, DefectContrast = 17
+	DefectLength = 0.5625, DefectWidth = 0.325, DefectContrast = 10
+	DefectLength = 0.95, DefectWidth = 0.8, DefectContrast = 17
+	DefectLength = 1.8375, DefectWidth = 1.35, DefectContrast = 18
+	DefectLength = 0.8375, DefectWidth = 0.525, DefectContrast = 15
+	DefectLength = 1.5875, DefectWidth = 0.575, DefectContrast = 16
+	DefectLength = 1.475, DefectWidth = 0.3, DefectContrast = 11
+	DefectLength = 1.2625, DefectWidth = 0.325, DefectContrast = 12
+	DefectLength = 1.1375, DefectWidth = 0.2625, DefectContrast = 10
+	DefectLength = 0.95, DefectWidth = 0.3, DefectContrast = 12
+	DefectLength = 1.7, DefectWidth = 0.8125, DefectContrast = 17
+	DefectLength = 1.7, DefectWidth = 0.6875, DefectContrast = 20
+	DefectLength = 0.5625, DefectWidth = 0.4, DefectContrast = 23
+	DefectLength = 0.3125, DefectWidth = 0.2625, DefectContrast = 14
+	DefectLength = 2.1125, DefectWidth = 1.65, DefectContrast = 43
+	DefectLength = 0.225, DefectWidth = 0.175, DefectContrast = 63
+	DefectLength = 0.2625, DefectWidth = 0.1625, DefectContrast = 76
+	DefectLength = 0.7, DefectWidth = 0.2, DefectContrast = 91
+	DefectLength = 0.825, DefectWidth = 0.1625, DefectContrast = 81
+	DefectLength = 0.25, DefectWidth = 0.1875, DefectContrast = 76
+	DefectLength = 0.4625, DefectWidth = 0.1625, DefectContrast = 74
+	DefectLength = 0.4, DefectWidth = 0.175, DefectContrast = 77
+	DefectLength = 1.425, DefectWidth = 0.2375, DefectContrast = 93
+	DefectLength = 0.225, DefectWidth = 0.175, DefectContrast = 82
+	DefectLength = 0.7375, DefectWidth = 0.2125, DefectContrast = 91
+	DefectLength = 0.45, DefectWidth = 0.175, DefectContrast = 97
+	DefectLength = 0.3125, DefectWidth = 0.1375, DefectContrast = 76
+	DefectLength = 1.45, DefectWidth = 0.2, DefectContrast = 93
+	DefectLength = 0.45, DefectWidth = 0.15, DefectContrast = 77
+	DefectLength = 0.175, DefectWidth = 0.1625, DefectContrast = 69
+	DefectLength = 0.3375, DefectWidth = 0.15, DefectContrast = 70
+	DefectLength = 0.625, DefectWidth = 0.2, DefectContrast = 86
+	DefectLength = 0.2625, DefectWidth = 0.125, DefectContrast = 80
+	DefectLength = 0.2, DefectWidth = 0.175, DefectContrast = 72
+	DefectLength = 0.65, DefectWidth = 0.1875, DefectContrast = 91
+	DefectLength = 0.5375, DefectWidth = 0.1375, DefectContrast = 66
+	DefectLength = 0.3125, DefectWidth = 0.15, DefectContrast = 65
+	DefectLength = 0.3, DefectWidth = 0.1125, DefectContrast = 66
+	DefectLength = 0.2625, DefectWidth = 0.1375, DefectContrast = 65
+	DefectLength = 0.34, DefectWidth = 0.2, DefectContrast = 98
+	DefectLength = 1.16, DefectWidth = 0.42, DefectContrast = 117
+	DefectLength = 0.66, DefectWidth = 0.24, DefectContrast = 183
+*****Current Grade = D+, Current Surface = B*****
+Defect Type Nick, Defects number = 30 on B Surface
+	DefectLength = 57.98, DefectWidth = 1.32, DefectContrast = 27
+	DefectLength = 9.744, DefectWidth = 0.2016, DefectContrast = 11
+	DefectLength = 8.0256, DefectWidth = 0.1824, DefectContrast = 13
+	DefectLength = 4.9632, DefectWidth = 0.1248, DefectContrast = 7
+	DefectLength = 3.0048, DefectWidth = 1.6224, DefectContrast = 19
+	DefectLength = 0.7872, DefectWidth = 0.4224, DefectContrast = 17
+	DefectLength = 0.9984, DefectWidth = 0.2688, DefectContrast = 13
+	DefectLength = 1.4208, DefectWidth = 0.48, DefectContrast = 9
+	DefectLength = 10.8864, DefectWidth = 0.192, DefectContrast = 12
+	DefectLength = 8.9664, DefectWidth = 0.144, DefectContrast = 15
+	DefectLength = 4.9056, DefectWidth = 0.1248, DefectContrast = 7
+	DefectLength = 10.5984, DefectWidth = 0.1824, DefectContrast = 11
+	DefectLength = 1.4496, DefectWidth = 0.1152, DefectContrast = 8
+	DefectLength = 0.8928, DefectWidth = 0.1056, DefectContrast = 8
+	DefectLength = 8.7936, DefectWidth = 0.1248, DefectContrast = 16
+	DefectLength = 6.4704, DefectWidth = 0.1344, DefectContrast = 8
+	DefectLength = 2.0544, DefectWidth = 0.1056, DefectContrast = 7
+	DefectLength = 1.1136, DefectWidth = 0.24, DefectContrast = 6
+	DefectLength = 1.488, DefectWidth = 0.6816, DefectContrast = 8
+	DefectLength = 1.584, DefectWidth = 0.2496, DefectContrast = 7
+	DefectLength = 1.4784, DefectWidth = 0.432, DefectContrast = 10
+	DefectLength = 1.3344, DefectWidth = 0.384, DefectContrast = 12
+	DefectLength = 1.5456, DefectWidth = 0.4704, DefectContrast = 7
+	DefectLength = 11.1648, DefectWidth = 0.192, DefectContrast = 12
+	DefectLength = 0.7296, DefectWidth = 0.2592, DefectContrast = 6
+	DefectLength = 0.8256, DefectWidth = 0.1824, DefectContrast = 8
+	DefectLength = 8.2176, DefectWidth = 0.1344, DefectContrast = 13
+	DefectLength = 4.8576, DefectWidth = 0.1152, DefectContrast = 7
+	DefectLength = 0.7584, DefectWidth = 0.624, DefectContrast = 11
+	DefectLength = 1.26, DefectWidth = 0.44, DefectContrast = 13
+Defect Type Dent, Defects number = 19 on B Surface
+	DefectLength = 5.08, DefectWidth = 1.12, DefectContrast = 26
+	DefectLength = 4.76, DefectWidth = 1.02, DefectContrast = 18
+	DefectLength = 0.4896, DefectWidth = 0.4224, DefectContrast = 46
+	DefectLength = 0.816, DefectWidth = 0.4704, DefectContrast = 40
+	DefectLength = 0.2976, DefectWidth = 0.2688, DefectContrast = 47
+	DefectLength = 0.7776, DefectWidth = 0.3264, DefectContrast = 47
+	DefectLength = 0.5472, DefectWidth = 0.4608, DefectContrast = 33
+	DefectLength = 0.3456, DefectWidth = 0.2304, DefectContrast = 32
+	DefectLength = 0.3072, DefectWidth = 0.1824, DefectContrast = 35
+	DefectLength = 0.2112, DefectWidth = 0.1728, DefectContrast = 42
+	DefectLength = 0.2688, DefectWidth = 0.1728, DefectContrast = 65
+	DefectLength = 0.2592, DefectWidth = 0.1536, DefectContrast = 66
+	DefectLength = 0.768, DefectWidth = 0.6336, DefectContrast = 87
+	DefectLength = 0.2208, DefectWidth = 0.1632, DefectContrast = 39
+	DefectLength = 5.472, DefectWidth = 0.1056, DefectContrast = 21
+	DefectLength = 3.888, DefectWidth = 0.0864, DefectContrast = 19
+	DefectLength = 1.0944, DefectWidth = 0.2592, DefectContrast = 27
+	DefectLength = 0.336, DefectWidth = 0.192, DefectContrast = 52
+	DefectLength = 57.56, DefectWidth = 1.34, DefectContrast = 25
+

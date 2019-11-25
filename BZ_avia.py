@@ -81,38 +81,49 @@ def get_FD_grade(path):
 # with open('test.json', 'w') as f:
 #     f.write(json_str)
 
-data117_dir='data_117'
-input_dir='defect_117'
-output_dir='data117_json'
+def parse_data_117():
+    data117_dir='data_117'
+    input_dir='defect_117'
+    output_dir='data117_json'
 
-with open(os.path.join(data117_dir, 'vzw.json')) as f:
-    vzw_data=json.load(f)
+    with open('vzw_grr_117.json') as f:
+        vzw_data=json.load(f)
 
-for root, dirs, files in os.walk(os.path.join(data117_dir,input_dir)):
-    for fn in files:
-        print(os.path.join(root,fn))
-        if fn == 'defect.xml':
-            record = find_vzw_data_by_xml(vzw_data, os.path.join(root,fn))
-            if record is not None:
-                fd = get_FD_grade(root)
-                json_data = defect_xml_to_json(os.path.join(root,fn))
-                json_data['imei']=str(record['IMEI'])
-                json_data['vzw']=record['VZW Grade']
-                json_data['fd']=fd
-                with open(os.path.join(data117_dir,output_dir,'{}.json'.format(str(record['IMEI']))), 'w') as f:
-                    json.dump(json_data, f, indent=4)
-
-        """
-        m = re.search(r'(\d+)-', fn)
-        if m is not None:
-            #print('imei={}'.format(m.group(1)))
-            record=find_vzw_data_by_imei(vzw_data, m.group(1))
-            if record is None:
+    for root, dirs, files in os.walk(os.path.join(data117_dir,input_dir)):
+        for fn in files:
+            print(os.path.join(root,fn))
+            if fn == 'defect.xml':
                 record = find_vzw_data_by_xml(vzw_data, os.path.join(root,fn))
-            if record is not None:
-                json_data = defect_xml_to_json(os.path.join(root,fn))
-                json_data['imei']=str(record['IMEI'])
-                json_data['vzw']=record['VZW Grade']
-                with open(os.path.join(data117_dir,output_dir,'{}.json'.format(str(record['IMEI']))), 'w') as f:
-                    json.dump(json_data, f, indent=4)
-"""
+                if record is not None:
+                    fd = get_FD_grade(root)
+                    json_data = defect_xml_to_json(os.path.join(root,fn))
+                    json_data['imei']=str(record['IMEI'])
+                    json_data['vzw']=record['VZW Grade']
+                    json_data['chris']=record['Chris\'s Grade']
+                    json_data['fd']=fd
+                    with open(os.path.join(data117_dir,output_dir,'{}.json'.format(str(record['IMEI']))), 'w') as f:
+                        json.dump(json_data, f, indent=4)
+
+def parse_data_150():
+    data150_dir="data_150"
+    input_dir="defect_150"
+    output_dir="data150_json"
+    with open('vzw_grr_150.json') as f:
+        vzw_data=json.load(f)
+    for root, dirs, files in os.walk(os.path.join(data150_dir,input_dir)):
+        for fn in files:
+            print(os.path.join(root,fn))
+            if fn == 'defect.xml':
+                record = find_vzw_data_by_xml(vzw_data, os.path.join(root,fn))
+                if record is not None:
+                    fd = get_FD_grade(root)
+                    json_data = defect_xml_to_json(os.path.join(root,fn))
+                    json_data['imei']=str(record['IMEI'])
+                    json_data['vzw']=record['VZW Grade']
+                    json_data['chris']=record['Chris\'s Grade']
+                    json_data['fd']=fd
+                    with open(os.path.join(data150_dir,output_dir,'{}.json'.format(str(json_data['imei']))), 'w') as f:
+                        json.dump(json_data, f, indent=4)
+
+parse_data_117()
+parse_data_150()

@@ -1,0 +1,61 @@
+*****Current Grade = A+, Current Surface = A*****
+Defect Type Scratch, Defects number = 3 on A Surface
+	DefectLength = 0.77302, DefectWidth = 0.0625, DefectContrast = 13
+	DefectLength = 1.28266, DefectWidth = 0.0625, DefectContrast = 14
+	DefectLength = 0.75569, DefectWidth = 0.0375, DefectContrast = 10
+*****Current Grade = A+, Current Surface = B*****
+Defect Type GroupPindot, Defects number = 1 on B Surface
+	DefectLength = 13.02414, DefectWidth = 10.16901, DefectContrast = 29
+Defect Type Scratch, Defects number = 4 on B Surface
+	DefectLength = 1.95, DefectWidth = 0.0625, DefectContrast = 29
+	DefectLength = 5.16325, DefectWidth = 0.05, DefectContrast = 6
+	DefectLength = 3, DefectWidth = 0.075, DefectContrast = 16
+	DefectLength = 1.71697, DefectWidth = 0.05, DefectContrast = 8
+The defect is too big: surface is B, defect type is Scratch, defect length is 5.16325,defect width is 0.05, defect area_mm is 0.22813, defect contrast is 6
+Surface Defect Count is over limitation(3)
+Grade max total defects are over limitation(3).
+
+*****Current Grade = A, Current Surface = A*****
+Defect Type Scratch, Defects number = 3 on A Surface
+	DefectLength = 0.77302, DefectWidth = 0.0625, DefectContrast = 13
+	DefectLength = 1.28266, DefectWidth = 0.0625, DefectContrast = 14
+	DefectLength = 0.75569, DefectWidth = 0.0375, DefectContrast = 10
+The defect is too big: surface is B, defect type is GroupPindot, defect length is 13.02414,defect width is 10.16901, defect area_mm is 0.48188, defect contrast is 29
+*****Current Grade = A, Current Surface = B*****
+Defect Type GroupPindot, Defects number = 1 on B Surface
+	DefectLength = 13.02414, DefectWidth = 10.16901, DefectContrast = 29
+Defect Type Scratch, Defects number = 4 on B Surface
+	DefectLength = 1.95, DefectWidth = 0.0625, DefectContrast = 29
+	DefectLength = 5.16325, DefectWidth = 0.05, DefectContrast = 6
+	DefectLength = 3, DefectWidth = 0.075, DefectContrast = 16
+	DefectLength = 1.71697, DefectWidth = 0.05, DefectContrast = 8
+
+*****Current Grade = B, Current Surface = A*****
+Defect Type Scratch, Defects number = 3 on A Surface
+	DefectLength = 0.77302, DefectWidth = 0.0625, DefectContrast = 13
+	DefectLength = 1.28266, DefectWidth = 0.0625, DefectContrast = 14
+	DefectLength = 0.75569, DefectWidth = 0.0375, DefectContrast = 10
+The defect is too big: surface is B, defect type is GroupPindot, defect length is 13.02414,defect width is 10.16901, defect area_mm is 0.48188, defect contrast is 29
+*****Current Grade = B, Current Surface = B*****
+Defect Type GroupPindot, Defects number = 1 on B Surface
+	DefectLength = 13.02414, DefectWidth = 10.16901, DefectContrast = 29
+Defect Type Scratch, Defects number = 4 on B Surface
+	DefectLength = 1.95, DefectWidth = 0.0625, DefectContrast = 29
+	DefectLength = 5.16325, DefectWidth = 0.05, DefectContrast = 6
+	DefectLength = 3, DefectWidth = 0.075, DefectContrast = 16
+	DefectLength = 1.71697, DefectWidth = 0.05, DefectContrast = 8
+
+*****Current Grade = C, Current Surface = A*****
+Defect Type Scratch, Defects number = 3 on A Surface
+	DefectLength = 0.77302, DefectWidth = 0.0625, DefectContrast = 13
+	DefectLength = 1.28266, DefectWidth = 0.0625, DefectContrast = 14
+	DefectLength = 0.75569, DefectWidth = 0.0375, DefectContrast = 10
+*****Current Grade = C, Current Surface = B*****
+Defect Type GroupPindot, Defects number = 1 on B Surface
+	DefectLength = 13.02414, DefectWidth = 10.16901, DefectContrast = 29
+Defect Type Scratch, Defects number = 4 on B Surface
+	DefectLength = 1.95, DefectWidth = 0.0625, DefectContrast = 29
+	DefectLength = 5.16325, DefectWidth = 0.05, DefectContrast = 6
+	DefectLength = 3, DefectWidth = 0.075, DefectContrast = 16
+	DefectLength = 1.71697, DefectWidth = 0.05, DefectContrast = 8
+

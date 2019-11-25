@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<defect_record version="1.1">
+    <imei>356712081299604</imei>
+    <model>Apple-iPhone8Plus-SpaceGray</model>
+    <product>Apple-iPhone8Plus-SpaceGray</product>
+    <starttime>2019/11/25 12:32:35</starttime>
+    <endtime>2019/11/25 12:33:10</endtime>
+    <ImagePath>D:/BZVisualInspect/UserData/SaveImage/2019-11/Day25/20191125/356712081299604_65</ImagePath>
+    <errorMessage></errorMessage>
+    <station name="0">
+        <algError></algError>
+        <alg name="CEmptyInspect">
+            <surface name="A">
+                <ROIregion>925,1932,6877,14067</ROIregion>
+                <defect>
+                    <item>
+                        <type>Scratch</type>
+                        <length>14.23750</length>
+                        <width>0.06250</width>
+                        <area_mm>1.04234</area_mm>
+                        <area_pixel>6671</area_pixel>
+                        <contrast>14</contrast>
+                        <background>94192</background>
+                        <jnd>1</jnd>
+                        <location>
+                            <point>890.000,3019.000</point>
+                            <point>953.000,1960.000</point>
+                            <point>1127.000,1970.000</point>
+                            <point>1064.000,3029.000</point>
+                        </location>
+                    </item>
+                </defect>
+            </surface>
+            <surface name="A">
+                <ROIregion>925,1932,6877,14067</ROIregion>
+                <defect>
+                    <item>
+                        <type>Scratch</type>
+                        <length>1.39990</length>
+                        <width>0.06250</width>
+                        <area_mm>0.09203</area_mm>
+                        <area_pixel>589</area_pixel>
+                        <contrast>14</contrast>
+                        <background>8149</background>
+                        <jnd>1</jnd>
+                        <location>
+                            <point>6753.000,2198.000</point>
+                            <point>6790.000,2304.000</point>
+                            <point>6780.000,2307.000</point>
+                            <point>6743.000,2201.000</point>
+                        </location>
+                    </item>
+                </defect>
+            </surface>
+            <surface name="A">
+                <ROIregion>925,1932,6877,14067</ROIregion>
+                <defect>
+                    <item>
+                        <type>Scratch</type>
+                        <length>1.20000</length>
+                        <width>0.07500</width>
+                        <area_mm>0.09547</area_mm>
+                        <area_pixel>611</area_pixel>
+                        <contrast>18</contrast>
+                        <background>10981</background>
+                        <jnd>1</jnd>
+                        <location>
+                            <point>2876.000,2452.000</point>
+                            <point>2883.000,2362.000</point>
+                            <point>2913.000,2364.000</point>
+                            <point>2906.000,2454.000</point>
+                        </location>
+                    </item>
+                </defect>
+            </surface>
+            <surface name="A">
+                <ROIregion>925,1932,6877,14067</ROIregion>
+                <defect>
+                    <item>
+                        <type>Scratch</type>
+                        <length>7.72500</length>
+                        <width>0.08750</width>
+                        <area_mm>0.71266</area_mm>
+                        <area_pixel>4561</area_pixel>
+                        <contrast>18</contrast>
+                        <background>84250</background>
+                        <jnd>1</jnd>
+                        <location>
+                            <point>1117.000,13017.000</point>
+                            <point>1135.000,13623.000</point>
+                            <point>1116.000,13624.000</point>
+                            <point>1098.000,13018.000</point>
+                        </location>
+                    </item>
+                </defect>
+            </surface>
+            <surface name="A">
+                <ROIregion>925,1932,6877,14067</ROIregion>
+                <defect>
+                    <item>
+                        <type>Scratch</type>
+                        <length>1.68750</length>
+                        <width>0.01250</width>
+                        <area_mm>0.02109</area_mm>
+                        <area_pixel>135</area_pixel>
+                        <contrast>15</contrast>
+                        <background>2038</background>
+                        <jnd>1</jnd>
+                        <location>
+                            <point>988.000,13162.000</point>
+                            <point>988.000,13028.000</point>
+                            <point>998.000,13028.000</point>
+                            <point>998.000,13162.000</point>
+                        </location>
+                    </item>
+                </defect>
+            </surface>
+            <surface name="A">
+                <ROIregion>925,1932,6877,14067</ROIregion>
+                <defect>
+                    <item>
+                        <type>Scratch</type>
+                        <length>1.96047</length>
+                        <width>0.05000</width>
+                        <area_mm>0.07922</area_mm>
+                        <area_pixel>507</area_pixel>
+                        <contrast>13</contrast>
+                        <background>6492</background>
+                        <jnd>1</jnd>
+                        <location>
+                            <point>6796.000,13795.000</point>
+                            <point>6845.000,13646.000</point>
+                            <point>6856.000,13649.000</point>
+                            <point>6807.000,13798.000</point>
+                        </location>
+                    </item>
+                </defect>
+            </surface>
+            <surface name="A">
+                <ROIregion>925,1932,6877,14067</ROIregion>
+                <defect>
+                    <item>
+                        <type>Scratch</type>
+                        <length>3.85000</length>
+                        <width>0.06250</width>
+                        <area_mm>0.28719</area_mm>
+                        <area_pixel>1838</area_pixel>
+                        <contrast>11</contrast>
+                        <background>20393</background>
+                        <jnd>1</jnd>
+                        <location>
+                            <point>998.000,13744.000</point>
+                            <point>1110.000,13997.000</point>
+                            <point>1074.000,14012.000</point>
+                            <point>962.000,13759.000</point>
+                        </location>
+                    </item>
+                </defect>
+            </surface>
+            <surface name="A">
+                <ROIregion>925,1932,6877,14067</ROIregion>
+                <defect>
+                    <item>
+                        <type>Nick</type>
+                        <length>0.31461</length>
+                        <width>0.27274</width>
+                        <area_mm>0.03609</area_mm>
+                        <area_pixel>231</area_pixel>
+                        <contrast>3</contrast>
+                        <background>673</background>
+                        <jnd>1</jnd>
+                        <location>
+                            <point>3971.000,2063.000</point>
+                            <point>3973.000,2038.000</point>
+                            <point>3995.000,2040.000</point>
+                            <point>3992.000,2065.000</point>
+                        </location>
+                    </item>
+                </defect>
+            </surface>
+            <surface name="AA">
+                <ROIregion>925,1932,6877,14067</ROIregion>
+                <defect>
+                    <item>
+                        <type>Nick</type>
+                        <length>0.41250</length>
+                        <width>0.41250</width>
+                        <area_mm>0.13906</area_mm>
+                        <area_pixel>890</area_pixel>
+                        <contrast>36</contrast>
+                        <background>32464</background>
+                        <jnd>1</jnd>
+                        <location>
+                            <point>6693.000,8473.000</point>
+                            <point>6693.000,8440.000</point>
+                            <point>6726.000,8440.000</point>
+                            <point>6726.000,8473.000</point>
+                        </location>
+                    </item>
+                </defect>
+            </surface>
+            <surface name="AA">
+                <ROIregion>925,1932,6877,14067</ROIregion>
+                <defect>
+                    <item>
+                        <type>Scratch</type>
+                        <length>126.83750</length>
+                        <width>0.08750</width>
+                        <area_mm>11.21859</area_mm>
+                        <area_pixel>71799</area_pixel>
+                        <contrast>5</contrast>
+                        <background>363449</background>
+                        <jnd>1</jnd>
+                        <location>
+                            <point>1149.000,3306.000</point>
+                            <point>1202.000,12811.000</point>
+                            <point>1186.000,12812.000</point>
+                            <point>1133.000,3307.000</point>
+                        </location>
+                    </item>
+                </defect>
+            </surface>
+            <surface name="AA">
+                <ROIregion>925,1932,6877,14067</ROIregion>
+                <defect>
+                    <item>
+                        <type>Scratch</type>
+                        <length>0.76230</length>
+                        <width>0.07500</width>
+                        <area_mm>0.06078</area_mm>
+                        <area_pixel>389</area_pixel>
+                        <contrast>13</contrast>
+                        <background>4960</background>
+                        <jnd>1</jnd>
+                        <location>
+                            <point>5342.000,6459.000</point>
+                            <point>5354.000,6400.000</point>
+                            <point>5372.000,6403.000</point>
+                            <point>5360.000,6463.000</point>
+                        </location>
+                    </item>
+                </defect>
+            </surface>
+            <surface name="AA">
+                <ROIregion>925,1932,6877,14067</ROIregion>
+                <defect>
+                    <item>
+                        <type>Scratch</type>
+                        <length>1.92473</length>
+                        <width>0.06250</width>
+                        <area_mm>0.11859</area_mm>
+                        <area_pixel>759</area_pixel>
+                        <contrast>6</contrast>
+                        <background>4468</background>
+                        <jnd>1</jnd>
+                        <location>
+                            <point>3142.000,7765.000</point>
+                            <point>3270.000,7678.000</point>
+                            <point>3279.000,7692.000</point>
+                            <point>3152.000,7778.000</point>
+                        </location>
+                    </item>
+                </defect>
+            </surface>
+        </alg>
+    </station>
+    <station name="1">
+        <algError></algError>
+        <alg name="CEmptyInspect" />
+    </station>
+    <station name="2">
+        <algError></algError>
+        <alg name="CEmptyInspect" />
+    </station>
+    <station name="3">
+        <algError></algError>
+        <alg name="CEmptyInspect">
+            <surface name="B">
+                <ROIregion>927,1771,6270,14198</ROIregion>
+                <defect>
+                    <item>
+                        <type>Scratch</type>
+                        <length>1.26250</length>
+                        <width>0.06250</width>
+                        <area_mm>0.07922</area_mm>
+                        <area_pixel>507</area_pixel>
+                        <contrast>23</contrast>
+                        <background>11571</background>
+                        <jnd>1</jnd>
+                        <location>
+                            <point>2851.000,2294.000</point>
+                            <point>2862.000,2394.000</point>
+                            <point>2852.000,2395.000</point>
+                            <point>2841.000,2295.000</point>
+                        </location>
+                    </item>
+                </defect>
+            </surface>
+            <surface name="B">
+                <ROIregion>927,1771,6270,14198</ROIregion>
+                <defect>
+                    <item>
+                        <type>Scratch</type>
+                        <length>75.97218</length>
+                        <width>0.07500</width>
+                        <area_mm>6.38516</area_mm>
+                        <area_pixel>40865</area_pixel>
+                        <contrast>14</contrast>
+                        <background>579831</background>
+                        <jnd>1</jnd>
+                        <location>
+                            <point>721.000,8876.000</point>
+                            <point>994.000,2804.000</point>
+                            <point>1025.000,2806.000</point>
+                            <point>752.000,8877.000</point>
+                        </location>
+                    </item>
+                </defect>
+            </surface>
+            <surface name="B">
+                <ROIregion>927,1771,6270,14198</ROIregion>
+                <defect>
+                    <item>
+                        <type>Scratch</type>
+                        <length>0.93049</length>
+                        <width>0.05000</width>
+                        <area_mm>0.05313</area_mm>
+                        <area_pixel>340</area_pixel>
+                        <contrast>26</contrast>
+                        <background>8747</background>
+                        <jnd>1</jnd>
+                        <location>
+                            <point>6703.000,3403.000</point>
+                            <point>6734.000,3336.000</point>
+                            <point>6742.000,3340.000</point>
+                            <point>6711.000,3407.000</point>
+                        </location>
+                    </item>
+                </defect>
+            </surface>
+            <surface name="B">
+                <ROIregion>927,1771,6270,14198</ROIregion>
+                <defect>
+                    <item>
+                        <type>Scratch</type>
+                        <length>0.99713</length>
+                        <width>0.02500</width>
+                        <area_mm>0.03422</area_mm>
+                        <area_pixel>219</area_pixel>
+                        <contrast>6</contrast>
+                        <background>1294</background>
+                        <jnd>1</jnd>
+                        <location>
+                            <point>6681.000,3796.000</point>
+                            <point>6704.000,3720.000</point>
+                            <point>6710.000,3722.000</point>
+                            <point>6687.000,3798.000</point>
+                        </location>
+                    </item>
+                </defect>
+            </surface>
+            <surface name="B">
+                <ROIregion>927,1771,6270,14198</ROIregion>
+                <defect>
+                    <item>
+                        <type>Scratch</type>
+                        <length>6.28293</length>
+                        <width>0.05000</width>
+                        <area_mm>0.30484</area_mm>
+                        <area_pixel>1951</area_pixel>
+                        <contrast>6</contrast>
+                        <background>12667</background>
+                        <jnd>1</jnd>
+                        <location>
+                            <point>4542.000,11110.000</point>
+                            <point>4872.000,11490.000</point>
+                            <point>4849.000,11509.000</point>
+                            <point>4520.000,11130.000</point>
+                        </location>
+                    </item>
+                </defect>
+            </surface>
+            <surface name="B">
+                <ROIregion>927,1771,6270,14198</ROIregion>
+                <defect>
+                    <item>
+                        <type>Scratch</type>
+                        <length>5.09958</length>
+                        <width>0.03750</width>
+                        <area_mm>0.09625</area_mm>
+                        <area_pixel>616</area_pixel>
+                        <contrast>5</contrast>
+                        <background>3120</background>
+                        <jnd>1</jnd>
+                        <location>
+                            <point>4360.000,11357.000</point>
+                            <point>4654.000,11640.000</point>
+                            <point>4641.000,11653.000</point>
+                            <point>4347.000,11370.000</point>
+                        </location>
+                    </item>
+                </defect>
+            </surface>
+            <surface name="B">
+                <ROIregion>927,1771,6270,14198</ROIregion>
+                <defect>
+                    <item>
+                        <type>Scratch</type>
+                        <length>2.40756</length>
+                        <width>0.03750</width>
+                        <area_mm>0.09625</area_mm>
+                        <area_pixel>616</area_pixel>
+                        <contrast>5</contrast>
+                        <background>3285</background>
+                        <jnd>1</jnd>
+                        <location>
+                            <point>6124.000,11825.000</point>
+                            <point>6288.000,11725.000</point>
+                            <point>6296.000,11738.000</point>
+                            <point>6132.000,11838.000</point>
+                        </location>
+                    </item>
+                </defect>
+            </surface>
+            <surface name="B">
+                <ROIregion>927,1771,6270,14198</ROIregion>
+                <defect>
+                    <item>
+                        <type>Scratch</type>
+                        <length>0.85000</length>
+                        <width>0.06250</width>
+                        <area_mm>0.05797</area_mm>
+                        <area_pixel>371</area_pixel>
+                        <contrast>16</contrast>
+                        <background>6014</background>
+                        <jnd>1</jnd>
+                        <location>
+                            <point>998.000,11860.000</point>
+                            <point>1056.000,11893.000</point>
+                            <point>1048.000,11908.000</point>
+                            <point>990.000,11874.000</point>
+                        </location>
+                    </item>
+                </defect>
+            </surface>
+            <surface name="B">
+                <ROIregion>927,1771,6270,14198</ROIregion>
+                <defect>
+                    <item>
+                        <type>Scratch</type>
+                        <length>1.16673</length>
+                        <width>0.06250</width>
+                        <area_mm>0.05734</area_mm>
+                        <area_pixel>367</area_pixel>
+                        <contrast>7</contrast>
+                        <background>2685</background>
+                        <jnd>1</jnd>
+                        <location>
+                            <point>6258.000,12267.000</point>
+                            <point>6324.000,12201.000</point>
+                            <point>6328.000,12205.000</point>
+                            <point>6262.000,12271.000</point>
+                        </location>
+                    </item>
+                </defect>
+            </surface>
+            <surface name="B">
+                <ROIregion>927,1771,6270,14198</ROIregion>
+                <defect>
+                    <item>
+                        <type>Scratch</type>
+                        <length>0.87500</length>
+                        <width>0.02500</width>
+                        <area_mm>0.03125</area_mm>
+                        <area_pixel>200</area_pixel>
+                        <contrast>8</contrast>
+                        <background>1571</background>
+                        <jnd>1</jnd>
+                        <location>
+                            <point>5511.000,13801.000</point>
+                            <point>5580.000,13798.000</point>
+                            <point>5581.000,13803.000</point>
+                            <point>5512.000,13806.000</point>
+                        </location>
+                    </item>
+                </defect>
+            </surface>
+            <surface name="B">
+                <ROIregion>927,1771,6270,14198</ROIregion>
+                <defect>
+                    <item>
+                        <type>Scratch</type>
+                        <length>0.95756</length>
+                        <width>0.03750</width>
+                        <area_mm>0.03750</area_mm>
+                        <area_pixel>240</area_pixel>
+                        <contrast>6</contrast>
+                        <background>1400</background>
+                        <jnd>1</jnd>
+                        <location>
+                            <point>871.000,13804.000</point>
+                            <point>933.000,13848.000</point>
+                            <point>930.000,13853.000</point>
+                            <point>867.000,13809.000</point>
+                        </location>
+                    </item>
+                </defect>
+            </surface>
+            <surface name="B">
+                <ROIregion>927,1771,6270,14198</ROIregion>
+                <defect>
+                    <item>
+                        <type>Scratch</type>
+                        <length>3.84385</length>
+                        <width>0.03750</width>
+                        <area_mm>0.14141</area_mm>
+                        <area_pixel>905</area_pixel>
+                        <contrast>6</contrast>
+                        <background>5380</background>
+                        <jnd>1</jnd>
+                        <location>
+                            <point>1723.000,13973.000</point>
+                            <point>2023.000,13906.000</point>
+                            <point>2025.000,13918.000</point>
+                            <point>1725.000,13985.000</point>
+                        </location>
+                    </item>
+                </defect>
+            </surface>
+            <surface name="B">
+                <ROIregion>927,1771,6270,14198</ROIregion>
+                <defect>
+                    <item>
+                        <type>Scratch</type>
+                        <length>3.30394</length>
+                        <width>0.03750</width>
+                        <area_mm>0.13375</area_mm>
+                        <area_pixel>856</area_pixel>
+                        <contrast>8</contrast>
+                        <background>7029</background>
+                        <jnd>1</jnd>
+                        <location>
+                            <point>5241.000,14120.000</point>
+                            <point>5475.000,13997.000</point>
+                            <point>5496.000,14038.000</point>
+                            <point>5262.000,14161.000</point>
+                        </location>
+                    </item>
+                </defect>
+            </surface>
+        </alg>
+    </station>
+    <station name="4">
+        <algError></algError>
+        <alg name="CEmptyInspect" />
+    </station>
+    <station name="5">
+        <algError></algError>
+        <alg name="CEmptyInspect" />
+    </station>
+    <station name="6">
+        <algError></algError>
+        <alg name="CEmptyInspect" />
+    </station>
+    <station name="7">
+        <algError></algError>
+        <alg name="CEmptyInspect" />
+    </station>
+    <station name="8">
+        <algError></algError>
+        <alg name="CEmptyInspect" />
+    </station>
+    <station name="9">
+        <algError></algError>
+        <alg name="CEmptyInspect" />
+    </station>
+    <station name="10">
+        <algError></algError>
+        <alg name="CEmptyInspect" />
+    </station>
+    <station name="11">
+        <algError></algError>
+        <alg name="CEmptyInspect" />
+    </station>
+    <station name="12">
+        <algError></algError>
+        <alg name="CEmptyInspect" />
+    </station>
+    <station name="13">
+        <algError></algError>
+        <alg name="CEmptyInspect" />
+    </station>
+    <station name="15">
+        <algError></algError>
+        <alg name="CEmptyInspect" />
+        <alg name="CEmptyInspect" />
+        <alg name="CEmptyInspect" />
+        <alg name="CEmptyInspect" />
+    </station>
+    <station name="17">
+        <algError></algError>
+        <alg name="CEmptyInspect" />
+    </station>
+    <station name="18">
+        <algError></algError>
+        <alg name="CEmptyInspect" />
+    </station>
+    <station name="19">
+        <algError></algError>
+        <alg name="CEmptyInspect" />
+    </station>
+    <station name="20">
+        <algError></algError>
+        <alg name="CEmptyInspect" />
+    </station>
+</defect_record>
