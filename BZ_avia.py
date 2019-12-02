@@ -125,5 +125,7 @@ def parse_data_150():
                     with open(os.path.join(data150_dir,output_dir,'{}.json'.format(str(json_data['imei']))), 'w') as f:
                         json.dump(json_data, f, indent=4)
 
-parse_data_117()
-parse_data_150()
+
+if __name__ == '__main__':
+    parse_data_117()
+    parse_data_150()

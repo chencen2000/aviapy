@@ -7,6 +7,7 @@ app = Flask(__name__)
 
 import BZ_avia
 import getGrade_270
+import getGrade
 
 @app.route('/')
 def hello_world():
@@ -57,6 +58,13 @@ def secondary_gradeing():
             fn = os.path.join('/home/qa/incoming/defect_json', '{}-{}.json'.format(imei,dt))
             with open(fn, 'w') as f:
                 json.dump(data, f, indent=4)
+            # predict
+            g, posibi = getGrade.runTesting(fn, 'GRRmodel')
+            ret['grade']=g
+            try:
+                ret['score']=posibi.tolist()
+            except:
+                pass
         else:
             ret['error']=2
             ret['message']='Error: xml root is {} not accept, please use try with defect xml'.format(xml.tag)
