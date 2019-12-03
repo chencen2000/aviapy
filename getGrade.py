@@ -8,6 +8,8 @@ from sklearn.model_selection import train_test_split
 import pickle
 import argparse
 
+loaded_model=None
+
 def getNick(filename = 'test.json', Nick_w = 1, surface = 'AA'):
     with open(filename) as f:
         data = json.load(f)
@@ -76,6 +78,70 @@ def hasCrack(filename = 'test.json'):
 def runTesting(filename, modelName):
     # load the model from disk
     loaded_model = pickle.load(open(modelName, 'rb'))
+
+    # read in .json file
+    if not os.path.isfile(filename):
+        print("Error: can't find the file." + filename)
+
+    # generate testing feature vector
+    GradesProb = []
+    test_x = []
+
+    # generate test features
+    defectsNumber = getTotalDefectsNumber(filename)
+    dentAA = getDent(filename, 1, 'AA')
+    scratchAA = getScratch(filename, 1, 'AA')
+    discolorAA = getDiscoloration(filename, 2, 'AA')
+    nickAA = getNick(filename, 1, 'AA')
+    dentA = getDent(filename, 1, 'A')
+    scratchA = getScratch(filename, 1, 'A')
+    discolorA = getDiscoloration(filename, 2, 'A')
+    nickA = getNick(filename, 1, 'A')
+    dentB = getDent(filename, 1, 'B')
+    scratchB = getScratch(filename, 1, 'B')
+    discolorB = getDiscoloration(filename, 2, 'B')
+    nickB = getNick(filename, 1, 'B')
+    dentC = getDent(filename, 1, 'C')
+    scratchC = getScratch(filename, 1, 'C')
+    discolorC = getDiscoloration(filename, 2, 'C')
+    nickC = getNick(filename, 1, 'C')
+    NoAA = getDefectsNumber(filename, 'AA')
+    totalDefectsArea = sum([dentAA, scratchAA, discolorAA, nickAA, dentA, scratchA, discolorA, nickA, \
+                        dentB, scratchB, discolorB, nickB, dentC, scratchC, discolorC, nickC])
+
+    # generate feature vector
+    test_x.append([dentAA, scratchAA, discolorAA, nickAA, dentA, scratchA, discolorA, nickA, \
+               dentB, scratchB, discolorB, nickB, dentC, scratchC, discolorC, nickC, \
+               NoAA, defectsNumber])
+
+    # Verizon grade
+    computedGradeIndex = loaded_model.predict(test_x)
+    computedProb = loaded_model.predict_proba(test_x)
+
+    normedProb = [float(i) / sum(computedProb[0]) for i in computedProb[0]]
+
+    # output computed grade
+    ret = 'D'
+    retp=None
+    Grades = ['A', 'B', 'C', 'D+']
+    if NoAA < 2 and discolorA < 0.01 and discolorB < 0.01:
+        ret = 'A+'
+    elif hasCrack(filename):
+        ret = 'D'
+    else:
+        ret = Grades[int(computedGradeIndex)]
+        retp=computedProb[0]
+    return ret, retp
+
+
+def runTesting_v2(filename):
+    # load the model from disk
+    #loaded_model = pickle.load(open(modelName, 'rb'))
+    #loaded_model = pickle.load(modelName)
+    global loaded_model
+    if loaded_model is None:
+        with open('GRRmodel','rb') as f:
+            loaded_model=pickle.load(f)
 
     # read in .json file
     if not os.path.isfile(filename):

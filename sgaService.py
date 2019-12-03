@@ -9,6 +9,8 @@ import BZ_avia
 import getGrade_270
 import getGrade
 
+#GRRmodel = open('GRRmodel', 'rb') 
+
 @app.route('/')
 def hello_world():
     # return 'post data to http://10.1.1.154:5000/sga'
@@ -44,6 +46,12 @@ def secondary_gradeing():
     content_type = request.headers['Content-Type']
     if content_type=='text/xml' or content_type=='application/xml':
         xml=ET.fromstring(data.decode())
+        subfolder = datetime.now().strftime('%Y%m%d')
+        try:
+            os.mkdir(os.path.join('/home/qa/incoming/defect_xml/', subfolder))
+            os.mkdir(os.path.join('/home/qa/incoming/defect_json/', subfolder))
+        except:
+            pass
         dt = datetime.now().strftime('%Y%m%d-%H%M%S')
         imei = xml.find('imei')
         if imei is not None:
@@ -51,15 +59,16 @@ def secondary_gradeing():
         else:
             imei = 'imei'
         if xml.tag == 'defect_record':
-            fn = os.path.join('/home/qa/incoming/defect_xml', '{}-{}.xml'.format(imei,dt))
+            fn = os.path.join('/home/qa/incoming/defect_xml/{}'.format(subfolder), '{}-{}.xml'.format(imei,dt))
             with open(fn, 'w') as f:
                 f.write(ET.tostring(xml).decode())
             data = BZ_avia.defect_xml_to_json(fn)
-            fn = os.path.join('/home/qa/incoming/defect_json', '{}-{}.json'.format(imei,dt))
+            fn = os.path.join('/home/qa/incoming/defect_json/{}'.format(subfolder), '{}-{}.json'.format(imei,dt))
             with open(fn, 'w') as f:
                 json.dump(data, f, indent=4)
             # predict
-            g, posibi = getGrade.runTesting(fn, 'GRRmodel')
+            # GRRmodel.seek(0,0)
+            g, posibi = getGrade.runTesting_v2(fn)
             ret['grade']=g
             try:
                 ret['score']=posibi.tolist()
@@ -74,4 +83,5 @@ def secondary_gradeing():
     return json.dumps(ret)
 
 if __name__ == '__main__':
+    #GRRmodel = open('GRRmodel', 'rb')    
     app.run(host='0.0.0.0')
