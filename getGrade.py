@@ -10,6 +10,16 @@ import argparse
 
 loaded_model=None
 
+def getGroupPindot(filename = 'test.json', Pindot_w = 1, surface = 'AA'):
+    with open(filename) as f:
+        data = json.load(f)
+        defectsEnergy = 0
+        for i in range(len(data["defects"])):
+            if (data["defects"][i]["type"]) == "GroupPindot" and (data["defects"][i]["surface"]) == surface:
+                defectsEnergy = defectsEnergy + Pindot_w * float(data["defects"][i]["area_mm"])
+        f.close()
+    return defectsEnergy
+	
 def getNick(filename = 'test.json', Nick_w = 1, surface = 'AA'):
     with open(filename) as f:
         data = json.load(f)
@@ -93,25 +103,29 @@ def runTesting(filename, modelName):
     scratchAA = getScratch(filename, 1, 'AA')
     discolorAA = getDiscoloration(filename, 2, 'AA')
     nickAA = getNick(filename, 1, 'AA')
+	pindotAA = getGroupPindot(filename, 1, 'AA')
     dentA = getDent(filename, 1, 'A')
     scratchA = getScratch(filename, 1, 'A')
     discolorA = getDiscoloration(filename, 2, 'A')
     nickA = getNick(filename, 1, 'A')
+	pindotA = getGroupPindot(filename, 1, 'A')
     dentB = getDent(filename, 1, 'B')
     scratchB = getScratch(filename, 1, 'B')
     discolorB = getDiscoloration(filename, 2, 'B')
     nickB = getNick(filename, 1, 'B')
+	pindotB = getGroupPindot(filename, 1, 'B')
     dentC = getDent(filename, 1, 'C')
     scratchC = getScratch(filename, 1, 'C')
     discolorC = getDiscoloration(filename, 2, 'C')
     nickC = getNick(filename, 1, 'C')
+	pindotC = getGroupPindot(filename, 1, 'C')
     NoAA = getDefectsNumber(filename, 'AA')
-    totalDefectsArea = sum([dentAA, scratchAA, discolorAA, nickAA, dentA, scratchA, discolorA, nickA, \
-                        dentB, scratchB, discolorB, nickB, dentC, scratchC, discolorC, nickC])
+    #totalDefectsArea = sum([dentAA, scratchAA, discolorAA, nickAA, dentA, scratchA, discolorA, nickA, \
+    #                    dentB, scratchB, discolorB, nickB, dentC, scratchC, discolorC, nickC])
 
     # generate feature vector
-    test_x.append([dentAA, scratchAA, discolorAA, nickAA, dentA, scratchA, discolorA, nickA, \
-               dentB, scratchB, discolorB, nickB, dentC, scratchC, discolorC, nickC, \
+    test_x.append([dentAA, scratchAA, discolorAA, nickAA, pindotAA, dentA, scratchA, discolorA, nickA, pindotA,\
+               dentB, scratchB, discolorB, nickB, pindotB, dentC, scratchC, discolorC, nickC, pindotC,\
                NoAA, defectsNumber])
 
     # Verizon grade
@@ -124,13 +138,9 @@ def runTesting(filename, modelName):
     ret = 'D'
     retp=None
     Grades = ['A', 'B', 'C', 'D+']
-    if NoAA < 2 and discolorA < 0.01 and discolorB < 0.01:
-        ret = 'A+'
-    elif hasCrack(filename):
-        ret = 'D'
-    else:
-        ret = Grades[int(computedGradeIndex)]
-        retp=computedProb[0]
+	ret = Grades[int(computedGradeIndex)]
+    retp=computedProb[0]
+    
     return ret, retp
 
 
@@ -157,25 +167,29 @@ def runTesting_v2(filename):
     scratchAA = getScratch(filename, 1, 'AA')
     discolorAA = getDiscoloration(filename, 2, 'AA')
     nickAA = getNick(filename, 1, 'AA')
+	pindotAA = getGroupPindot(filename, 1, 'AA')
     dentA = getDent(filename, 1, 'A')
     scratchA = getScratch(filename, 1, 'A')
     discolorA = getDiscoloration(filename, 2, 'A')
     nickA = getNick(filename, 1, 'A')
+	pindotA = getGroupPindot(filename, 1, 'A')
     dentB = getDent(filename, 1, 'B')
     scratchB = getScratch(filename, 1, 'B')
     discolorB = getDiscoloration(filename, 2, 'B')
     nickB = getNick(filename, 1, 'B')
+	pindotB = getGroupPindot(filename, 1, 'B')
     dentC = getDent(filename, 1, 'C')
     scratchC = getScratch(filename, 1, 'C')
     discolorC = getDiscoloration(filename, 2, 'C')
     nickC = getNick(filename, 1, 'C')
+	pindotC = getGroupPindot(filename, 1, 'C')
     NoAA = getDefectsNumber(filename, 'AA')
-    totalDefectsArea = sum([dentAA, scratchAA, discolorAA, nickAA, dentA, scratchA, discolorA, nickA, \
-                        dentB, scratchB, discolorB, nickB, dentC, scratchC, discolorC, nickC])
+    #totalDefectsArea = sum([dentAA, scratchAA, discolorAA, nickAA, dentA, scratchA, discolorA, nickA, \
+    #                    dentB, scratchB, discolorB, nickB, dentC, scratchC, discolorC, nickC])
 
     # generate feature vector
-    test_x.append([dentAA, scratchAA, discolorAA, nickAA, dentA, scratchA, discolorA, nickA, \
-               dentB, scratchB, discolorB, nickB, dentC, scratchC, discolorC, nickC, \
+    test_x.append([dentAA, scratchAA, discolorAA, nickAA, pindotAA, dentA, scratchA, discolorA, nickA, pindotA, \
+               dentB, scratchB, discolorB, nickB, pindotB, dentC, scratchC, discolorC, nickC, pindotC, \
                NoAA, defectsNumber])
 
     # Verizon grade
@@ -188,13 +202,9 @@ def runTesting_v2(filename):
     ret = 'D'
     retp=None
     Grades = ['A', 'B', 'C', 'D+']
-    if NoAA < 2 and discolorA < 0.01 and discolorB < 0.01:
-        ret = 'A+'
-    elif hasCrack(filename):
-        ret = 'D'
-    else:
-        ret = Grades[int(computedGradeIndex)]
-        retp=computedProb[0]
+    ret = Grades[int(computedGradeIndex)]
+    retp=computedProb[0]
+	
     return ret, retp
 
 #Offline testing code
