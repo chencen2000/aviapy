@@ -203,14 +203,14 @@ def runTesting_v2(filename):
     retp=None
     Grades = ['A', 'B', 'C', 'D+']
     if NoAA < 2 and NoA <=3 and NoB <=3 and NoC <=3:
-	ret = 'A+'
-	retp = [0.99, 0, 0, 0]
+        ret = 'A+'
+        retp = [0.99, 0, 0, 0]
     elif hasCrack(filename):
-	ret = 'D'
-	retp = [0, 0, 0, 0.99]
+        ret = 'D'
+        retp = [0, 0, 0, 0.99]
     else:
-	ret = Grades[int(computedGradeIndex)]
-	retp= computedProb[0]
+        ret = Grades[int(computedGradeIndex)]
+        retp= computedProb[0]
 	
     return ret, retp
 

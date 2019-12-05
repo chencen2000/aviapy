@@ -48,8 +48,8 @@ def secondary_gradeing():
         xml=ET.fromstring(data.decode())
         subfolder = datetime.now().strftime('%Y%m%d')
         try:
-            os.mkdir(os.path.join('/home/qa/incoming/defect_xml/', subfolder))
-            os.mkdir(os.path.join('/home/qa/incoming/defect_json/', subfolder))
+            os.makedirs(os.path.join('/home/qa/incoming/defect_xml/', subfolder), exist_ok=True)
+            os.makedirs(os.path.join('/home/qa/incoming/defect_json/', subfolder),exist_ok=True)
         except:
             pass
         dt = datetime.now().strftime('%Y%m%d-%H%M%S')
