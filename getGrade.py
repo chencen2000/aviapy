@@ -103,22 +103,22 @@ def runTesting(filename, modelName):
     scratchAA = getScratch(filename, 1, 'AA')
     discolorAA = getDiscoloration(filename, 2, 'AA')
     nickAA = getNick(filename, 1, 'AA')
-	pindotAA = getGroupPindot(filename, 1, 'AA')
+    pindotAA = getGroupPindot(filename, 1, 'AA')
     dentA = getDent(filename, 1, 'A')
     scratchA = getScratch(filename, 1, 'A')
     discolorA = getDiscoloration(filename, 2, 'A')
     nickA = getNick(filename, 1, 'A')
-	pindotA = getGroupPindot(filename, 1, 'A')
+    pindotA = getGroupPindot(filename, 1, 'A')
     dentB = getDent(filename, 1, 'B')
     scratchB = getScratch(filename, 1, 'B')
     discolorB = getDiscoloration(filename, 2, 'B')
     nickB = getNick(filename, 1, 'B')
-	pindotB = getGroupPindot(filename, 1, 'B')
+    pindotB = getGroupPindot(filename, 1, 'B')
     dentC = getDent(filename, 1, 'C')
     scratchC = getScratch(filename, 1, 'C')
     discolorC = getDiscoloration(filename, 2, 'C')
     nickC = getNick(filename, 1, 'C')
-	pindotC = getGroupPindot(filename, 1, 'C')
+    pindotC = getGroupPindot(filename, 1, 'C')
     NoAA = getDefectsNumber(filename, 'AA')
     #totalDefectsArea = sum([dentAA, scratchAA, discolorAA, nickAA, dentA, scratchA, discolorA, nickA, \
     #                    dentB, scratchB, discolorB, nickB, dentC, scratchC, discolorC, nickC])
@@ -138,7 +138,7 @@ def runTesting(filename, modelName):
     ret = 'D'
     retp=None
     Grades = ['A', 'B', 'C', 'D+']
-	ret = Grades[int(computedGradeIndex)]
+    ret = Grades[int(computedGradeIndex)]
     retp=computedProb[0]
     
     return ret, retp
@@ -167,22 +167,22 @@ def runTesting_v2(filename):
     scratchAA = getScratch(filename, 1, 'AA')
     discolorAA = getDiscoloration(filename, 2, 'AA')
     nickAA = getNick(filename, 1, 'AA')
-	pindotAA = getGroupPindot(filename, 1, 'AA')
+    pindotAA = getGroupPindot(filename, 1, 'AA')
     dentA = getDent(filename, 1, 'A')
     scratchA = getScratch(filename, 1, 'A')
     discolorA = getDiscoloration(filename, 2, 'A')
     nickA = getNick(filename, 1, 'A')
-	pindotA = getGroupPindot(filename, 1, 'A')
+    pindotA = getGroupPindot(filename, 1, 'A')
     dentB = getDent(filename, 1, 'B')
     scratchB = getScratch(filename, 1, 'B')
     discolorB = getDiscoloration(filename, 2, 'B')
     nickB = getNick(filename, 1, 'B')
-	pindotB = getGroupPindot(filename, 1, 'B')
+    pindotB = getGroupPindot(filename, 1, 'B')
     dentC = getDent(filename, 1, 'C')
     scratchC = getScratch(filename, 1, 'C')
     discolorC = getDiscoloration(filename, 2, 'C')
     nickC = getNick(filename, 1, 'C')
-	pindotC = getGroupPindot(filename, 1, 'C')
+    pindotC = getGroupPindot(filename, 1, 'C')
     NoAA = getDefectsNumber(filename, 'AA')
     #totalDefectsArea = sum([dentAA, scratchAA, discolorAA, nickAA, dentA, scratchA, discolorA, nickA, \
     #                    dentB, scratchB, discolorB, nickB, dentC, scratchC, discolorC, nickC])
@@ -202,15 +202,15 @@ def runTesting_v2(filename):
     ret = 'D'
     retp=None
     Grades = ['A', 'B', 'C', 'D+']
-	if NoAA < 2 and NoA <=3 and NoB <=3 and NoC <=3:
-		ret = 'A+'
-		retp = [0.99, 0, 0, 0]
-	elif hasCrack(filename):
-		ret = 'D'
-		retp = [0, 0, 0, 0.99]
-	else:
-		ret = Grades[int(computedGradeIndex)]
-		retp= computedProb[0]
+    if NoAA < 2 and NoA <=3 and NoB <=3 and NoC <=3:
+	ret = 'A+'
+	retp = [0.99, 0, 0, 0]
+    elif hasCrack(filename):
+	ret = 'D'
+	retp = [0, 0, 0, 0.99]
+    else:
+	ret = Grades[int(computedGradeIndex)]
+	retp= computedProb[0]
 	
     return ret, retp
 
