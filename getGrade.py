@@ -120,6 +120,9 @@ def runTesting(filename, modelName):
     nickC = getNick(filename, 1, 'C')
     pindotC = getGroupPindot(filename, 1, 'C')
     NoAA = getDefectsNumber(filename, 'AA')
+    NoA = getDefectsNumber(filename, 'A')
+    NoB = getDefectsNumber(filename, 'B')
+    NoC = getDefectsNumber(filename, 'C')
     #totalDefectsArea = sum([dentAA, scratchAA, discolorAA, nickAA, dentA, scratchA, discolorA, nickA, \
     #                    dentB, scratchB, discolorB, nickB, dentC, scratchC, discolorC, nickC])
 
