@@ -57,6 +57,7 @@ def getDiscoloration(filename = 'test.json', Discoloration_w = 1, surface = 'AA'
         for i in range(len(data["defects"])):
             if (data["defects"][i]["type"]) == "Discoloration" and (data["defects"][i]["surface"]) == surface:
                 defectsEnergy = defectsEnergy + Discoloration_w * float(data["defects"][i]["area_mm"])
+                defectsEnergy = 1.0
         f.close()
     return defectsEnergy
 
