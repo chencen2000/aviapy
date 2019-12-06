@@ -10,13 +10,25 @@ import argparse
 
 loaded_model=None
 
+
+def getDiscolorationPindot(filename = 'test.json', dicolPindot_w = 1, surface = 'B'):
+    with open(filename) as f:
+        data = json.load(f)
+        defectsEnergy = 0
+        for i in range(len(data["defects"])):
+            if (data["defects"][i]["type"]) == "DiscolorationPindot":
+                defectsEnergy = defectsEnergy + 1.0
+        f.close()
+    return defectsEnergy
+
 def getGroupPindot(filename = 'test.json', Pindot_w = 1, surface = 'AA'):
     with open(filename) as f:
         data = json.load(f)
         defectsEnergy = 0
         for i in range(len(data["defects"])):
             if (data["defects"][i]["type"]) == "GroupPindot" and (data["defects"][i]["surface"]) == surface:
-                defectsEnergy = defectsEnergy + Pindot_w * float(data["defects"][i]["area_mm"])
+                defectsEnergy = defectsEnergy + 1.0
+                #defectsEnergy = defectsEnergy + Pindot_w * float(data["defects"][i]["area_mm"])
         f.close()
     return defectsEnergy
 	
@@ -26,7 +38,8 @@ def getNick(filename = 'test.json', Nick_w = 1, surface = 'AA'):
         defectsEnergy = 0
         for i in range(len(data["defects"])):
             if (data["defects"][i]["type"]) == "Nick" and (data["defects"][i]["surface"]) == surface:
-                defectsEnergy = defectsEnergy + Nick_w * float(data["defects"][i]["area_mm"])
+                defectsEnergy = defectsEnergy + 1.0
+                #defectsEnergy = defectsEnergy + Nick_w * float(data["defects"][i]["area_mm"])
         f.close()
     return defectsEnergy
 
@@ -36,7 +49,8 @@ def getDent(filename = 'test.json', Dent_w = 1, surface = 'AA'):
         defectsEnergy = 0
         for i in range(len(data["defects"])):
             if (data["defects"][i]["type"]) == "Dent" and (data["defects"][i]["surface"]) == surface:
-                defectsEnergy = defectsEnergy + Dent_w * float(data["defects"][i]["area_mm"])
+                defectsEnergy = defectsEnergy + 1.0
+                #defectsEnergy = defectsEnergy + Dent_w * float(data["defects"][i]["area_mm"])
         f.close()
     return defectsEnergy
 
@@ -46,7 +60,8 @@ def getScratch(filename = 'test.json', Scratch_w = 1, surface = 'AA'):
         defectsEnergy = 0
         for i in range(len(data["defects"])):
             if (data["defects"][i]["type"]) == "Scratch" and (data["defects"][i]["surface"]) == surface:
-                defectsEnergy = defectsEnergy + Scratch_w * float(data["defects"][i]["area_mm"])
+                defectsEnergy = defectsEnergy + 1.0
+                #defectsEnergy = defectsEnergy + Scratch_w * float(data["defects"][i]["area_mm"])
         f.close()
     return defectsEnergy
 
@@ -56,8 +71,8 @@ def getDiscoloration(filename = 'test.json', Discoloration_w = 1, surface = 'AA'
         defectsEnergy = 0
         for i in range(len(data["defects"])):
             if (data["defects"][i]["type"]) == "Discoloration" and (data["defects"][i]["surface"]) == surface:
-                defectsEnergy = defectsEnergy + Discoloration_w * float(data["defects"][i]["area_mm"])
-                defectsEnergy = 1.0
+                defectsEnergy = defectsEnergy + 1.0
+                #defectsEnergy = defectsEnergy + Discoloration_w * float(data["defects"][i]["area_mm"])
         f.close()
     return defectsEnergy
 
@@ -182,6 +197,7 @@ def runTesting_v2(filename):
     discolorB = getDiscoloration(filename, 2, 'B')
     nickB = getNick(filename, 1, 'B')
     pindotB = getGroupPindot(filename, 1, 'B')
+    discolPindotB = getDiscolorationPindot(filename, 1, 'B')
     dentC = getDent(filename, 1, 'C')
     scratchC = getScratch(filename, 1, 'C')
     discolorC = getDiscoloration(filename, 2, 'C')
@@ -196,7 +212,7 @@ def runTesting_v2(filename):
 
     # generate feature vector
     test_x.append([dentAA, scratchAA, discolorAA, nickAA, pindotAA, dentA, scratchA, discolorA, nickA, pindotA, \
-               dentB, scratchB, discolorB, nickB, pindotB, dentC, scratchC, discolorC, nickC, pindotC, \
+               dentB, scratchB, discolorB, nickB, pindotB, discolPindotB, dentC, scratchC, discolorC, nickC, pindotC, \
                NoAA, defectsNumber])
 
     # Verizon grade
