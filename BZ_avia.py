@@ -81,6 +81,32 @@ def get_FD_grade(path):
 # with open('test.json', 'w') as f:
 #     f.write(json_str)
 
+def parse_data_117_dp6(source,target,standard='vzw_grr_117.json'):
+    data117_dir='data_117'
+    input_dir='defect_117'
+    output_dir='data117_json'
+
+    with open(standard) as f:
+        vzw_data=json.load(f)
+
+    for root, dirs, files in os.walk(source):
+        for fn in files:
+            #print(os.path.join(root,fn))
+            x, ext = os.path.splitext(fn)
+            if ext == '.xml':
+                record = find_vzw_data_by_xml(vzw_data, os.path.join(root,fn))
+                if record is not None:
+                    fd = get_FD_grade(root)
+                    json_data = defect_xml_to_json(os.path.join(root,fn))
+                    json_data['imei']=str(record['IMEI'])
+                    json_data['vzw']=record['VZW Grade']
+                    json_data['chris']=record['Chris\'s Grade']
+                    json_data['fd']=fd
+                    with open(os.path.join(target,'{}.json'.format(str(record['IMEI']))), 'w') as f:
+                        json.dump(json_data, f, indent=4)
+                else:
+                    print("Miss match: {}".format(fn))
+
 def parse_data_117():
     data117_dir='data_117'
     input_dir='defect_117'
@@ -127,5 +153,7 @@ def parse_data_150():
 
 
 if __name__ == '__main__':
-    parse_data_117()
-    parse_data_150()
+    # parse_data_117()
+    # parse_data_150()
+    parse_data_117_dp6('data_117_dp6/defect_117', 'data_117_dp6/json_117')
+    pass

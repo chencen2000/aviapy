@@ -1,0 +1,39 @@
+{
+    "imei": "356112090638324",
+    "model": "Apple-iPhone8Plus-Red",
+    "product": "Apple-iPhone8Plus-Red",
+    "starttime": "2019/12/07 17:57:20",
+    "endtime": "2019/12/07 17:57:48",
+    "ImagePath": "D:/BZVisualInspect/UserData/SaveImage/2019-12/Day07/20191207/356112090638324_148",
+    "errorMessage": null,
+    "defects": [
+        {
+            "station": "3",
+            "alg": "CEmptyInspect",
+            "surface": "B",
+            "ROIregion.x": "894",
+            "ROIregion.y": "1935",
+            "ROIregion.width": "2696",
+            "ROIregion.height": "2892",
+            "type": "Scratch",
+            "length": "0.88697",
+            "width": "0.02500",
+            "area_mm": "0.02938",
+            "area_pixel": "188",
+            "contrast": "4",
+            "background": "830",
+            "jnd": "1",
+            "location_0.x": "3714.000",
+            "location_0.y": "2140.000",
+            "location_1.x": "3749.000",
+            "location_1.y": "2202.000",
+            "location_2.x": "3744.000",
+            "location_2.y": "2204.000",
+            "location_3.x": "3709.000",
+            "location_3.y": "2143.000"
+        }
+    ],
+    "vzw": "A",
+    "chris": "A",
+    "fd": ""
+}

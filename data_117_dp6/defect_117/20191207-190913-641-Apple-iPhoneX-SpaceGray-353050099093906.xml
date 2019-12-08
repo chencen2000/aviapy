@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<defect_record version="1.1">
+    <imei>353050099093906</imei>
+    <model>Apple-iPhoneX-SpaceGray</model>
+    <product>Apple-iPhoneX-SpaceGray</product>
+    <starttime>2019/12/07 19:08:46</starttime>
+    <endtime>2019/12/07 19:09:13</endtime>
+    <ImagePath>D:/BZVisualInspect/UserData/SaveImage/2019-12/Day07/20191207/353050099093906_159</ImagePath>
+    <errorMessage></errorMessage>
+    <station name="0">
+        <algError></algError>
+        <alg name="CEmptyInspect" />
+    </station>
+    <station name="1">
+        <algError></algError>
+        <alg name="CEmptyInspect" />
+    </station>
+    <station name="2">
+        <algError></algError>
+        <alg name="CEmptyInspect" />
+    </station>
+    <station name="3">
+        <algError></algError>
+        <alg name="CEmptyInspect">
+            <surface name="B">
+                <ROIregion>1446,2869,2051,4309</ROIregion>
+                <defect>
+                    <item>
+                        <type>Scratch</type>
+                        <length>3.46358</length>
+                        <width>0.06250</width>
+                        <area_mm>0.25891</area_mm>
+                        <area_pixel>1657</area_pixel>
+                        <contrast>15</contrast>
+                        <background>24840</background>
+                        <jnd>1</jnd>
+                        <location>
+                            <point>5772.000,4467.000</point>
+                            <point>6047.000,4501.000</point>
+                            <point>6045.000,4520.000</point>
+                            <point>5770.000,4486.000</point>
+                        </location>
+                    </item>
+                </defect>
+            </surface>
+            <surface name="B">
+                <ROIregion>1446,2869,2051,4309</ROIregion>
+                <defect>
+                    <item>
+                        <type>Scratch</type>
+                        <length>0.95339</length>
+                        <width>0.03750</width>
+                        <area_mm>0.03875</area_mm>
+                        <area_pixel>248</area_pixel>
+                        <contrast>6</contrast>
+                        <background>1458</background>
+                        <jnd>1</jnd>
+                        <location>
+                            <point>4039.000,6775.000</point>
+                            <point>4103.000,6733.000</point>
+                            <point>4106.000,6738.000</point>
+                            <point>4042.000,6780.000</point>
+                        </location>
+                    </item>
+                </defect>
+            </surface>
+            <surface name="B">
+                <ROIregion>1446,2869,2051,4309</ROIregion>
+                <defect>
+                    <item>
+                        <type>Scratch</type>
+                        <length>2.65313</length>
+                        <width>0.03750</width>
+                        <area_mm>0.12000</area_mm>
+                        <area_pixel>768</area_pixel>
+                        <contrast>8</contrast>
+                        <background>6411</background>
+                        <jnd>1</jnd>
+                        <location>
+                            <point>5950.000,9051.000</point>
+                            <point>6160.000,9085.000</point>
+                            <point>6157.000,9103.000</point>
+                            <point>5947.000,9069.000</point>
+                        </location>
+                    </item>
+                </defect>
+            </surface>
+        </alg>
+    </station>
+    <station name="4">
+        <algError></algError>
+        <alg name="CEmptyInspect" />
+    </station>
+    <station name="5">
+        <algError></algError>
+        <alg name="CEmptyInspect" />
+    </station>
+    <station name="6">
+        <algError></algError>
+        <alg name="CEmptyInspect" />
+    </station>
+    <station name="7">
+        <algError></algError>
+        <alg name="CEmptyInspect" />
+    </station>
+    <station name="8">
+        <algError></algError>
+        <alg name="CEmptyInspect" />
+    </station>
+    <station name="9">
+        <algError></algError>
+        <alg name="CEmptyInspect" />
+    </station>
+    <station name="10">
+        <algError></algError>
+        <alg name="CEmptyInspect" />
+    </station>
+    <station name="11">
+        <algError></algError>
+        <alg name="CEmptyInspect" />
+    </station>
+    <station name="12">
+        <algError></algError>
+        <alg name="CEmptyInspect" />
+    </station>
+    <station name="13">
+        <algError></algError>
+        <alg name="CEmptyInspect" />
+    </station>
+    <station name="15">
+        <algError></algError>
+        <alg name="CEmptyInspect" />
+        <alg name="CEmptyInspect" />
+        <alg name="CEmptyInspect" />
+        <alg name="CEmptyInspect" />
+    </station>
+    <station name="17">
+        <algError></algError>
+        <alg name="CEmptyInspect" />
+    </station>
+    <station name="18">
+        <algError></algError>
+        <alg name="CEmptyInspect" />
+    </station>
+    <station name="19">
+        <algError></algError>
+        <alg name="CEmptyInspect" />
+    </station>
+    <station name="20">
+        <algError></algError>
+        <alg name="CEmptyInspect" />
+    </station>
+</defect_record>

@@ -1,0 +1,39 @@
+{
+    "imei": "356696086957516",
+    "model": "Apple-iPhone7Plus-RoseGold",
+    "product": "Apple-iPhone7Plus-RoseGold",
+    "starttime": "2019/12/07 14:46:39",
+    "endtime": "2019/12/07 14:47:05",
+    "ImagePath": "D:/BZVisualInspect/UserData/SaveImage/2019-12/Day07/20191207/356696086957516_89",
+    "errorMessage": null,
+    "defects": [
+        {
+            "station": "11",
+            "alg": "CEmptyInspect",
+            "surface": "B",
+            "ROIregion.x": "213",
+            "ROIregion.y": "800",
+            "ROIregion.width": "1024",
+            "ROIregion.height": "8557",
+            "type": "Scratch",
+            "length": "9.90000",
+            "width": "0.26000",
+            "area_mm": "2.64280",
+            "area_pixel": "6607",
+            "contrast": "32",
+            "background": "213399",
+            "jnd": "1",
+            "location_0.x": "413.000",
+            "location_0.y": "1958.000",
+            "location_1.x": "413.000",
+            "location_1.y": "1823.000",
+            "location_2.x": "514.000",
+            "location_2.y": "1823.000",
+            "location_3.x": "514.000",
+            "location_3.y": "1958.000"
+        }
+    ],
+    "vzw": "B",
+    "chris": "B",
+    "fd": ""
+}
