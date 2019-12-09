@@ -225,10 +225,8 @@ def runTesting_v2(filename):
     ret = 'D'
     retp=None
     Grades = ['A', 'B', 'C', 'D+']
-    if NoAA < 2 and NoA <=3 and NoB <=3 and NoC <=3:
-        ret = 'A+'
-        retp = [0.99, 0, 0, 0]
-    elif hasCrack(filename):
+
+    if hasCrack(filename):
         ret = 'D'
         retp = [0, 0, 0, 0.99]
     else:
